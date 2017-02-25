@@ -60,8 +60,6 @@
     }
     if (self.cancelled) {
         return nil;
-    } else if (self.exception) {
-        @throw self.exception;
     }
     if (self.error && error) {
         *error = self.error;

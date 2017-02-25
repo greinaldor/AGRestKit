@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import "AGRestManager.h"
+#import "AGRest.h"
 #import "AGRestManager.h"
 #import "AGRestCore.h"
 #import "AGRestObjectMapperProtocol.h"
@@ -16,7 +16,7 @@
 #import "AGRestLogging.h"
 #import "AGRestLogger.h"
 
-@interface AGRestManager()
+@interface AGRest()
 
 + (BOOL)didAGRestInitialized;
 
@@ -24,7 +24,7 @@
 
 @end
 
-@implementation AGRestManager
+@implementation AGRest
 
 static AGRestManager * _restManager = nil;
 static BOOL            _cachingEnabled;
@@ -67,7 +67,7 @@ static BOOL            _objectMappingEnabled;
         //-----------------------
         [_restManager preload];
     } else {
-        AGRestLogWarn(@"<AGRestRest> Already initialized with baseUrl : %@", _restManager.baseUrl);
+        AGRestLogWarn(@"<AGRest> Already initialized with baseUrl : %@", _restManager.baseUrl);
     }
 }
 
@@ -82,35 +82,35 @@ static BOOL            _objectMappingEnabled;
     [AGRest performInternalSelector:@selector(_setSessionController:) withObject:sessionController];
 }
 
-+ (void)setObjectMapper:(nonnull id<AGRestRestObjectMapperProtocol>)objectMapper {
++ (void)setObjectMapper:(nonnull id<AGRestObjectMapperProtocol>)objectMapper {
     [AGRest performInternalSelector:@selector(_setObjectMapper:) withObject:objectMapper];
 }
 
-+ (void)setServerInstance:(nonnull id<AGRestRestServerProtocol>)server {
++ (void)setServerInstance:(nonnull id<AGRestServerProtocol>)server {
     [AGRest performInternalSelector:@selector(_setServerInstance:) withObject:server];
 }
 
-+ (void)setResponseSerializer:(nonnull id<AGRestRestResponseSerializerProtocol>)responseSerializer {
++ (void)setResponseSerializer:(nonnull id<AGRestResponseSerializerProtocol>)responseSerializer {
     [AGRest performInternalSelector:@selector(_setResponseSerializer:) withObject:responseSerializer];
 }
 
-+ (void)setLogger:(nonnull id<AGRestRestLogging>)logger {
++ (void)setLogger:(nonnull id<AGRestLogging>)logger {
     [AGRest performInternalSelector:@selector(_setLogger:) withObject:logger];
 }
 
-+ (id<AGRestRestSessionProtocol>)sessionController {
++ (id<AGRestSessionProtocol>)sessionController {
     return [AGRest performInternalSelector:@selector(_sessionController) withObject:nil];
 }
 
-+ (id<AGRestRestServerProtocol>)serverInstance {
++ (id<AGRestServerProtocol>)serverInstance {
     return [AGRest performInternalSelector:@selector(_serverInstance) withObject:nil];
 }
 
-+ (id<AGRestRestResponseSerializerProtocol>)responseSerializer {
++ (id<AGRestResponseSerializerProtocol>)responseSerializer {
     return [AGRest performInternalSelector:@selector(_responseSerializer) withObject:nil];
 }
 
-+ (id<AGRestRestLogging>)logger {
++ (id<AGRestLogging>)logger {
     return [AGRest performInternalSelector:@selector(logger) withObject:nil];
 }
 
@@ -190,39 +190,39 @@ static BOOL            _objectMappingEnabled;
     return _restManager.baseUrl;
 }
 
-+ (void)_setSessionController:(id<AGRestRestSessionProtocol>)sessionController {
++ (void)_setSessionController:(id<AGRestSessionProtocol>)sessionController {
     [_restManager setSessionController:sessionController];
 }
 
-+ (void)_setObjectMapper:(id<AGRestRestObjectMapperProtocol>)objectMapper {
++ (void)_setObjectMapper:(id<AGRestObjectMapperProtocol>)objectMapper {
     [_restManager setObjectMapper:objectMapper];
 }
 
-+ (void)_setServerInstance:(id<AGRestRestServerProtocol>)server {
++ (void)_setServerInstance:(id<AGRestServerProtocol>)server {
     [_restManager setRequestServer:server];
 }
 
-+ (void)_setResponseSerializer:(id<AGRestRestResponseSerializerProtocol>)responseSerializer {
++ (void)_setResponseSerializer:(id<AGRestResponseSerializerProtocol>)responseSerializer {
     [_restManager setResponseSerializer:responseSerializer];
 }
 
-+ (void)_setLogger:(id<AGRestRestLogging>)logger {
++ (void)_setLogger:(id<AGRestLogging>)logger {
     [_restManager setLogger:logger];
 }
 
-+ (id<AGRestRestSessionProtocol>)_sessionController {
++ (id<AGRestSessionProtocol>)_sessionController {
     return [_restManager sessionController];
 }
 
-+ (id<AGRestRestServerProtocol>)_serverInstance {
++ (id<AGRestServerProtocol>)_serverInstance {
     return [_restManager requestServer];
 }
 
-+ (id<AGRestRestResponseSerializerProtocol>)_responseSerializer {
++ (id<AGRestResponseSerializerProtocol>)_responseSerializer {
     return [_restManager responseSerializer];
 }
 
-+ (id<AGRestRestLogging>)_logger {
++ (id<AGRestLogging>)_logger {
     return [_restManager logger];
 }
 

@@ -79,9 +79,10 @@
             
         // Unknown Cache Policy
         default: {
-            return [BFTask taskWithException:[NSException exceptionWithName:NSInternalInconsistencyException
-                                                                     reason:@"Unknown cache policy"
-                                                                   userInfo:@{@"cachePolicy":@(request.cachePolicy)}]];
+            return [BFTask taskWithError:[NSError errorWithDomain:AGRestErrorDomain
+                                                             code:kAGErrorInternalLocal
+                                                         userInfo:@{NSLocalizedDescriptionKey:@"Unknown cache policy",
+                                                                    @"cachePolicy":@(request.cachePolicy)}]];
         } break;
     }
 }

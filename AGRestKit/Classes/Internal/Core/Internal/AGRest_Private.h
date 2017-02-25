@@ -9,7 +9,7 @@
 #ifndef AGRest_Private_h
 #define AGRest_Private_h
 
-#include"AGRestManager.h"
+#include"AGRest.h"
 
 @class AGRestManager;
 

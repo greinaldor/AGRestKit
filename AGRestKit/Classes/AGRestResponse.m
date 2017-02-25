@@ -9,7 +9,7 @@
 #import "AGRestResponse.h"
 
 #import "AGRestConstants.h"
-#import"AGRestManager.h"
+#import "AGRest.h"
 #import "AGRestResponseSerializerProtocol.h"
 
 #define kHTTPResponseContentType        @"Content-Type"

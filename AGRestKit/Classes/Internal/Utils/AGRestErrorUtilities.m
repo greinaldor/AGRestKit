@@ -47,7 +47,7 @@
     NSString *errorExplanation = [result objectForKey:@"error"];
     
     if (shouldLog) {
-        AGRestLogError(@"%@ (code: %ld, version: %@)", errorExplanation, (long)errorCode, AGRestSDKVersion);
+        AGRestLogError(@"%@ (code: %ld, version: %@)",errorExplanation,(long)errorCode,[[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleShortVersionString"]);
     }
     
     NSMutableDictionary *userInfo = [NSMutableDictionary dictionaryWithDictionary:result];

@@ -105,7 +105,7 @@ unsigned long long const AGRestRequestsCacheDefaultDiskCacheSize = 10 * 1024 * 1
     if (innerError || !jsonData) {
         NSString *message = [NSString stringWithFormat:@"Failed to read request from cache. %@",
                              innerError ? [innerError localizedDescription] : @""];
-        innerError = [AGRestErrorUtilities errorWithCode:kSSErrorInternalLocal
+        innerError = [AGRestErrorUtilities errorWithCode:kAGErrorInternalLocal
                                                  message:message];
         if (error) {
             *error = innerError;
@@ -119,13 +119,13 @@ unsigned long long const AGRestRequestsCacheDefaultDiskCacheSize = 10 * 1024 * 1
     if (innerError) {
         NSString *message = [NSString stringWithFormat:@"Failed to deserialiaze request from cache. %@",
                              [innerError localizedDescription]];
-        innerError = [AGRestErrorUtilities errorWithCode:kSSErrorInternalLocal
+        innerError = [AGRestErrorUtilities errorWithCode:kAGErrorInternalLocal
                                                  message:message];
     } else {
         if ([AGRestRequest isValidDictionaryRepresentation:jsonObject]) {
             return [AGRestRequest requestWithDictionary:jsonObject];
         }
-        innerError = [AGRestErrorUtilities errorWithCode:kSSErrorInternalLocal
+        innerError = [AGRestErrorUtilities errorWithCode:kAGErrorInternalLocal
                                                  message:@"Failed to construct eventually request from cache."
                                                shouldLog:NO];
     }
@@ -207,10 +207,10 @@ unsigned long long const AGRestRequestsCacheDefaultDiskCacheSize = 10 * 1024 * 1
                                                          error:&error];
         NSUInteger requestSize = [data length];
         if (requestSize > strongSelf.diskCacheSize) {
-            error = [AGRestErrorUtilities errorWithCode:kSSErrorInternalLocal
+            error = [AGRestErrorUtilities errorWithCode:kAGErrorInternalLocal
                                             message:@"Failed to run request, because it's too big."];
         } else if (requestSize <= 4) {
-            error = [AGRestErrorUtilities errorWithCode:kSSErrorInternalLocal
+            error = [AGRestErrorUtilities errorWithCode:kAGErrorInternalLocal
                                             message:@"Failed to run request, because it's empty."];
         }
         

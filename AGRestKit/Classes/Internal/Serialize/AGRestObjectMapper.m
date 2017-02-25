@@ -12,7 +12,7 @@
 #import <OCMapper/OCMapper.h>
 #import <OCMapper/InCodeMappingProvider.h>
 
-#import "SSObjectMapping.h"
+#import "AGRestObjectMapping.h"
 #import "AGRestErrorUtilities.h"
 #import "AGRestLogger.h"
 
@@ -60,7 +60,7 @@
             @catch (NSException *exception) {
                 NSString *errMessage = [NSString stringWithFormat:@"<ObjecMapper> Exception raised with reason : %@", exception.reason];
                 if (error) {
-                    *error = [AGRestErrorUtilities errorWithCode:kSSErrorInternalLocal message:errMessage];
+                    *error = [AGRestErrorUtilities errorWithCode:kAGErrorInternalLocal message:errMessage];
                 } else {
                     AGRestLogError(@"%@", errMessage);
                 }
@@ -70,16 +70,16 @@
             
             // Check if object is an Array or a instance of the targetClass
             if (![object isKindOfClass:[NSArray class]] && ![object isKindOfClass:targetClass] && error) {
-                *error = [AGRestErrorUtilities errorWithCode:kSSErrorInternalLocal
+                *error = [AGRestErrorUtilities errorWithCode:kAGErrorInternalLocal
                                                      message:[NSString stringWithFormat:@"<ObjectMapper> Failed to instanciate an object or array instance of \
                                                               targeted class %@", targetClass]];
             }
         } else if (error) {
-            *error = [AGRestErrorUtilities errorWithCode:kSSErrorInternalLocal
+            *error = [AGRestErrorUtilities errorWithCode:kAGErrorInternalLocal
                                                  message:[NSString stringWithFormat:@"<ObjectMapper> The targetClass %@ is not a registered class.", targetClass]];
         }
     } else if (error) {
-        *error = [AGRestErrorUtilities errorWithCode:kSSErrorInternalLocal
+        *error = [AGRestErrorUtilities errorWithCode:kAGErrorInternalLocal
                                              message:@"<ObjectMapper> The source dictionary is nil or empty"];
     }
     return object;
@@ -99,7 +99,7 @@
             @catch (NSException *exception) {
                 NSString *errMessage = [NSString stringWithFormat:@"<ObjecMapper> Exception raised with reason : %@", exception.reason];
                 if (error) {
-                    *error = [AGRestErrorUtilities errorWithCode:kSSErrorInternalLocal
+                    *error = [AGRestErrorUtilities errorWithCode:kAGErrorInternalLocal
                                                          message:errMessage];
                 } else {
                     AGRestLogError(@"%@", errMessage);
@@ -107,12 +107,12 @@
             }
         }
         else if (error) {
-            *error = [AGRestErrorUtilities errorWithCode:kSSErrorInternalLocal
+            *error = [AGRestErrorUtilities errorWithCode:kAGErrorInternalLocal
                                                  message:[NSString stringWithFormat:@"<ObjectMapper> The object class %@ is not a registered class.",
                                                           [object class]]];
         }
     } else if (error) {
-        *error = [AGRestErrorUtilities errorWithCode:kSSErrorInternalLocal
+        *error = [AGRestErrorUtilities errorWithCode:kAGErrorInternalLocal
                                              message:@"<ObjectMapper> The object is nil."];
     }
     return source;
@@ -142,7 +142,7 @@
                 }
                 @catch (NSException *exception) {
                     if (errorUserInfo) {
-                        errorUserInfo[@"code"] = @(kSSErrorInternalLocal);
+                        errorUserInfo[@"code"] = @(kAGErrorInternalLocal);
                         errorUserInfo[@"error"] = [NSString stringWithFormat:@"<ObjectMapper> Exception raised with reason : %@", exception.reason];
                     }
                 }
@@ -152,7 +152,7 @@
                     }
                 }
             } else if (errorUserInfo) {
-                errorUserInfo[@"code"] = @(kSSErrorInternalLocal);
+                errorUserInfo[@"code"] = @(kAGErrorInternalLocal);
                 errorUserInfo[@"error"] = [NSString stringWithFormat:@"<ObjectMapper> An object class %@ is not a registered class.",
                                            [object class]];
             }
@@ -166,7 +166,7 @@
         return sources;
         
     } else if (!objects && error) {
-        *error = [AGRestErrorUtilities errorWithCode:kSSErrorInternalLocal
+        *error = [AGRestErrorUtilities errorWithCode:kAGErrorInternalLocal
                                              message:@"<ObjectMapper> The objects array is nil."];
     }
     return nil;
@@ -300,8 +300,8 @@
                     // Get transformer for property key
                     if ([anInstance respondsToSelector:@selector(transformerFromDictionaryKeyToPropertyKey:)]) {
                         NSDictionary *tuple = [anInstance transformerFromDictionaryKeyToPropertyKey:propertyKey];
-                        NSString *dicKey = tuple[SSObjectMappingDictionaryKey];
-                        id transformer = tuple[SSObjectMappingTransformerKey];
+                        NSString *dicKey = tuple[AGObjectMappingDictionaryKey];
+                        id transformer = tuple[AGObjectMappingTransformerKey];
                         if (dicKey && dicKey.length && transformer)
                         {
                             [mappingProvider mapFromDictionaryKey:dicKey
@@ -314,8 +314,8 @@
                     // Get class for dictionary key to property key
                     if ([anInstance respondsToSelector:@selector(objcClassFromDictionaryKeyToPropertyKey:)]) {
                         NSDictionary *tuple = [anInstance objcClassFromDictionaryKeyToPropertyKey:propertyKey];
-                        NSString *dicKey = tuple[SSObjectMappingDictionaryKey];
-                        Class class = tuple[SSObjectmappingClassKey];
+                        NSString *dicKey = tuple[AGObjectMappingDictionaryKey];
+                        Class class = tuple[AGObjectmappingClassKey];
                         if (dicKey && dicKey.length && class) {
                             [mappingProvider mapFromDictionaryKey:dicKey
                                                     toPropertyKey:propertyKey

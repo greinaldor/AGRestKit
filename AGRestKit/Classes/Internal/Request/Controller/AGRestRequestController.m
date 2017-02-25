@@ -75,8 +75,8 @@
         {
             // If request failed internally, fill response.responseError
             if (!response.responseError && task.faulted) {
-                NSError *error = (task.error)?:[AGRestErrorUtilities errorWithCode:kSSErrorInternalLocal
-                                                                           message:task.exception.reason
+                NSError *error = (task.error)?:[AGRestErrorUtilities errorWithCode:kAGErrorInternalLocal
+                                                                           message:task.error.localizedDescription
                                                                          shouldLog:NO];
                 response.responseError = error;
             }
@@ -87,8 +87,8 @@
         else
         {
             // If request failed internally, fill response.responseError
-            NSError *error = (task.error)?task.error:[AGRestErrorUtilities errorWithCode:kSSErrorInternalLocal
-                                                                                 message:task.exception.reason
+            NSError *error = (task.error)?task.error:[AGRestErrorUtilities errorWithCode:kAGErrorInternalLocal
+                                                                                 message:task.error.localizedDescription
                                                                                shouldLog:NO];
             AGRestResponse *errorResponse = [AGRestResponse responseWithError:error];
             task = [BFTask taskWithResult:errorResponse];

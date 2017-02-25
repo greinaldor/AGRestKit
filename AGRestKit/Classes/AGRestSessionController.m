@@ -17,8 +17,8 @@
 #import "AGRestServer.h"
 #import "AGRestObjectMapper.h"
 #import "AGRestErrorUtilities.h"
-#import "SSObjectMapping.h"
-#import "SSUserSessionProtocol.h"
+#import "AGRestObjectMapping.h"
+#import "AGUserSessionProtocol.h"
 #import "AGRestLogger.h"
 #import "AGRestCore.h"
 
@@ -190,12 +190,12 @@
         // return bock with error
         NSError *error;
         if (!email || !email.length || !password || !password.length) {
-            error = [AGRestErrorUtilities errorWithCode:kSSErrorInternalLocal message:@"Email or password are nil or empty."];
+            error = [AGRestErrorUtilities errorWithCode:kAGErrorInternalLocal message:@"Email or password are nil or empty."];
         } else if (!self.baseUrl || !self.logInEndPoint || !self.logInEndPoint.length) {
-            error = [AGRestErrorUtilities errorWithCode:kSSErrorInternalLocal message:@"Base url or logIn endPoint are nil or empty.\
+            error = [AGRestErrorUtilities errorWithCode:kAGErrorInternalLocal message:@"Base url or logIn endPoint are nil or empty.\
                                                                                         Check that the AGRestSessionManager are properly configured."];
         } else {
-            error = [AGRestErrorUtilities errorWithCode:kSSErrorInternalLocal message:@"Unknown error."];
+            error = [AGRestErrorUtilities errorWithCode:kAGErrorInternalLocal message:@"Unknown error."];
         }
         
         if (block) {
@@ -288,7 +288,7 @@
                                                            toInstanceOfClass:self.baseUserClass
                                                                        error:&error];
             } else {
-                error = [AGRestErrorUtilities errorWithCode:kSSErrorInternalLocal
+                error = [AGRestErrorUtilities errorWithCode:kAGErrorInternalLocal
                                                     message:@"<SessionStore> Base user class not defined or not registered : %@"
                                                   shouldLog:NO];
             }
@@ -339,19 +339,19 @@
                     self.currentUser_ = user;
                 }
             } else if (error) {
-                *error = [AGRestErrorUtilities errorWithCode:kSSErrorInternalLocal
+                *error = [AGRestErrorUtilities errorWithCode:kAGErrorInternalLocal
                                                      message:[NSString stringWithFormat:@"<SessionStore> Failed to create data from user instance :\n%@\nerror:\n%@",
                                                               user, *error]];
             }
         } else if (error) {
-            *error = [AGRestErrorUtilities errorWithCode:kSSErrorInternalLocal
+            *error = [AGRestErrorUtilities errorWithCode:kAGErrorInternalLocal
                                                  message:@"<SessionStore> User instance not responding to AGObjectMapping"];
         }
     }
     else if (error)
     {
         NSString *errMessage = (!user)?@"<SessionStore> User is nil : %@":@"<SessionStore> Base user class not defined or not conforming to AGObjectMapping : %@";
-        *error = [AGRestErrorUtilities errorWithCode:kSSErrorInternalLocal
+        *error = [AGRestErrorUtilities errorWithCode:kAGErrorInternalLocal
                                              message:[NSString stringWithFormat:errMessage, (!user)?user:self.baseUserClass]];
     }
     return isStored;
@@ -412,23 +412,23 @@
     {
         switch (response.httpStatusCode) {
             case 400:
-                [errorDict addEntriesFromDictionary:@{@"code":@(kSSErrorInvalidQuery),
+                [errorDict addEntriesFromDictionary:@{@"code":@(kAGErrorInvalidQuery),
                                                       @"error":@"Login failed: Request not recognized or bad syntax."}];
                 break;
             case 403:
-                [errorDict addEntriesFromDictionary:@{@"code":@(kSSErrorServerRefused),
+                [errorDict addEntriesFromDictionary:@{@"code":@(kAGErrorServerRefused),
                                                       @"error":@"Login failed: The server refused the request."}];
                 break;
             case 404:
-                [errorDict addEntriesFromDictionary:@{@"code":@(kSSErrorAuthBadCredentials),
+                [errorDict addEntriesFromDictionary:@{@"code":@(kAGErrorAuthBadCredentials),
                                                       @"error":@"Login failed: The email or password is invalid."}];
                 break;
             case 500:
-                [errorDict addEntriesFromDictionary:@{@"code":@(kSSErrorInternalServer),
+                [errorDict addEntriesFromDictionary:@{@"code":@(kAGErrorInternalServer),
                                                       @"error":@"Login failed: Internal server error."}];
                 break;
             default:
-                [errorDict addEntriesFromDictionary:@{@"code":@(kSSErrorUnknown),
+                [errorDict addEntriesFromDictionary:@{@"code":@(kAGErrorUnknown),
                                                       @"error":@"Unknown error."}];
                 break;
         }
@@ -438,21 +438,21 @@
         switch (response.responseError.code)
         {
             case NSURLErrorNotConnectedToInternet:
-                [errorDict addEntriesFromDictionary:@{@"code":@(kSSErrorNoInternetConnection),
+                [errorDict addEntriesFromDictionary:@{@"code":@(kAGErrorNoInternetConnection),
                                                       @"error":@"Login failed: No internet connection."}];
                 break;
             case NSURLErrorNetworkConnectionLost:
-                [errorDict addEntriesFromDictionary:@{@"code":@(kSSErrorInternetConnectionLost),
+                [errorDict addEntriesFromDictionary:@{@"code":@(kAGErrorInternetConnectionLost),
                                                       @"error":@"Login failed: Connection lost."}];
                 break;
             default: {
-                [errorDict addEntriesFromDictionary:@{@"code":@(kSSErrorUnknown),
+                [errorDict addEntriesFromDictionary:@{@"code":@(kAGErrorUnknown),
                                                       @"error":@"Unknown error."}];
             } break;
         }
     }
     else {
-        [errorDict addEntriesFromDictionary:@{@"code":@(kSSErrorUnknown),
+        [errorDict addEntriesFromDictionary:@{@"code":@(kAGErrorUnknown),
                                               @"error":@"Unknown error."}];
     }
     error = [AGRestErrorUtilities errorFromResult:errorDict];
@@ -461,7 +461,7 @@
 
 - (void)_extendUserBaseClassWithSessionProtocolImpl:(nonnull Class __unsafe_unretained)userBaseClass {
     // Check if the User base class asks to support AGUserSessionProtocol
-    if ([(Class)_baseUserClass conformsToProtocol:@protocol(SSUserSessionProtocol)])
+    if ([(Class)_baseUserClass conformsToProtocol:@protocol(AGUserSessionProtocol)])
     {
         // Then add default implementation UserSessionProtocol methods
         Class metaClass = object_getClass(_baseUserClass);

@@ -10,7 +10,7 @@
 
 #import <SystemConfiguration/SystemConfiguration.h>
 
-#import"AGRestManager.h"
+#import"AGRest.h"
 
 @interface AGRestReachabilityManager() {
     dispatch_queue_t _synchronizationQueue;

@@ -190,7 +190,7 @@ static AGRestServer *_sharedServer = nil; // shared instance
                     
                 default: {
                     NSString *errorMsg = [NSString stringWithFormat:@"<AGRestServer> HTTP method not supported : %@", request.httpMethodString];
-                    NSError *error = [AGRestErrorUtilities errorWithCode:kSSErrorInternalLocal
+                    NSError *error = [AGRestErrorUtilities errorWithCode:kAGErrorInternalLocal
                                                                     message:errorMsg
                                                                   shouldLog:NO];
                     return [BFTask taskWithError:error];

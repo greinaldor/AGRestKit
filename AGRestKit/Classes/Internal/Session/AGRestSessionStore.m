@@ -62,18 +62,18 @@
                         
             // Check if the operation succeed
             if (!isValueStored && error) {
-                *error = [AGRestErrorUtilities errorWithCode:kSSErrorInternalLocal message:@"<SessionStore> Valet failed to store the session token string !\
+                *error = [AGRestErrorUtilities errorWithCode:kAGErrorInternalLocal message:@"<SessionStore> Valet failed to store the session token string !\
                                                                                             Keychain may not be available!"];
             }
             return isValueStored;
         } else if (error) {
             // Handle error cases
             if (!token || !token.length) {
-                *error = [AGRestErrorUtilities errorWithCode:kSSErrorInternalLocal message:@"<SessionStore> Token is nil or empty"];
+                *error = [AGRestErrorUtilities errorWithCode:kAGErrorInternalLocal message:@"<SessionStore> Token is nil or empty"];
             } else if (!identifier || !identifier.length) {
-                *error = [AGRestErrorUtilities errorWithCode:kSSErrorInternalLocal message:@"<SessionStore> Identifier is nil or empty"];
+                *error = [AGRestErrorUtilities errorWithCode:kAGErrorInternalLocal message:@"<SessionStore> Identifier is nil or empty"];
             } else if (!self.valet) {
-                *error = [AGRestErrorUtilities errorWithCode:kSSErrorInternalLocal message:@"<SessionStore> Valet is nil"];
+                *error = [AGRestErrorUtilities errorWithCode:kAGErrorInternalLocal message:@"<SessionStore> Valet is nil"];
             }
         }
     }
@@ -90,11 +90,11 @@
         return [self.valet setObject:data forKey:identifier];
     } else if (error) {
         if (!data || !data.length) {
-            *error = [AGRestErrorUtilities errorWithCode:kSSErrorInternalLocal message:@"<SessionStore> Data is nil or empty"];
+            *error = [AGRestErrorUtilities errorWithCode:kAGErrorInternalLocal message:@"<SessionStore> Data is nil or empty"];
         } else if (!identifier || !identifier.length) {
-            *error = [AGRestErrorUtilities errorWithCode:kSSErrorInternalLocal message:@"<SessionStore> Identifier is nil or empty"];
+            *error = [AGRestErrorUtilities errorWithCode:kAGErrorInternalLocal message:@"<SessionStore> Identifier is nil or empty"];
         } else if (!self.valet) {
-            *error = [AGRestErrorUtilities errorWithCode:kSSErrorInternalLocal message:@"<SessionStore> Valet is nil"];
+            *error = [AGRestErrorUtilities errorWithCode:kAGErrorInternalLocal message:@"<SessionStore> Valet is nil"];
         }
     }
     return NO;
@@ -129,7 +129,7 @@
         isValueDeleted = [self.valet removeObjectForKey:sessionIdentifier];
         
         if (!isValueDeleted && error) {
-            *error = [AGRestErrorUtilities errorWithCode:kSSErrorInternalLocal
+            *error = [AGRestErrorUtilities errorWithCode:kAGErrorInternalLocal
                                                  message:@"Valet failed to delete the session token string / data !\
                       Keychain may not be available!"];
         }

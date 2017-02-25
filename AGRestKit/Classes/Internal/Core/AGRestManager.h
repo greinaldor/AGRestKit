@@ -40,14 +40,14 @@ AGRestLoggerProvider>
 @property (nonatomic, strong, readonly) AGRestCore                  *core;
 @property (nonatomic, strong, readonly) AGRestFileManager           *fileManager;
 
-@property (nonatomic, strong) id<AGRestRestSessionProtocol>             sessionController;
-@property (nonatomic, strong) id<AGRestRestSessionStoreProtocol>        sessionStore;
-@property (nonatomic, strong) id<AGRestRestObjectMapperProtocol>        objectMapper;
-@property (nonatomic, strong) id<AGRestRestServerProtocol>              requestServer;
-@property (nonatomic, strong) id<AGRestRestRequestRunning>              requestRunner;
-@property (nonatomic, strong) id<AGRestRestResponseSerializerProtocol>  responseSerializer;
-@property (nonatomic, strong) id<AGRestRestKeyValueCaching>             keyValueCache;
-@property (nonatomic, strong) id<AGRestRestLogging>                     logger;
+@property (nonatomic, strong) id<AGRestSessionProtocol>             sessionController;
+@property (nonatomic, strong) id<AGRestSessionStoreProtocol>        sessionStore;
+@property (nonatomic, strong) id<AGRestObjectMapperProtocol>        objectMapper;
+@property (nonatomic, strong) id<AGRestServerProtocol>              requestServer;
+@property (nonatomic, strong) id<AGRestRequestRunning>              requestRunner;
+@property (nonatomic, strong) id<AGRestResponseSerializerProtocol>  responseSerializer;
+@property (nonatomic, strong) id<AGRestKeyValueCaching>             keyValueCache;
+@property (nonatomic, strong) id<AGRestLogging>                     logger;
 
 ///-----------------------
 /// @name Init

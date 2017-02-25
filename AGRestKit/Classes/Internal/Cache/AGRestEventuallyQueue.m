@@ -73,9 +73,11 @@ NSTimeInterval   const AGRestEventuallyQueueDefaultRetryTimeInterval = 600.0f;
 #pragma mark -
 
 - (BFTask *)enqueueRequestInBackground:(id<AGRestCachable>)request {
-    if (!request) return [BFTask taskWithException:[NSException exceptionWithName:NSInternalInconsistencyException
-                                                                           reason:@" Can't enqueue a nil `request`."
-                                                                         userInfo:nil]];
+    if (!request) {
+        return [BFTask taskWithError:[NSError errorWithDomain:AGRestErrorDomain
+                                                         code:kAGErrorInternalLocal
+                                                     userInfo:@{NSLocalizedDescriptionKey:@" Can't enqueue a nil `request`."}]];
+    }
     
     BFTaskCompletionSource *taskCompletionSource = [BFTaskCompletionSource taskCompletionSource];
     
@@ -87,16 +89,12 @@ NSTimeInterval   const AGRestEventuallyQueueDefaultRetryTimeInterval = 600.0f;
             NSString *identifier = [strongSelf _newIdentifierForRequest:request];
             return [[[strongSelf _enqueueRequestInBackground:request
                                                   identifier:identifier] continueWithBlock:^id(BFTask *task) {
-                if (task.error || task.exception || task.cancelled) {
-                    if (task.error) {
-                        taskCompletionSource.error = task.error;
-                    } else if (task.exception) {
-                        taskCompletionSource.exception = task.exception;
-                    } else if (task.cancelled) {
-                        [taskCompletionSource cancel];
-                    }
-                }
                 
+                if (task.error) {
+                    taskCompletionSource.error = task.error;
+                } else if (task.cancelled) {
+                    [taskCompletionSource cancel];
+                }
                 return task;
             }] continueWithExecutor:_synchronizationExecutor withSuccessBlock:^id(BFTask *task) {
                 [self _didEnqueueRequest:request withIdentifier:identifier taskCompletionSource:taskCompletionSource];
@@ -200,7 +198,7 @@ NSTimeInterval   const AGRestEventuallyQueueDefaultRetryTimeInterval = 600.0f;
         id<AGRestCachable> request = [self _requestWithIdentifier:identifier error:&error];
         if (!request || error) {
             if (!error) {
-                error = [AGRestErrorUtilities errorWithCode:kSSErrorInternalServer
+                error = [AGRestErrorUtilities errorWithCode:kAGErrorInternalLocal
                                                     message:@"Failed to dequeue an eventually request."
                                                   shouldLog:NO];
             }
@@ -231,7 +229,7 @@ NSTimeInterval   const AGRestEventuallyQueueDefaultRetryTimeInterval = 600.0f;
         if (error) {
             BOOL permanent = (![error.userInfo[@"temporary"] boolValue] &&
                               ([[error domain] isEqualToString:AGRestErrorDomain] ||
-                               [error code] != kSSErrorConnectionFailed));
+                               [error code] != kAGErrorConnectionFailed));
             
             if (!permanent) {
                 NSLog(@"Attempt at runEventually request timed out. Waiting %f seconds. %d retries remaining.",
@@ -272,8 +270,6 @@ NSTimeInterval   const AGRestEventuallyQueueDefaultRetryTimeInterval = 600.0f;
         // Notify anyone waiting that the operation is completed.
         if (resultTask.error) {
             taskCompletionSource.error = resultTask.error;
-        } else if (resultTask.exception) {
-            taskCompletionSource.exception = resultTask.exception;
         } else if (resultTask.cancelled) {
             [taskCompletionSource cancel];
         } else {
@@ -293,10 +289,10 @@ NSTimeInterval   const AGRestEventuallyQueueDefaultRetryTimeInterval = 600.0f;
     }
     
     NSString *reason = [NSString stringWithFormat:@"Can't find a compatible runner for request %@.", request];
-    NSException *exception = [NSException exceptionWithName:NSInternalInconsistencyException
-                                                     reason:reason
-                                                   userInfo:nil];
-    return [BFTask taskWithException:exception];
+    NSError *error = [NSError errorWithDomain:AGRestErrorDomain
+                                         code:kAGErrorInternalLocal
+                                     userInfo:@{NSLocalizedDescriptionKey:reason}];
+    return [BFTask taskWithError:error];
 }
 
 - (BFTask *)_didFinishRunningRequest:(id<AGRestCachable>)request

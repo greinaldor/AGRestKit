@@ -21,7 +21,7 @@ NS_ASSUME_NONNULL_BEGIN
 @protocol AGRestLogging;
 
 /*!
- @class AGRestManager
+ @class AGRest
  
  @abstract The primary interface for integrating AGRestKit.
  
@@ -31,7 +31,7 @@ NS_ASSUME_NONNULL_BEGIN
     [AGRest initializeRestWithBaseUrl:<<API URL>>];
  
  */
-@interface AGRestManager : NSObject
+@interface AGRest : NSObject
 
 - (instancetype)init NS_UNAVAILABLE;
 

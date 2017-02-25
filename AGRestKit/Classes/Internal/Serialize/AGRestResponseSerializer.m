@@ -106,7 +106,7 @@
             // Get the class from the response targetClass
             if (!(targetClass = response.targetClass) && error) {
                 NSString *message = [NSString stringWithFormat:@"<ResponseSerializer> Can't find any class uri from response header : %@", response.responseHeader];
-                *error = [AGRestErrorUtilities errorWithCode:kSSErrorInternalLocal
+                *error = [AGRestErrorUtilities errorWithCode:kAGErrorInternalLocal
                                                      message:message];
             }
         }
@@ -117,7 +117,7 @@
             targetClass = [self.dataSource.objectMapper classForClassURI:classURI];
             if (!targetClass && error) {
                 NSString *message = [NSString stringWithFormat:@"<ResponseSerializer> Can't find any registered class from class uri : %@", classURI];
-                *error = [AGRestErrorUtilities errorWithCode:kSSErrorInternalLocal
+                *error = [AGRestErrorUtilities errorWithCode:kAGErrorInternalLocal
                                                      message:message];
             }
         }
@@ -132,7 +132,7 @@
         }
         return object;
     } else if (error) {
-        *error = [AGRestErrorUtilities errorWithCode:kSSErrorInternalLocal
+        *error = [AGRestErrorUtilities errorWithCode:kAGErrorInternalLocal
                                              message:@"<ResponseSerializer> Response is invalid : no data / header found"];
     }
     return nil;
