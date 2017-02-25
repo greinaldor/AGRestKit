@@ -1,7 +1,39 @@
 PODS:
-  - AGRestKit (0.1.0)
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - AGRestKit (0.1.0):
+    - AFNetworking (>= 3.0)
+    - Bolts (>= 1.8.4)
+    - CocoaLumberjack (>= 2.0.1)
+    - OCMapper (>= 2.1)
+    - Valet (>= 2.4.0)
+  - Bolts (1.8.4):
+    - Bolts/AppLinks (= 1.8.4)
+    - Bolts/Tasks (= 1.8.4)
+  - Bolts/AppLinks (1.8.4):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.8.4)
+  - CocoaLumberjack (3.1.0):
+    - CocoaLumberjack/Default (= 3.1.0)
+    - CocoaLumberjack/Extensions (= 3.1.0)
+  - CocoaLumberjack/Default (3.1.0)
+  - CocoaLumberjack/Extensions (3.1.0):
+    - CocoaLumberjack/Default
   - Expecta (1.0.5)
-  - Expecta+Snapshots (3.1.0):
+  - Expecta+Snapshots (3.1.1):
     - Expecta (~> 1.0)
     - FBSnapshotTestCase/Core (~> 2.0)
     - Specta (~> 1.0)
@@ -10,7 +42,9 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
+  - OCMapper (2.1)
   - Specta (1.0.6)
+  - Valet (2.4.0)
 
 DEPENDENCIES:
   - AGRestKit (from `../`)
@@ -24,11 +58,16 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  AGRestKit: f51bb66068874465f3793a42bba4f1529352acec
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  AGRestKit: db7140b7b5fdac33eb8d9137ecd3d318e5534ba1
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  CocoaLumberjack: 8311463ddf9ee86a06ef92a071dd656c89244500
   Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
-  Expecta+Snapshots: 9975fe0307199d37371e6b77de35ef7079e7616a
+  Expecta+Snapshots: dcff217eef506dabd6dfdc7864ea2da321fafbb8
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  OCMapper: fa22e7b51de7cc38e66b993037076d28a0f31b29
   Specta: f506f3a8361de16bc0dcf3b17b75e269072ba465
+  Valet: e4cbde64b8cbbad4d6610fc10d4473502ba1548e
 
 PODFILE CHECKSUM: 243368a7534672a24ffab41173f4b7b026b1828a
 

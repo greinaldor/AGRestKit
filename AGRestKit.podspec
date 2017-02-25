@@ -37,7 +37,7 @@ Pod::Spec.new do |s|
   #   'AGRestKit' => ['AGRestKit/Assets/*.png']
   # }
 
-  s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'AGRestKit/Classes/**/*.h'
 
   s.frameworks = 'SystemConfiguration'
 

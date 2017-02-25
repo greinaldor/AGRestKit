@@ -1,0 +1,6 @@
+framework module OCMapper {
+  umbrella header "OCMapper-umbrella.h"
+
+  export *
+  module * { export * }
+}
