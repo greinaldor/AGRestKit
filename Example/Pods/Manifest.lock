@@ -1,0 +1,35 @@
+PODS:
+  - AGRestKit (0.1.0)
+  - Expecta (1.0.5)
+  - Expecta+Snapshots (3.1.0):
+    - Expecta (~> 1.0)
+    - FBSnapshotTestCase/Core (~> 2.0)
+    - Specta (~> 1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - Specta (1.0.6)
+
+DEPENDENCIES:
+  - AGRestKit (from `../`)
+  - Expecta
+  - Expecta+Snapshots
+  - FBSnapshotTestCase
+  - Specta
+
+EXTERNAL SOURCES:
+  AGRestKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AGRestKit: f51bb66068874465f3793a42bba4f1529352acec
+  Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
+  Expecta+Snapshots: 9975fe0307199d37371e6b77de35ef7079e7616a
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  Specta: f506f3a8361de16bc0dcf3b17b75e269072ba465
+
+PODFILE CHECKSUM: 243368a7534672a24ffab41173f4b7b026b1828a
+
+COCOAPODS: 1.2.0

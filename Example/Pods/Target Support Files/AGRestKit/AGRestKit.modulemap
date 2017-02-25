@@ -1,0 +1,6 @@
+framework module AGRestKit {
+  umbrella header "AGRestKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
