@@ -14,14 +14,14 @@
 		017B9BBD4FF03440BA469641268500BB /* BFCancellationTokenSource.h in Headers */ = {isa = PBXBuildFile; fileRef = BCE845DAD25083AA08AF1AB453B028A0 /* BFCancellationTokenSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		01F278A54C85C2C865DDAD4090C559B6 /* EXPDoubleTuple.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B5137C3E2BF477806094D27340CC83 /* EXPDoubleTuple.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		03890D59600D45E6E9463700F9B11FFE /* XCTestCase+Specta.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A1A64580D42459EFEA39DE315151DE6 /* XCTestCase+Specta.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		039E32097C6E7956586327C84C002B05 /* AGRestConcurrentOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 48FD959415DB3652C9775ABCEA56A9D5 /* AGRestConcurrentOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		039E32097C6E7956586327C84C002B05 /* AGRestConcurrentOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 48FD959415DB3652C9775ABCEA56A9D5 /* AGRestConcurrentOperation.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		04A54452F65F8973E2449A52313E3E87 /* BFAppLinkReturnToRefererView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C504FA6313F12B0CE91D367087FD07C /* BFAppLinkReturnToRefererView.m */; };
-		0518D9D47CBA903F5ACBDB780E51879E /* AGRestFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3905A63E7AFEB6EF1B6DDA5964B78E14 /* AGRestFileManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0518D9D47CBA903F5ACBDB780E51879E /* AGRestFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3905A63E7AFEB6EF1B6DDA5964B78E14 /* AGRestFileManager.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		05A443720077E635345FDED25F4F07E8 /* AGRestCoreDataCacheController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0125D449B317B4732915ED819F682C /* AGRestCoreDataCacheController.m */; };
 		0676595134A6036819E78D0404919486 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F0E31056CD94253382D66734E947B29 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		077650A8BE0A450BEA530FB8AB64BA50 /* BFCancellationToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 384378EE47598416C3DF2B5B61CB0B57 /* BFCancellationToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		07EFEC55B56B51AD89C55E8221C4FA52 /* AGRestResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E35635D83A2DE003762B8B74AC0F6FC /* AGRestResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		098B2F6C903F6ECA3AF971DC7B78898B /* AGRestDataProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = B14DB36DCD7EFC3894834D5B04EB6A9A /* AGRestDataProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		098B2F6C903F6ECA3AF971DC7B78898B /* AGRestDataProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = B14DB36DCD7EFC3894834D5B04EB6A9A /* AGRestDataProvider.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		09D7293C5B9278CCB75B04AFC9207D97 /* BFTaskCompletionSource.h in Headers */ = {isa = PBXBuildFile; fileRef = FCDE6B143F63F0FE958939AF8E71F5DB /* BFTaskCompletionSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		09D9BEFD0390DA1384E2BE89A50FB6EC /* AGRestConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = E4909FF5863A4AA75FA22FEA367580B1 /* AGRestConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0A1B7974BAE63B0CCD305D65ADE0B8C2 /* BFCancellationTokenRegistration.m in Sources */ = {isa = PBXBuildFile; fileRef = 7496B71DC8111024327382C2CDF5EFBA /* BFCancellationTokenRegistration.m */; };
@@ -40,16 +40,16 @@
 		146D2FD2E3B98DA591885219099F2A4A /* SPTCallSite.m in Sources */ = {isa = PBXBuildFile; fileRef = C7BC3164CD6F9EEAD3C6E6176572366A /* SPTCallSite.m */; };
 		1492F065F5EFD049EE05C202CDDF78F9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9415043A5E597B85042425D3A4EB52E2 /* QuartzCore.framework */; };
 		150503B99F77D3D8897EFFC68C09A351 /* EXPMatcherHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = CA806D90BAF134ACE3D75B593139189E /* EXPMatcherHelpers.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		1D1626776A7B23F4235C8F7939D58C02 /* AGUserSessionProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 883235306A200417C0A977CEB8F08C43 /* AGUserSessionProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1D34EA58D263BC6EA12C0BAF0CA179AF /* AGRestReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 086995801756E452E03FF9280C64E715 /* AGRestReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D1626776A7B23F4235C8F7939D58C02 /* AGRestUserSessionProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 883235306A200417C0A977CEB8F08C43 /* AGRestUserSessionProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D34EA58D263BC6EA12C0BAF0CA179AF /* AGRestReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 086995801756E452E03FF9280C64E715 /* AGRestReachabilityManager.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		1D676445A1446539D4B722E6EF0C802A /* ExpectaSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = A0103E02C1491FF79DED783843E6E080 /* ExpectaSupport.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		1DBDB4EDB4E97B43ACC06C4F791BD376 /* DDFileLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 7659DB4AEB06C79A93850B423794CAD1 /* DDFileLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1E2A6D057E20BE8F5ED3E594F7B8C286 /* AFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 156D6148F66E3CED12069EFB3461E234 /* AFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1EEA3CC21FF42DE52EC2C3D817008713 /* AGRestTaskQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = D40F5F6A306EC54B123DD5D61E54930C /* AGRestTaskQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EEA3CC21FF42DE52EC2C3D817008713 /* AGRestTaskQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = D40F5F6A306EC54B123DD5D61E54930C /* AGRestTaskQueue.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		1F7EA2A12EBAE197717E7FAC74C83DB4 /* MappingProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = A2540399A08FA19D19778C43960FD8C7 /* MappingProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1FBCB169AD6FAB99043A1D2AF9F0CAF3 /* DDMultiFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 553F1DD24E5254720F76CDA2C14BD19F /* DDMultiFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		202F07771E62053300EF7FB7 /* AGRest.h in Headers */ = {isa = PBXBuildFile; fileRef = FB5649772F32A3A828A5A0B0C073D133 /* AGRest.h */; };
-		202F07781E62066400EF7FB7 /* AGRestManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EC3920841AA56F75A1CE3D3B972550E /* AGRestManager.h */; };
+		202F07771E62053300EF7FB7 /* AGRest.h in Headers */ = {isa = PBXBuildFile; fileRef = FB5649772F32A3A828A5A0B0C073D133 /* AGRest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		202F07781E62066400EF7FB7 /* AGRestManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EC3920841AA56F75A1CE3D3B972550E /* AGRestManager.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		202F07791E62066800EF7FB7 /* AGRestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BC00B45BA06AC3CF257956FE2525D90B /* AGRestManager.m */; };
 		20A2A483CDC911D6DB2EAD12444D1406 /* SPTTestSuite.m in Sources */ = {isa = PBXBuildFile; fileRef = 076B081C51601273B1A739C81715383B /* SPTTestSuite.m */; };
 		20FE60FC1E6204A2002B3CBC /* AGRest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0515F11F3B4B91D437E09799211590 /* AGRest.m */; };
@@ -69,9 +69,9 @@
 		288C06BF832B66C7A2485D111602B01B /* BFTask+Exceptions.h in Headers */ = {isa = PBXBuildFile; fileRef = C88286935719A2233728EFC994004A74 /* BFTask+Exceptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2916D75F69E777954F5BF46AE63C52C0 /* EXPMatchers+beSubclassOf.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CACA2F711B205D6D4BE938E27A8BF7C /* EXPMatchers+beSubclassOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		29476636EA86BEFC4CB833D3BB7A52D7 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF2D6D304D82C4BD6127A544094F37E /* AFURLRequestSerialization.m */; };
-		29642CE657B29E0FCED7D8092B3D05F2 /* AGRestRequestRunner.h in Headers */ = {isa = PBXBuildFile; fileRef = 86F1085777FB45AB16D1DD541EABB807 /* AGRestRequestRunner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29642CE657B29E0FCED7D8092B3D05F2 /* AGRestRequestRunner.h in Headers */ = {isa = PBXBuildFile; fileRef = 86F1085777FB45AB16D1DD541EABB807 /* AGRestRequestRunner.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		2B0705CC26A4CBEE32A5A60284AED35B /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B4D488C37C01DED95148FE29DFEC89D /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2C4FC8A5F5AFACFC6895ACC4EC62B552 /* AGRest_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 4138BC6454C03E676C97D9B39D198D77 /* AGRest_Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C4FC8A5F5AFACFC6895ACC4EC62B552 /* AGRest_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 4138BC6454C03E676C97D9B39D198D77 /* AGRest_Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		2CC183AE5C5A4EA8EE0E14768F464BBB /* Expecta+Snapshots-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A01F4BEB9B4A47AC8FAA37E45DC5BF1 /* Expecta+Snapshots-dummy.m */; };
 		2DA09F066204F39CD8DA216A19AE89A7 /* AGRestEventuallyQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F69710D5067F0D0A2B00A97582373E8 /* AGRestEventuallyQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2E81617C064F3E68A7A2A9E6A370E073 /* SPTTestSuite.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DD50A2B1102E1895BA197345799A9B4 /* SPTTestSuite.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -94,7 +94,7 @@
 		40EF51513568C99655E811EDFDD6E2A2 /* BFURL_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 30A242D48ED36132E67C78BDD3C1BE65 /* BFURL_Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		41CC214541946B82A25CE427BB81ABEA /* EXPMatchers+beKindOf.h in Headers */ = {isa = PBXBuildFile; fileRef = A443E981A2D4C875D94242E05DC84FFC /* EXPMatchers+beKindOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		425C4DFD1FAB011D70F825631144BC4C /* EXPMatchers+equal.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DAEF9A185AA2B0C7A214819D940020C /* EXPMatchers+equal.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4269E5F7885052402C1FDB04F9860E88 /* AGRestCoreDataCacheController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C578426C40688A8062EBA8A0889BB3F /* AGRestCoreDataCacheController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4269E5F7885052402C1FDB04F9860E88 /* AGRestCoreDataCacheController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C578426C40688A8062EBA8A0889BB3F /* AGRestCoreDataCacheController.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		42D1026466989FC425B8A8B6A2F5E278 /* VALSynchronizableValet.h in Headers */ = {isa = PBXBuildFile; fileRef = 87F2A0C7A6E16D6EF04352D3A98A87A7 /* VALSynchronizableValet.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4371D7A65A8BEDA6EC22DE3B6E5FEC65 /* AGRestObjectMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = 40A2597DC83377134AD90781EA283292 /* AGRestObjectMapping.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4442D8453D210EFC13CFE2CAF862ED1D /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A199A2E83FEE7B10D58ED72FB60944 /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -108,9 +108,9 @@
 		47F04CBDF6C54B220F6AEECEF15264D5 /* AFAutoPurgingImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = A2EC3AC9FE5382D90F511E9932CDCB28 /* AFAutoPurgingImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4861F2FFD5A4306E7B7BD3CD0D8199AC /* EXPMatchers+beCloseTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DD6EF6AC537AC65063B508D23635495 /* EXPMatchers+beCloseTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4A571204986D316637D43D3F93DCAC77 /* SpectaUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 702F874B8F1FD06DD3C0D33DD6E9523F /* SpectaUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4B4AFB6ABCB2DE9343CEAB606C001D2E /* AGRestRequest_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 25C0EF911DDED72746EED593980BB611 /* AGRestRequest_Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B4AFB6ABCB2DE9343CEAB606C001D2E /* AGRestRequest_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 25C0EF911DDED72746EED593980BB611 /* AGRestRequest_Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		4B92CAB23B570E20BFE41ED5A8307DBF /* BFAppLinkNavigation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E7E2DB85E8563929A6784A0A908B338 /* BFAppLinkNavigation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4C1FC17ED8D44864F8A1B9DA8FE900C7 /* AGRestCachedRequestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AACCE711EFDD7C534AB7585B6739E48 /* AGRestCachedRequestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C1FC17ED8D44864F8A1B9DA8FE900C7 /* AGRestCachedRequestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AACCE711EFDD7C534AB7585B6739E48 /* AGRestCachedRequestController.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		4C90F652C7F43AB6C049AF2A77119222 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69868CC600C2FC8E0F35977AE526D4CA /* UIKit.framework */; };
 		4CA4F8F64565882DCFA174872749C0EF /* EXPFloatTuple.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E0EBB6C73B484A49353715F12BEC2C1 /* EXPFloatTuple.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4CECB45E29E553AF828260DC2E0D2284 /* BFURL.h in Headers */ = {isa = PBXBuildFile; fileRef = E9F22E6A7DBA99F10460DFB07FE8C5D1 /* BFURL.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -119,7 +119,7 @@
 		5075029BD953EE1C65A629E9FF28571F /* VALSynchronizableValet.m in Sources */ = {isa = PBXBuildFile; fileRef = 778A2CBD365906724152BF35F4314B7E /* VALSynchronizableValet.m */; };
 		50826E061B30793E71013B5BF7D62BC8 /* AGRestFileLock.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802C98732461890805C2EC61697F5C0 /* AGRestFileLock.m */; };
 		508B6D0572C0C3B4A3E019B814595D4A /* EXPMatchers+beInTheRangeOf.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F85A62F66A48F8DAF63241A6A5457FD /* EXPMatchers+beInTheRangeOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		50D189186BA145550FCE0CFF6250529C /* AGRestSessionController.h in Headers */ = {isa = PBXBuildFile; fileRef = 01D93C4060C74B75F60842649B1B3DDE /* AGRestSessionController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50D189186BA145550FCE0CFF6250529C /* AGRestSessionController.h in Headers */ = {isa = PBXBuildFile; fileRef = 01D93C4060C74B75F60842649B1B3DDE /* AGRestSessionController.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		51047C1945103943F70BEADE83725630 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 4817C99B68279AF1187D73FE6FF044F8 /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		51FCC9EDD6B60BF63B5EF7CAC94CCF23 /* EXPMatchers+conformTo.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B524E9DA2AC76AA5F0E448FB6647BA /* EXPMatchers+conformTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		521F2C94BADA6644357E194F26381069 /* AGRestObjectMapperProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AADEE825036178CAF97F704E72F5467 /* AGRestObjectMapperProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -131,7 +131,7 @@
 		5922E3B61E351E2A21095BD92E4FE8AC /* NSValue+Expecta.h in Headers */ = {isa = PBXBuildFile; fileRef = DA19D85E94AD95738350CBF2851C2124 /* NSValue+Expecta.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		597E5A323FD0306B81C3F7E9C8E5580D /* EXPMatchers+match.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ED72F37039050B51AD94FC1994A487A /* EXPMatchers+match.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		59891609F8EBA51369D1159F85D9320A /* AGRestConcurrentOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 313D8876A065596B4EFBABA7A3A37F9D /* AGRestConcurrentOperation.m */; };
-		59A7D98AA793C67481E1D90276948B75 /* AGRestCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 6278A7F415EE6EC6F258A3DB248BC951 /* AGRestCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59A7D98AA793C67481E1D90276948B75 /* AGRestCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 6278A7F415EE6EC6F258A3DB248BC951 /* AGRestCore.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		5A1D34D104D42B1EE399E23BCD7935A0 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = C88488FFBFC8EEC9B1BA52CA08AE6211 /* AFURLResponseSerialization.m */; };
 		5CE30903A6D862909AB6EBA2C481C2F8 /* AGRestRequest+Format.h in Headers */ = {isa = PBXBuildFile; fileRef = D6417558A77F3624C9038E5880D3477A /* AGRestRequest+Format.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5D32A8A41E83311041EDCC639F63C1C2 /* BFURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FEFC7210CF39EEC5B466C808AB7070B /* BFURL.m */; };
@@ -143,7 +143,7 @@
 		5F175CA5FAF2F1209EBBE9240C06063C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56DB2919F4D2204CBB574FD27825B541 /* XCTest.framework */; };
 		5FCBC525D4A87B32D41AC15A4F2B2E98 /* VALValet.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B53B3E17E0848E756746D67C45CC9C8 /* VALValet.m */; };
 		60CD83FA1B2BF6E93B59834C1E0CBEF0 /* EXPUnsupportedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A76BE9F5B3303009A9C0CB62FF6C704 /* EXPUnsupportedObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		61037437D7EE5908C8396382B2FF95EC /* AGRestLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 87492BC7336672B61CD63414948135A1 /* AGRestLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61037437D7EE5908C8396382B2FF95EC /* AGRestLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 87492BC7336672B61CD63414948135A1 /* AGRestLogger.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		649E78B5EA450FABDF5201E31F265FAB /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F81AFDC46187F8D84D699F74B181BA0A /* AFNetworkActivityIndicatorManager.m */; };
 		64B18402A9634199970C0AA6EDE33EA4 /* AGRestKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C79085EE20DE092F42F3C713EAB096C /* AGRestKit-dummy.m */; };
 		64C46AF200F2347115A0DF2799D6E403 /* EXPMatchers+beNil.h in Headers */ = {isa = PBXBuildFile; fileRef = E874458F3C02CC2F16B65C715EDE1B80 /* EXPMatchers+beNil.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -151,14 +151,14 @@
 		6552D94007E0333AE61939FCDE0C1312 /* VALSecureEnclaveValet_Protected.h in Headers */ = {isa = PBXBuildFile; fileRef = 99F4DA8C00B37204EFD10B378D3C722E /* VALSecureEnclaveValet_Protected.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		6573AF9ABA59AC8D1F52B07088197F71 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E32A35BBD00B290CFD3376463E2F84F /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		65D134A8A64B3DF59049727A4A94F7CD /* CommonLoggingProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 5077A71D52D346B5E4E01A9370E77E16 /* CommonLoggingProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		660B1E8A12942C2CDC567B52AF1552F4 /* AGRestErrorUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = D2AB917676E27105E776384DC4668C9F /* AGRestErrorUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		660B1E8A12942C2CDC567B52AF1552F4 /* AGRestErrorUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = D2AB917676E27105E776384DC4668C9F /* AGRestErrorUtilities.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		6929E4F693E3A715CCCC19B13A5B86ED /* VALSecureEnclaveValet.m in Sources */ = {isa = PBXBuildFile; fileRef = 89B04BFF408A0D37531E7219923CBFE5 /* VALSecureEnclaveValet.m */; };
 		6A725E2BDA6D302C9F30439A6390689C /* SPTCallSite.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F5CED80907E45FC25514293A0623B2B /* SPTCallSite.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6B32154470C7761117DC8EF5679BF01E /* Bolts.m in Sources */ = {isa = PBXBuildFile; fileRef = 595D93966E10803607B0DCF46433D96B /* Bolts.m */; };
 		6B3BBF99C4FA4126D7241131CDFD7D89 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 637AA3C1D32CEFF251E189846DCE0045 /* SystemConfiguration.framework */; };
 		6C73290187E64CC1BC13D2DDB04834BF /* AGRestLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = 96B49E44BC7578C18E90C76F9A7FEFA5 /* AGRestLogging.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6C88FB17C3AE49E50ABF4C36176B55BB /* ExpectaObject+FBSnapshotTest.m in Sources */ = {isa = PBXBuildFile; fileRef = FB318053D4B67E5C09566696A5C8A7BC /* ExpectaObject+FBSnapshotTest.m */; };
-		6D2479BE1F9ACBBE683C0BB30BF8658D /* AGRestFileLockController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F544AE7AF7D1857B5353221336FCF8D /* AGRestFileLockController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D2479BE1F9ACBBE683C0BB30BF8658D /* AGRestFileLockController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F544AE7AF7D1857B5353221336FCF8D /* AGRestFileLockController.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		6DC9336FFD96518D4EFF07283C41FC91 /* AGRestObjectMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E30C984771765ACD333379E6394FE66 /* AGRestObjectMapper.m */; };
 		6E80EEBAA46962164B117B6D9E7FC047 /* Pods-AGRestKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E2579441EB44640DC4F3217555A4D617 /* Pods-AGRestKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6F1C8C2851E8B7476992360408E05B40 /* SpectaUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC3A3145E5D5E96576875C54F66706E /* SpectaUtility.m */; };
@@ -170,7 +170,7 @@
 		74DC43CEB0B81C4E95B23E8E6C4D86B1 /* CocoaLumberjack-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2F47BD5A86813859C283D46EDB66A7 /* CocoaLumberjack-dummy.m */; };
 		754197D184C23A19146DB4C9B3B90050 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5B77944D91BAC949BF63FA7A73CF65 /* SwiftSupport.swift */; };
 		75DF265A4FEC4E42582B8570194CB583 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C984922FE7EEA1DBD4AC14EA49A59AF /* UIImage+Diff.m */; };
-		75FF28610259E8957B51C2409E56C361 /* AFHTTPSessionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 43DEC8E42CA3DFCC245A0E7F22FE179F /* AFHTTPSessionOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75FF28610259E8957B51C2409E56C361 /* AFHTTPSessionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 43DEC8E42CA3DFCC245A0E7F22FE179F /* AFHTTPSessionOperation.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		778C9F1A1715E05313578E39AB46726E /* EXPMatchers+beInstanceOf.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B1D011DB5667D9939B51CFF8E66408 /* EXPMatchers+beInstanceOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		78E0EFA8BC60CFEF03E517F7147BA880 /* AGRestRequestRunning.h in Headers */ = {isa = PBXBuildFile; fileRef = C34198AFB129393BE9FAE6A8DD95A782 /* AGRestRequestRunning.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7A112C0F21A62CB6F1AA8D917A6EEA6C /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = AC9D9D0CF3432DA3747390525A3162A7 /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -181,7 +181,7 @@
 		7E2AFEF0DAF41F142435681677EB4256 /* ObjectMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B00640180937F9534D4E5302B0A29DA /* ObjectMapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7E81176499F06E523CE3039B08AB5051 /* EXPMatchers+beGreaterThan.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F6D2F5A5A4370D80D4139CDBAE43FA0 /* EXPMatchers+beGreaterThan.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7F1209D2DD89FBCDABDA3CDBB0DDB49D /* XCTestCase+Specta.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEBD6FB13554A533318F43C0997CDB4 /* XCTestCase+Specta.m */; };
-		82071B9A1C86FF714EBFB750D2A3FD07 /* AGRestRequestCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 182447089E5C2BCB3251D4B2F32110D5 /* AGRestRequestCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82071B9A1C86FF714EBFB750D2A3FD07 /* AGRestRequestCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 182447089E5C2BCB3251D4B2F32110D5 /* AGRestRequestCache.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		8220368E5F7EA70947BAD2B6F216C61B /* EXPMatchers+beFalsy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B2B1A399998100519226690022FC4AA /* EXPMatchers+beFalsy.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		827762B596901D18DAD29830875E1922 /* SPTSpec.h in Headers */ = {isa = PBXBuildFile; fileRef = 583B6DEEAC791EC60BA5E540F5AEDA47 /* SPTSpec.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		82E5A07FA4CEECF136C15FBF6E39250F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1C62BD8961D18A11819409DA437FAA5 /* Foundation.framework */; };
@@ -198,7 +198,7 @@
 		87C61FE4EBA517506085582BD4175CCA /* SPTSharedExampleGroups.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B1F1AA335F9D115285FC1E0CD657E6E /* SPTSharedExampleGroups.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		889FE136349E95DFBE20F050685FB124 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = C920B2A091EBF5303B6FDEBEBEC677B1 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		891B4F096DF0BCD9611DF5EAE78B6B26 /* InCodeMappingProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F6D312EABE499B615DA05B2CCC35A4B /* InCodeMappingProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8AA6039473CD90CB0219303E12F80D8E /* BFTask+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E721926C6AAD2F9C6A927FC29BAF5D6 /* BFTask+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8AA6039473CD90CB0219303E12F80D8E /* BFTask+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E721926C6AAD2F9C6A927FC29BAF5D6 /* BFTask+Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		8B0A34DADDB56E70CF4A5177E65AA081 /* ExpectaObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 9669782E1F7FBD486E35B3BA7E68CE04 /* ExpectaObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8B183046082FCEB05CE3EDBF7ACFF0BA /* BFAppLink_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 70A7E38ACCB92E78DBBBF81B5F4ED614 /* BFAppLink_Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8B8C4B3E28E6FC6D26037EFC282BE4C5 /* EXPMatchers+beIdenticalTo.h in Headers */ = {isa = PBXBuildFile; fileRef = CE03BD3FA9C608A9228A55CE9044F018 /* EXPMatchers+beIdenticalTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -248,7 +248,7 @@
 		A6761AE84CFE28CEADB5C3F2C4796DE2 /* BFAppLinkNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = C6238457B5BF41E551FBC7687C4B9DF8 /* BFAppLinkNavigation.m */; };
 		A68F9030C420621E8214C9DD45968507 /* BFAppLinkTarget.h in Headers */ = {isa = PBXBuildFile; fileRef = D796BCDC921218D8DD998688C86F1488 /* BFAppLinkTarget.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A6CC81FC886EE8FF27EF4DD48D6F8F56 /* NSValue+Expecta.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D2BF90F00578420C66666F423D63C47 /* NSValue+Expecta.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		A74810A63C23F59263338A76FEFC44FD /* AGRestEventuallyQueue_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B190660964CA02E121FD7C74A28DCDA /* AGRestEventuallyQueue_Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A74810A63C23F59263338A76FEFC44FD /* AGRestEventuallyQueue_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B190660964CA02E121FD7C74A28DCDA /* AGRestEventuallyQueue_Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		A8446D8224F103BE7F4A5237A60F0EFB /* EXPMatchers+raise.h in Headers */ = {isa = PBXBuildFile; fileRef = DF0CA196DEA6F5F25B5023DDD9B9C861 /* EXPMatchers+raise.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A9F04BB574722E56A02A0498A48ECE1D /* DDLog+LOGV.h in Headers */ = {isa = PBXBuildFile; fileRef = D5FE303EEF615429745417F1DBCDC5B5 /* DDLog+LOGV.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AA5060419F1307F5F03ECBEA70DB186C /* EXPMatchers+beLessThanOrEqualTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 188FE28FC6D9EA93BF6C39EFEC84D22E /* EXPMatchers+beLessThanOrEqualTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -267,7 +267,7 @@
 		B1487AC2DD502CCE46631C123E047D28 /* EXPMatchers+beFalsy.h in Headers */ = {isa = PBXBuildFile; fileRef = C453291F5F6E52BD653023ACC2A5E73B /* EXPMatchers+beFalsy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B14E685C6FA58A6F0163D0C8910FB503 /* BFAppLinkResolving.h in Headers */ = {isa = PBXBuildFile; fileRef = 9790CE67C2409BAA1D71A557BFBB98D7 /* BFAppLinkResolving.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B16A078FC7FBC172A266A336AEF7F673 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAD624409155261C9C4537381EFD23B /* UIRefreshControl+AFNetworking.m */; };
-		B1935F4DBAF0FEAEEA78788D6D3A2AA2 /* AGRestServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 403A70E0F18CFA6C1C808AD8DA9D5716 /* AGRestServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1935F4DBAF0FEAEEA78788D6D3A2AA2 /* AGRestServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 403A70E0F18CFA6C1C808AD8DA9D5716 /* AGRestServer.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		B376B4A777F62028AF0965D93658413E /* SPTExample.m in Sources */ = {isa = PBXBuildFile; fileRef = E583231F51824C1B65A3E7D0F3FD5841 /* SPTExample.m */; };
 		B3F189747A7A3CEDA9200CB2749AC7D8 /* EXPMatchers+raiseWithReason.h in Headers */ = {isa = PBXBuildFile; fileRef = 84153E241B744DE854B71AB9F1C9ED13 /* EXPMatchers+raiseWithReason.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B414B283B048EE2F561369874D825187 /* DDTTYLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E18C59DA08CEFC41874A6D89CCD6CC2 /* DDTTYLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -279,9 +279,9 @@
 		B8DB253C1114F0B974648C9490302F59 /* VALSinglePromptSecureEnclaveValet.m in Sources */ = {isa = PBXBuildFile; fileRef = A015A7FC0AA631FCD6BCDE29171A51D9 /* VALSinglePromptSecureEnclaveValet.m */; };
 		B94B345D45BDEB9F17904259B1912BD6 /* AGRestResponseSerializerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A969417D667559B29C3AA12A96C0338 /* AGRestResponseSerializerProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BA2D29D9265012FAC7A88D9A8CCD9989 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE62E0EF83D6AB1E9EC301CC0EA371C7 /* CoreGraphics.framework */; };
-		BAB402137ACB49C2F1C1A564DCDF3EBF /* AGRestFileLock.h in Headers */ = {isa = PBXBuildFile; fileRef = FC438AA77DEC236899A9C9BFFA79D875 /* AGRestFileLock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAB402137ACB49C2F1C1A564DCDF3EBF /* AGRestFileLock.h in Headers */ = {isa = PBXBuildFile; fileRef = FC438AA77DEC236899A9C9BFFA79D875 /* AGRestFileLock.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		BBC7D292529B7E5DB953171190E321AF /* EXPMatchers+beGreaterThanOrEqualTo.h in Headers */ = {isa = PBXBuildFile; fileRef = B1D18526409BB0D72C218CE5E7B7DF06 /* EXPMatchers+beGreaterThanOrEqualTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BBEFAE8FCFBC4FAA3747EAC924FB849A /* AGRestRequestController.h in Headers */ = {isa = PBXBuildFile; fileRef = B99CCC0277CF2946A44DBFEEBCD76023 /* AGRestRequestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBEFAE8FCFBC4FAA3747EAC924FB849A /* AGRestRequestController.h in Headers */ = {isa = PBXBuildFile; fileRef = B99CCC0277CF2946A44DBFEEBCD76023 /* AGRestRequestController.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		BC22E83FBE012D2A1B6B72B886832AF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1C62BD8961D18A11819409DA437FAA5 /* Foundation.framework */; };
 		BC530A8234C398F9F3AD1A1D41670B65 /* EXPMatchers+match.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD7D4981429E1BE0AF8128EB0E12DBE /* EXPMatchers+match.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		BF122F1D948DDF6CCC55CAB9F989BA49 /* ManagedObjectInstanceProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C4E3464237A6EF1B6DC55956E792096 /* ManagedObjectInstanceProvider.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
@@ -322,7 +322,7 @@
 		DA0F45C3404617A5B78204F2AD0CF9E6 /* ObjectInstanceProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D8464F3288A57D6469D0B5AD67EA7FB /* ObjectInstanceProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB8F3665E9E382DF52E0DCB4DECE5EAE /* NSObject+Expecta.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BC9AC50DEB60562135DCD9B71344F84 /* NSObject+Expecta.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB90EF2559F897307B5E500FCC373E0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1C62BD8961D18A11819409DA437FAA5 /* Foundation.framework */; };
-		DBE3A3D8AB4FEEF5BE19156F6C432F10 /* AGRestObjectMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = E0545362905BE16346F54BEBEA382D76 /* AGRestObjectMapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBE3A3D8AB4FEEF5BE19156F6C432F10 /* AGRestObjectMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = E0545362905BE16346F54BEBEA382D76 /* AGRestObjectMapper.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		DC423A980C991970F4D637AC4C47D863 /* EXPMatchers+conformTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 431CF61FB1D8D3326DFEF7DF290FB8D3 /* EXPMatchers+conformTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DD887A93A200A87A51B3D00BD1B80D20 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 118858941E7CB15FBD2121C4563F4090 /* AFNetworkReachabilityManager.m */; };
 		DE4EF1ED618D31CA16938565A1CA0607 /* Expecta+Snapshots-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A5B37ECC3BCE0E65E55FE252CC674E0 /* Expecta+Snapshots-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -361,14 +361,14 @@
 		F8022489DC57D8FA19C4528C8D945F49 /* Valet.h in Headers */ = {isa = PBXBuildFile; fileRef = 40418066567B34C519A23886B1C2919C /* Valet.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F84DD74BB7F612DE372F8C051420DF72 /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 373F534B25AA482612C1ECFFDF9F8738 /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F88D2FFD8AB9DF9FE4D7C3FFBC1FB920 /* AGRestErrorUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC48BFE90E4007C493B6231E452060C /* AGRestErrorUtilities.m */; };
-		F8BE05634BA984CF0031D2A330752EB3 /* AGRestSessionStore.h in Headers */ = {isa = PBXBuildFile; fileRef = A28C685BDFA6790B4769D6D53170AEDE /* AGRestSessionStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8BE05634BA984CF0031D2A330752EB3 /* AGRestSessionStore.h in Headers */ = {isa = PBXBuildFile; fileRef = A28C685BDFA6790B4769D6D53170AEDE /* AGRestSessionStore.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		F974BD8C40D2CBA3C00DD2FB41756CF2 /* ObjectMappingInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 13378090BEC727704AE76D5AB01D1B83 /* ObjectMappingInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FB7368183F882EB966B895DE85768C20 /* BFTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 54D13829093E5E937048B4B3D90AD03B /* BFTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FB967DCB6C7163C7E698B7E10507DEE1 /* BFCancellationToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B406623225C76DD8F695A61858D8B6 /* BFCancellationToken.m */; };
 		FBC3D86C76744DF319DA761F82D076C6 /* BFTask+Exceptions.m in Sources */ = {isa = PBXBuildFile; fileRef = AB933B79514ABBFAAF81605378FECCC2 /* BFTask+Exceptions.m */; };
 		FC223395BCEE46EB920CECD38AFD4402 /* EXPMatchers+beInTheRangeOf.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E89BE0578849CF9F518FAAF9B04C205 /* EXPMatchers+beInTheRangeOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FC6474103AA989EBD5368772037BE0BB /* EXPMatchers+beSupersetOf.h in Headers */ = {isa = PBXBuildFile; fileRef = 13609005BE55E5557E15745C2D0B2588 /* EXPMatchers+beSupersetOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FC71CB0E3EE9F97E52E1B28C7B03E153 /* AGRestResponseSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 99B871D4E77697C70F9AA181458BFE89 /* AGRestResponseSerializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC71CB0E3EE9F97E52E1B28C7B03E153 /* AGRestResponseSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 99B871D4E77697C70F9AA181458BFE89 /* AGRestResponseSerializer.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		FCCC0F630529AC9291FD0A1FB892956A /* AGRestResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FCF52E47FA963440AD190600E93585D /* AGRestResponseSerializer.m */; };
 		FCDA06700D1989687F2471414453A57A /* SPTSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F5AA86AB38002AAA15A365E83A3963 /* SPTSpec.m */; };
 		FD0E598EB026BBA0EC567056FF9E7E90 /* DDContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1BA7CE9C75ACECFA1A6AC88E7371A6 /* DDContextFilterLogFormatter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
@@ -395,6 +395,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = E1BF724CFF13DA79C7E4FBBB73B29DFE;
 			remoteInfo = Valet;
+		};
+		2027C80C1E70614A006B89AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F001F20392140B9C65C03EB31A2C70B1;
+			remoteInfo = AGRestKit;
 		};
 		216601E599EF61C4B240A4649CADA9FB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -568,6 +575,11 @@
 		1E721926C6AAD2F9C6A927FC29BAF5D6 /* BFTask+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BFTask+Private.h"; sourceTree = "<group>"; };
 		1F5B77944D91BAC949BF63FA7A73CF65 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		1F9A76A5A92A7B052E8A3919117B2DBE /* InCodeMappingProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = InCodeMappingProvider.m; path = "OCMapper/Source/Mapping Provider/In Code Mapping/InCodeMappingProvider.m"; sourceTree = "<group>"; };
+		2027C8031E705E57006B89AF /* AGRestKit_Architecture.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = AGRestKit_Architecture.jpg; path = documentation/AGRestKit_Architecture.jpg; sourceTree = "<group>"; };
+		2027C8041E705E57006B89AF /* AGRestKit_Request_Life_Cycle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = AGRestKit_Request_Life_Cycle.jpg; path = documentation/AGRestKit_Request_Life_Cycle.jpg; sourceTree = "<group>"; };
+		2027C8051E705E57006B89AF /* AGRestKit-intro.markdown */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = "AGRestKit-intro.markdown"; path = "documentation/AGRestKit-intro.markdown"; sourceTree = "<group>"; };
+		2027C8061E705E61006B89AF /* AGRestKit Request Life Cycle.graffle */ = {isa = PBXFileReference; lastKnownFileType = file; name = "AGRestKit Request Life Cycle.graffle"; path = "documentation/AGRestKit Request Life Cycle.graffle"; sourceTree = "<group>"; };
+		2027C8071E705E61006B89AF /* AGRestKit_Architecture.graffle */ = {isa = PBXFileReference; lastKnownFileType = file; name = AGRestKit_Architecture.graffle; path = documentation/AGRestKit_Architecture.graffle; sourceTree = "<group>"; };
 		20379C406BCABA1D93C6106FEA0BB94D /* AFHTTPSessionOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionOperation.m; sourceTree = "<group>"; };
 		20A87928CB2E85EC4B74FF93A1965DFD /* Pods-AGRestKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AGRestKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		22239C20FC9EA8F95BEDAC89F95EB748 /* EXPMatchers+beginWith.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beginWith.h"; path = "Expecta/Matchers/EXPMatchers+beginWith.h"; sourceTree = "<group>"; };
@@ -739,7 +751,7 @@
 		8742C500CF49276A4AA99B20E17089DD /* EXPMatchers+beGreaterThan.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beGreaterThan.m"; path = "Expecta/Matchers/EXPMatchers+beGreaterThan.m"; sourceTree = "<group>"; };
 		87492BC7336672B61CD63414948135A1 /* AGRestLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AGRestLogger.h; sourceTree = "<group>"; };
 		87F2A0C7A6E16D6EF04352D3A98A87A7 /* VALSynchronizableValet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VALSynchronizableValet.h; path = Valet/VALSynchronizableValet.h; sourceTree = "<group>"; };
-		883235306A200417C0A977CEB8F08C43 /* AGUserSessionProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AGUserSessionProtocol.h; sourceTree = "<group>"; };
+		883235306A200417C0A977CEB8F08C43 /* AGRestUserSessionProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AGRestUserSessionProtocol.h; sourceTree = "<group>"; };
 		89B04BFF408A0D37531E7219923CBFE5 /* VALSecureEnclaveValet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VALSecureEnclaveValet.m; path = Valet/VALSecureEnclaveValet.m; sourceTree = "<group>"; };
 		8A37DE85C2E44993902A903BDEB93E8A /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 		8AEBD6FB13554A533318F43C0997CDB4 /* XCTestCase+Specta.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XCTestCase+Specta.m"; path = "Specta/Specta/XCTestCase+Specta.m"; sourceTree = "<group>"; };
@@ -1157,6 +1169,26 @@
 			name = Security;
 			sourceTree = "<group>";
 		};
+		2027C7FC1E705BAA006B89AF /* graffle */ = {
+			isa = PBXGroup;
+			children = (
+				2027C8061E705E61006B89AF /* AGRestKit Request Life Cycle.graffle */,
+				2027C8071E705E61006B89AF /* AGRestKit_Architecture.graffle */,
+			);
+			name = graffle;
+			sourceTree = "<group>";
+		};
+		2027C8021E705D5A006B89AF /* documentation */ = {
+			isa = PBXGroup;
+			children = (
+				2027C7FC1E705BAA006B89AF /* graffle */,
+				2027C8031E705E57006B89AF /* AGRestKit_Architecture.jpg */,
+				2027C8041E705E57006B89AF /* AGRestKit_Request_Life_Cycle.jpg */,
+				2027C8051E705E57006B89AF /* AGRestKit-intro.markdown */,
+			);
+			name = documentation;
+			sourceTree = "<group>";
+		};
 		2098DCC5BBF4FE505E0B22D3ADD598D8 /* Protocol */ = {
 			isa = PBXGroup;
 			children = (
@@ -1256,7 +1288,7 @@
 				01D93C4060C74B75F60842649B1B3DDE /* AGRestSessionController.h */,
 				BC9517A880FD2343049899F9EA708CE6 /* AGRestSessionController.m */,
 				57777774D9F2C2D7367F0F54407337CF /* AGRestSessionProtocol.h */,
-				883235306A200417C0A977CEB8F08C43 /* AGUserSessionProtocol.h */,
+				883235306A200417C0A977CEB8F08C43 /* AGRestUserSessionProtocol.h */,
 				AD6D03125414248DDD5EBC94B3DAA1B3 /* Internal */,
 			);
 			path = Classes;
@@ -1872,6 +1904,7 @@
 		E69F54580066DF551CD59BDB2D3F056A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
+				2027C8021E705D5A006B89AF /* documentation */,
 				5E39C67DF9D953C2DF105370D9C67CFD /* AGRestKit.modulemap */,
 				3D8255AD40D687201A02EA1F3361B95A /* AGRestKit.xcconfig */,
 				4C79085EE20DE092F42F3C713EAB096C /* AGRestKit-dummy.m */,
@@ -2140,51 +2173,51 @@
 			buildActionMask = 2147483647;
 			files = (
 				202F07771E62053300EF7FB7 /* AGRest.h in Headers */,
-				75FF28610259E8957B51C2409E56C361 /* AFHTTPSessionOperation.h in Headers */,
-				2C4FC8A5F5AFACFC6895ACC4EC62B552 /* AGRest_Private.h in Headers */,
-				E4DE3514C6E95BF04C3631670910A9CA /* AGRestCachable.h in Headers */,
-				4C1FC17ED8D44864F8A1B9DA8FE900C7 /* AGRestCachedRequestController.h in Headers */,
-				039E32097C6E7956586327C84C002B05 /* AGRestConcurrentOperation.h in Headers */,
 				09D9BEFD0390DA1384E2BE89A50FB6EC /* AGRestConstants.h in Headers */,
-				59A7D98AA793C67481E1D90276948B75 /* AGRestCore.h in Headers */,
-				202F07781E62066400EF7FB7 /* AGRestManager.h in Headers */,
-				4269E5F7885052402C1FDB04F9860E88 /* AGRestCoreDataCacheController.h in Headers */,
-				098B2F6C903F6ECA3AF971DC7B78898B /* AGRestDataProvider.h in Headers */,
-				660B1E8A12942C2CDC567B52AF1552F4 /* AGRestErrorUtilities.h in Headers */,
-				2DA09F066204F39CD8DA216A19AE89A7 /* AGRestEventuallyQueue.h in Headers */,
-				A74810A63C23F59263338A76FEFC44FD /* AGRestEventuallyQueue_Private.h in Headers */,
-				BAB402137ACB49C2F1C1A564DCDF3EBF /* AGRestFileLock.h in Headers */,
-				6D2479BE1F9ACBBE683C0BB30BF8658D /* AGRestFileLockController.h in Headers */,
-				0518D9D47CBA903F5ACBDB780E51879E /* AGRestFileManager.h in Headers */,
 				0166FB4CAE627966350F8BE18A411C37 /* AGRestKeyValueCache.h in Headers */,
 				AF878834C738312872865F76875CE297 /* AGRestKeyValueCaching.h in Headers */,
 				AF5B3B0E57381A20357F3B7E6B2F83E0 /* AGRestKit-umbrella.h in Headers */,
 				DEF20604E0C5FFC67410F4C931459572 /* AGRestKit.h in Headers */,
-				61037437D7EE5908C8396382B2FF95EC /* AGRestLogger.h in Headers */,
-				6C73290187E64CC1BC13D2DDB04834BF /* AGRestLogging.h in Headers */,
 				96953F62A0BC26411438A35A1301BAF7 /* AGRestModule.h in Headers */,
-				DBE3A3D8AB4FEEF5BE19156F6C432F10 /* AGRestObjectMapper.h in Headers */,
+				6C73290187E64CC1BC13D2DDB04834BF /* AGRestLogging.h in Headers */,
 				521F2C94BADA6644357E194F26381069 /* AGRestObjectMapperProtocol.h in Headers */,
 				4371D7A65A8BEDA6EC22DE3B6E5FEC65 /* AGRestObjectMapping.h in Headers */,
-				1D34EA58D263BC6EA12C0BAF0CA179AF /* AGRestReachabilityManager.h in Headers */,
 				5CE30903A6D862909AB6EBA2C481C2F8 /* AGRestRequest+Format.h in Headers */,
+				E4DE3514C6E95BF04C3631670910A9CA /* AGRestCachable.h in Headers */,
 				CC6EF5F6B8D92EDDA1A299BB35D70A43 /* AGRestRequest.h in Headers */,
-				4B4AFB6ABCB2DE9343CEAB606C001D2E /* AGRestRequest_Private.h in Headers */,
-				82071B9A1C86FF714EBFB750D2A3FD07 /* AGRestRequestCache.h in Headers */,
-				BBEFAE8FCFBC4FAA3747EAC924FB849A /* AGRestRequestController.h in Headers */,
-				29642CE657B29E0FCED7D8092B3D05F2 /* AGRestRequestRunner.h in Headers */,
-				78E0EFA8BC60CFEF03E517F7147BA880 /* AGRestRequestRunning.h in Headers */,
 				07EFEC55B56B51AD89C55E8221C4FA52 /* AGRestResponse.h in Headers */,
-				FC71CB0E3EE9F97E52E1B28C7B03E153 /* AGRestResponseSerializer.h in Headers */,
 				B94B345D45BDEB9F17904259B1912BD6 /* AGRestResponseSerializerProtocol.h in Headers */,
-				B1935F4DBAF0FEAEEA78788D6D3A2AA2 /* AGRestServer.h in Headers */,
 				0A66BDB5B333EE3C65496EC8B0E3F08E /* AGRestServerProtocol.h in Headers */,
+				2DA09F066204F39CD8DA216A19AE89A7 /* AGRestEventuallyQueue.h in Headers */,
+				78E0EFA8BC60CFEF03E517F7147BA880 /* AGRestRequestRunning.h in Headers */,
+				FC71CB0E3EE9F97E52E1B28C7B03E153 /* AGRestResponseSerializer.h in Headers */,
+				DBE3A3D8AB4FEEF5BE19156F6C432F10 /* AGRestObjectMapper.h in Headers */,
 				50D189186BA145550FCE0CFF6250529C /* AGRestSessionController.h in Headers */,
+				098B2F6C903F6ECA3AF971DC7B78898B /* AGRestDataProvider.h in Headers */,
+				82071B9A1C86FF714EBFB750D2A3FD07 /* AGRestRequestCache.h in Headers */,
+				0518D9D47CBA903F5ACBDB780E51879E /* AGRestFileManager.h in Headers */,
+				61037437D7EE5908C8396382B2FF95EC /* AGRestLogger.h in Headers */,
+				202F07781E62066400EF7FB7 /* AGRestManager.h in Headers */,
+				29642CE657B29E0FCED7D8092B3D05F2 /* AGRestRequestRunner.h in Headers */,
+				BBEFAE8FCFBC4FAA3747EAC924FB849A /* AGRestRequestController.h in Headers */,
+				4B4AFB6ABCB2DE9343CEAB606C001D2E /* AGRestRequest_Private.h in Headers */,
+				1D34EA58D263BC6EA12C0BAF0CA179AF /* AGRestReachabilityManager.h in Headers */,
+				6D2479BE1F9ACBBE683C0BB30BF8658D /* AGRestFileLockController.h in Headers */,
+				BAB402137ACB49C2F1C1A564DCDF3EBF /* AGRestFileLock.h in Headers */,
+				A74810A63C23F59263338A76FEFC44FD /* AGRestEventuallyQueue_Private.h in Headers */,
+				660B1E8A12942C2CDC567B52AF1552F4 /* AGRestErrorUtilities.h in Headers */,
+				4269E5F7885052402C1FDB04F9860E88 /* AGRestCoreDataCacheController.h in Headers */,
+				59A7D98AA793C67481E1D90276948B75 /* AGRestCore.h in Headers */,
+				039E32097C6E7956586327C84C002B05 /* AGRestConcurrentOperation.h in Headers */,
+				4C1FC17ED8D44864F8A1B9DA8FE900C7 /* AGRestCachedRequestController.h in Headers */,
+				2C4FC8A5F5AFACFC6895ACC4EC62B552 /* AGRest_Private.h in Headers */,
+				75FF28610259E8957B51C2409E56C361 /* AFHTTPSessionOperation.h in Headers */,
 				F0847EFA0E53A2CD3DF08BECEBD37A8A /* AGRestSessionProtocol.h in Headers */,
-				F8BE05634BA984CF0031D2A330752EB3 /* AGRestSessionStore.h in Headers */,
+				B1935F4DBAF0FEAEEA78788D6D3A2AA2 /* AGRestServer.h in Headers */,
 				1EEA3CC21FF42DE52EC2C3D817008713 /* AGRestTaskQueue.h in Headers */,
-				1D1626776A7B23F4235C8F7939D58C02 /* AGUserSessionProtocol.h in Headers */,
+				F8BE05634BA984CF0031D2A330752EB3 /* AGRestSessionStore.h in Headers */,
 				8AA6039473CD90CB0219303E12F80D8E /* BFTask+Private.h in Headers */,
+				1D1626776A7B23F4235C8F7939D58C02 /* AGRestUserSessionProtocol.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2247,6 +2280,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
+
+/* Begin PBXLegacyTarget section */
+		2027C8081E706037006B89AF /* AGRestKit-DOC */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--project-name \"AGRestKit\"\n--project-company \"AGTek\"\n--project-version \"${CURRENT_PROJECT_VERSION}\"\n--company-id \"com.agtek\"\n--output \"${PROJECT_DIR}/../../doc/\"\n--index-desc \"${PROJECT_DIR}/Target Support Files/AGRestKit/documentation/AGRestKit-intro.markdown\"\n--docset-atom-filename \"AGTek.atom\"\n--docset-platform-family \"iphoneos\"\n--logformat xcode\n--preprocess-headerdoc\n--keep-intermediate-files\n--no-repeat-first-par\n--no-warn-invalid-crossref\n--exit-threshold 2\n--include \"${PROJECT_DIR}/Target Support Files/AGRestKit/documentation/\"\n--ignore \"*.m\"\n \"${PROJECT_DIR}/../../AGRestKit/Classes\"";
+			buildConfigurationList = 2027C8091E706038006B89AF /* Build configuration list for PBXLegacyTarget "AGRestKit-DOC" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/appledoc;
+			buildWorkingDirectory = "";
+			dependencies = (
+				2027C80D1E70614A006B89AF /* PBXTargetDependency */,
+			);
+			name = "AGRestKit-DOC";
+			passBuildSettingsInEnvironment = 0;
+			productName = "AGRestKit-DOC";
+		};
+/* End PBXLegacyTarget section */
 
 /* Begin PBXNativeTarget section */
 		21B910E0FB008FE15458D3D9B59BED16 /* Specta */ = {
@@ -2479,6 +2530,13 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					2027C8081E706037006B89AF = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4HLV9Z7M3H;
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -2504,6 +2562,7 @@
 				AD78EF28A1AC5EDD31A910A01F79096E /* Pods-AGRestKit_Tests */,
 				21B910E0FB008FE15458D3D9B59BED16 /* Specta */,
 				E1BF724CFF13DA79C7E4FBBB73B29DFE /* Valet */,
+				2027C8081E706037006B89AF /* AGRestKit-DOC */,
 			);
 		};
 /* End PBXProject section */
@@ -2755,6 +2814,11 @@
 			target = E1BF724CFF13DA79C7E4FBBB73B29DFE /* Valet */;
 			targetProxy = 47CF8E20A1E905FE5FE9ACC4CB3BB567 /* PBXContainerItemProxy */;
 		};
+		2027C80D1E70614A006B89AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F001F20392140B9C65C03EB31A2C70B1 /* AGRestKit */;
+			targetProxy = 2027C80C1E70614A006B89AF /* PBXContainerItemProxy */;
+		};
 		375E4AF5B7FE8F268FA31052057802DF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Expecta+Snapshots";
@@ -2915,6 +2979,56 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		2027C80A1E706038006B89AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUGGING_SYMBOLS = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 4HLV9Z7M3H;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2027C80B1E706038006B89AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 4HLV9Z7M3H;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
 		};
 		2F513CBD1414691503D79BC7A9B2E273 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -3728,6 +3842,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		2027C8091E706038006B89AF /* Build configuration list for PBXLegacyTarget "AGRestKit-DOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2027C80A1E706038006B89AF /* Debug */,
+				2027C80B1E706038006B89AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;

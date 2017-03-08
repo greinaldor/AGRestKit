@@ -42,7 +42,7 @@ internally in order to complete their tasks. For instance, the AGRestSessionCont
 dataSource.
 
 <div style="display:block; vertical-align:middle; margin: 0 auto;">
-    <img style="display: block; margin: 0 auto;" src="docs/docs/AGRestKit_Architecture.jpg">
+    <img style="display: block; margin: 0 auto;" src="docs/documentation/AGRestKit_Architecture.jpg">
 </div>
 
 ## Dependencies
