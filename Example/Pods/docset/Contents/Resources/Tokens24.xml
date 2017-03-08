@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/AGRestRequestRunning.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/AGRestRequestRunning</TokenIdentifier>
+			<Abstract type="html">@protocol AGRestRequestRunning</Abstract>
+			<DeclaredIn>AGRestRequestRunning.h</DeclaredIn>
+            
+			
+			<NodeRef refid="24"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/AGRestRequestRunning/runRequestAsync:withOptions:</TokenIdentifier>
+			<Abstract type="html">Run a request asynchronously.</Abstract>
+			<DeclaredIn>AGRestRequestRunning.h</DeclaredIn>
+			
+			<Declaration>- (BFTask *)runRequestAsync:(nonnull AGRestRequest *)request withOptions:(AGRestRequestRunningOptions)options</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">AGRestRequest to execute.</Abstract>
+				</Parameter><Parameter>
+					<Name>options</Name>
+					<Abstract type="html">AGRestRequestRunningOptions for running the request.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Returns a BFTask as result.</Abstract></ReturnValue>
+			<Anchor>//api/name/runRequestAsync:withOptions:</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/AGRestRequestRunning/runRequestAsync:withOptions:cancellationToken:</TokenIdentifier>
+			<Abstract type="html">Run a request asynchronously.</Abstract>
+			<DeclaredIn>AGRestRequestRunning.h</DeclaredIn>
+			
+			<Declaration>- (BFTask *)runRequestAsync:(nonnull AGRestRequest *)request withOptions:(AGRestRequestRunningOptions)options cancellationToken:(nullable BFCancellationToken *)token</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">AGRestRequest to execute.</Abstract>
+				</Parameter><Parameter>
+					<Name>options</Name>
+					<Abstract type="html">AGRestRequestRunningOptions for running the request.</Abstract>
+				</Parameter><Parameter>
+					<Name>cancellationToken</Name>
+					<Abstract type="html">The BFCancellationToken for cancelling the request.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Returns a BFTask as result.</Abstract></ReturnValue>
+			<Anchor>//api/name/runRequestAsync:withOptions:cancellationToken:</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

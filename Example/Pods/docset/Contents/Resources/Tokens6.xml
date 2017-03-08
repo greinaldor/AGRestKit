@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AGRestEventuallyQueue.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AGRestEventuallyQueue</TokenIdentifier>
+			<Abstract type="html">    @class AGRestEventuallyQueue</Abstract>
+			<DeclaredIn>AGRestEventuallyQueue.h</DeclaredIn>
+            
+			
+			<NodeRef refid="6"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestEventuallyQueue/_pendingRequestIdentifiers</TokenIdentifier>
+			<Abstract type="html">         Task queue that will enqueue command enqueueing task so that we enqueue the command
+         one at a time.
+         </Abstract>
+			<DeclaredIn>AGRestEventuallyQueue_Private.h</DeclaredIn>
+			
+			<Declaration>- (NSArray *)_pendingRequestIdentifiers</Declaration>
+			
+			
+			<Anchor>//api/name/_pendingRequestIdentifiers</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

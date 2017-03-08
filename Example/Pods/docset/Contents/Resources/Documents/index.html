@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>AGRestKit Reference</title>
+
+	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="index.html">AGRestKit </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="index.html">AGTek</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="hierarchy.html">Hierarchy</a></li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview-contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">AGRestKit Reference</h1>
+
+					
+					<div class="section section-overview index-overview">
+						
+						
+						<p><strong>Author</strong>: <em>Adrien Greiner</em> <br/>
+<strong>version</strong>: <em>0.1.1</em> <br/>
+<strong>ios version</strong>: <em>7+</em></p>
+
+<h1><strong>Introduction</strong></h1>
+
+<p>The AGRestKit is a modern Objective-C framework for implementing <strong>RESTful</strong> web servivces client on iOS. It is designed to be simple and easy to use but also highly customizable.
+Its modular architecture let you extend/replace core modules as : session management, server, response serialization, logging or object mapping.</p>
+
+<p>By default, AGRestKit provides all needed modules to implement your own JSON API client, only few configuration is needed to make it up and running.</p>
+
+<p>The AGRestKit is built on top of AFNetworking and also massively use Bolts Framework. It has been designed to take profit, as much as possible,
+of available threads and manages its own pool of concurrent queues to dispatch the work load.</p>
+
+<h2>Features</h2>
+
+<ul>
+<li>Asynchronous / Synchronous REST requests</li>
+<li>Object Mapping</li>
+<li>Caching (<strong><em>work in progress</em></strong>, not available in the current version)</li>
+<li>User Session Management</li>
+<li>Network Monitoring</li>
+<li>Logging</li>
+</ul>
+
+
+<h2>Core Architecture</h2>
+
+<p>The diagram below presents the core architecture of the framework. As a core principle, the framework is articulated around a
+set of protocols that declare public interfaces for every subpart of the system. Each module has its own protocol. This way,
+every module are decoupled from each other and can be easily replaced or extended.</p>
+
+<p>The <a href="Classes/AGRest.html">AGRest</a> class is the public interface where the core modules can be accessed or replaced and the framework configured.
+<a href="Classes/AGRest.html">AGRest</a> class holds a private instance of <a href="Classes/AGRestManager.html">AGRestManager</a>, this instance is initialized once <code>initializeRestWithBaseUrl:</code> is called.</p>
+
+<p>The <a href="Classes/AGRestManager.html">AGRestManager</a> class is the central manager where all modules are accessed internally, each module is accessed through its own
+serial access <code>dispatch_queue</code> ensuring thread-safety. The <a href="Classes/AGRestManager.html">AGRestManager</a> exposes its internal modules by conforming a set of
+protocol that acts as &lsquo;provider&rsquo;. <a href="Classes/AGRestManager.html">AGRestManager</a> owm a <a href="Classes/AGRestCore.html">AGRestCore</a> instance that is used as internal controllers provider.</p>
+
+<p>The <a href="Classes/AGRestCore.html">AGRestCore</a> class is the internal manager for the <a href="Classes/AGRestManager.html">AGRestManager</a> class. It owns internal controllers which are susceptible to be used
+by the <a href="Classes/AGRestManager.html">AGRestManager</a> or its submodules.</p>
+
+<p>Each module holds a pointer to the shared <a href="Classes/AGRestManager.html">AGRestManager</a> instance as a dataSource. This way, each module can access other modules
+internally in order to complete their tasks. For instance, the <a href="Classes/AGRestSessionController.html">AGRestSessionController</a> might access the <a href="Classes/AGRestSessionStore.html">AGRestSessionStore</a> through its
+dataSource.</p>
+
+<div style="display:block; vertical-align:middle; margin: 0 auto;">
+    <img style="display: block; margin: 0 auto;" src="docs/documentation/AGRestKit_Architecture.jpg">
+</div>
+
+
+<h2>Dependencies</h2>
+
+<ul>
+<li><a href="https://github.com/AFNetworking/AFNetworking">AFNetworking</a></li>
+<li><a href="https://github.com/BoltsFramework/Bolts-iOS">Bolts Framework</a></li>
+<li><a href="https://github.com/aryaxt/OCMapper">OCMapper</a></li>
+<li><a href="https://github.com/square/Valet">Valet</a></li>
+<li><a href="https://github.com/CocoaLumberjack/CocoaLumberjack">CocoaLumberjack</a></li>
+</ul>
+
+
+<h1><strong>Getting Started</strong></h1>
+
+<h2>Installation</h2>
+
+<p>Install the SDK from the private pod and add those line to your <em>Podfile</em> :</p>
+
+<p>```
+source &lsquo;git@bitbucket.org:socialsuperstore/ios-private-specs.git&rsquo;</p>
+
+<p>pod &lsquo;AGRestKit&rsquo;, :git => &lsquo;git@bitbucket.org:socialsuperstore/AGRestKit-ios-pod.git&rsquo;, :tag => &lsquo;0.1.1&rsquo;
+```</p>
+
+<h2>Initialize the SDK</h2>
+
+<p>Before using AGRestKit you have to initialize it with your API base url :</p>
+
+<p><code>
+[AGRest initializeRestWithBaseUrl:&lt;&lt;API URL&gt;&gt;];
+</code></p>
+
+<h2>Create your first model</h2>
+
+<h2>Send your first request</h2>
+						
+						
+					</div>
+					
+
+					<div class="index-container">
+						
+
+						
+						<div class="index-column">
+							<h2 class="index-title">Class References</h2>
+							<ul>
+								
+								<li><a href="Classes/AGRest.html">AGRest</a></li>
+								
+								<li><a href="Classes/AGRestCachedRequestController.html">AGRestCachedRequestController</a></li>
+								
+								<li><a href="Classes/AGRestCore.html">AGRestCore</a></li>
+								
+								<li><a href="Classes/AGRestCoreDataCacheController.html">AGRestCoreDataCacheController</a></li>
+								
+								<li><a href="Classes/AGRestErrorUtilities.html">AGRestErrorUtilities</a></li>
+								
+								<li><a href="Classes/AGRestEventuallyQueue.html">AGRestEventuallyQueue</a></li>
+								
+								<li><a href="Classes/AGRestFileManager.html">AGRestFileManager</a></li>
+								
+								<li><a href="Classes/AGRestKeyValueCache.html">AGRestKeyValueCache</a></li>
+								
+								<li><a href="Classes/AGRestLogger.html">AGRestLogger</a></li>
+								
+								<li><a href="Classes/AGRestManager.html">AGRestManager</a></li>
+								
+								<li><a href="Classes/AGRestObjectMapper.html">AGRestObjectMapper</a></li>
+								
+								<li><a href="Classes/AGRestReachabilityManager.html">AGRestReachabilityManager</a></li>
+								
+								<li><a href="Classes/AGRestRequest.html">AGRestRequest</a></li>
+								
+								<li><a href="Classes/AGRestRequestController.html">AGRestRequestController</a></li>
+								
+								<li><a href="Classes/AGRestRequestRunner.html">AGRestRequestRunner</a></li>
+								
+								<li><a href="Classes/AGRestResponse.html">AGRestResponse</a></li>
+								
+								<li><a href="Classes/AGRestServer.html">AGRestServer</a></li>
+								
+								<li><a href="Classes/AGRestSessionController.html">AGRestSessionController</a></li>
+								
+								<li><a href="Classes/AGRestSessionStore.html">AGRestSessionStore</a></li>
+								
+							</ul>
+						</div>
+						
+
+						
+						<div class="index-column">
+							
+							<h2 class="index-title">Protocol References</h2>
+							<ul>
+								
+								<li><a href="Protocols/AGRestLogging.html">AGRestLogging</a></li>
+								
+								<li><a href="Protocols/AGRestObjectMapperProtocol.html">AGRestObjectMapperProtocol</a></li>
+								
+								<li><a href="Protocols/AGRestObjectMapping.html">AGRestObjectMapping</a></li>
+								
+								<li><a href="Protocols/AGRestReachabilityListener.html">AGRestReachabilityListener</a></li>
+								
+								<li><a href="Protocols/AGRestRequestRunning.html">AGRestRequestRunning</a></li>
+								
+								<li><a href="Protocols/AGRestServerProtocol.html">AGRestServerProtocol</a></li>
+								
+								<li><a href="Protocols/AGRestSessionProtocol.html">AGRestSessionProtocol</a></li>
+								
+								<li><a href="Protocols/AGRestSessionStoreProtocol.html">AGRestSessionStoreProtocol</a></li>
+								
+							</ul>
+							
+
+							
+							<h2 class="index-title">Constant References</h2>
+							<ul>
+								
+									<li><a href="Constants/AGRestErrorCode.html">AGRestErrorCode</a></li>
+								
+									<li><a href="Constants/AGRestLoggingLevel.html">AGRestLoggingLevel</a></li>
+								
+									<li><a href="Constants/AGRestReachabilityStatus.html">AGRestReachabilityStatus</a></li>
+								
+									<li><a href="Constants/AGRestRequestCachePolicy.html">AGRestRequestCachePolicy</a></li>
+								
+									<li><a href="Constants/AGRestRequestHTTPMethod.html">AGRestRequestHTTPMethod</a></li>
+								
+									<li><a href="Constants/AGRestRequestRunningOptions.html">AGRestRequestRunningOptions</a></li>
+								
+									<li><a href="Constants/AGRestRequestTimeoutPolicy.html">AGRestRequestTimeoutPolicy</a></li>
+								
+							</ul>
+							
+
+							
+						</div>
+						
+					</div>
+
+					<footer>
+						<div class="footer-copyright">
+							
+							<p class="copyright">Copyright &copy; 2017 AGTek. All rights reserved. Updated: 2017-03-08</p>
+							
+							
+							<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
+							
+						</div>
+					</footer>
+				</main>
+			</div>
+		</div>
+	</article>
+
+	<script src="js/script.js"></script>
+</body>
+</html>

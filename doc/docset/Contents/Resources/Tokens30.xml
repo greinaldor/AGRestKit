@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/AGRestReachabilityStatus.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/AGRestReachabilityStatus</TokenIdentifier>
+			<Abstract type="html">@enum AGRestReachabilityStatus</Abstract>
+			<DeclaredIn>AGRestConstants.h</DeclaredIn>
+            
+			
+			<NodeRef refid="30"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AGRestReachabilityStatusNotReachable</TokenIdentifier>
+            <Abstract type="html">Not reachable.
+     </Abstract>
+            <Declaration>AGRestReachabilityStatusNotReachable</Declaration>
+            
+            <DeclaredIn>AGRestConstants.h</DeclaredIn>
+            
+            <NodeRef refid="30"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AGRestReachabilityStatusReachableViaWan</TokenIdentifier>
+            <Abstract type="html">Reachable via Edge, 2G, 3G, 4G
+     </Abstract>
+            <Declaration>AGRestReachabilityStatusReachableViaWan</Declaration>
+            
+            <DeclaredIn>AGRestConstants.h</DeclaredIn>
+            
+            <NodeRef refid="30"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AGRestReachabilityStatusReachableVieWifi</TokenIdentifier>
+            <Abstract type="html">Reachable via Wifi.
+     </Abstract>
+            <Declaration>AGRestReachabilityStatusReachableVieWifi</Declaration>
+            
+            <DeclaredIn>AGRestConstants.h</DeclaredIn>
+            
+            <NodeRef refid="30"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AGRestReachabilityStatusUnknown</TokenIdentifier>
+            <Abstract type="html">Unknow reachability status. Occured when connection broke and cell is searching for Carrier.
+     </Abstract>
+            <Declaration>AGRestReachabilityStatusUnknown</Declaration>
+            
+            <DeclaredIn>AGRestConstants.h</DeclaredIn>
+            
+            <NodeRef refid="30"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

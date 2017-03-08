@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AGRestSessionStore.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AGRestSessionStore</TokenIdentifier>
+			<Abstract type="html">@class AGRestSessionStore</Abstract>
+			<DeclaredIn>AGRestSessionStore.h</DeclaredIn>
+            
+			
+			<NodeRef refid="19"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestSessionStore/sessionTokenWithIdentifier:</TokenIdentifier>
+			<Abstract type="html">Return the current session token with the identifier used to stored it.</Abstract>
+			<DeclaredIn>AGRestSessionStore.h</DeclaredIn>
+			
+			<Declaration>- (nullable NSString *)sessionTokenWithIdentifier:(NSString *_Nullable __autoreleasing *_Nullable)identifier</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>idenfifier</Name>
+					<Abstract type="html">The identifier used. or nil if no session token found.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The session token string or nil if can&apos;t be found.</Abstract></ReturnValue>
+			<Anchor>//api/name/sessionTokenWithIdentifier:</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestSessionStore/storeSessionToken:forIdentifier:error:</TokenIdentifier>
+			<Abstract type="html">Safely Store a session token for an identifier.</Abstract>
+			<DeclaredIn>AGRestSessionStore.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)storeSessionToken:(nonnull NSString *)token forIdentifier:(nonnull NSString *)identifier error:(NSError *_Nullable __autoreleasing *_Nullable)error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>token</Name>
+					<Abstract type="html">The token to store.</Abstract>
+				</Parameter><Parameter>
+					<Name>identifier</Name>
+					<Abstract type="html">The identifier used to store the session token.</Abstract>
+				</Parameter><Parameter>
+					<Name>error</Name>
+					<Abstract type="html">The error, if any, which occured during store operation.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES if the session token has been stored. NO otherwise with error.</Abstract></ReturnValue>
+			<Anchor>//api/name/storeSessionToken:forIdentifier:error:</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestSessionStore/storeData:forIdentifier:error:</TokenIdentifier>
+			<Abstract type="html">Safely Store data for an identifier.</Abstract>
+			<DeclaredIn>AGRestSessionStore.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)storeData:(nonnull NSData *)data forIdentifier:(nonnull NSString *)identifier error:(NSError *_Nullable __autoreleasing *_Nullable)error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>data</Name>
+					<Abstract type="html">The data to be stored.</Abstract>
+				</Parameter><Parameter>
+					<Name>identifier</Name>
+					<Abstract type="html">The identifier used to store the data.</Abstract>
+				</Parameter><Parameter>
+					<Name>error</Name>
+					<Abstract type="html">The error, if any, which occured during store operation.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES if data has been stored successfully, NO otherwise with error.</Abstract></ReturnValue>
+			<Anchor>//api/name/storeData:forIdentifier:error:</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestSessionStore/removeDataForIdentifier:error:</TokenIdentifier>
+			<Abstract type="html">Remove the stored data with given identifier.</Abstract>
+			<DeclaredIn>AGRestSessionStore.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)removeDataForIdentifier:(nonnull NSString *)identifier error:(NSError *_Nullable __autoreleasing *_Nullable)error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>identifier</Name>
+					<Abstract type="html">The identifier used to store the data.</Abstract>
+				</Parameter><Parameter>
+					<Name>error</Name>
+					<Abstract type="html">The error, if any, which occured during store operation.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES if data has been removed successfully, NO otherwise with error.</Abstract></ReturnValue>
+			<Anchor>//api/name/removeDataForIdentifier:error:</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestSessionStore/resetCurrentSession:</TokenIdentifier>
+			<Abstract type="html">Reset the currently stored session token and current user.</Abstract>
+			<DeclaredIn>AGRestSessionStore.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)resetCurrentSession:(NSError *_Nullable __autoreleasing *_Nullable)error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>error</Name>
+					<Abstract type="html">The error, if any, which occured during the operation.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES if current session token has been reset successfully, NO otherwise with error.</Abstract></ReturnValue>
+			<Anchor>//api/name/resetCurrentSession:</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

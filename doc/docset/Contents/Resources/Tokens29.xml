@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/AGRestLoggingLevel.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/AGRestLoggingLevel</TokenIdentifier>
+			<Abstract type="html">@enum AGRestLoggingLevel</Abstract>
+			<DeclaredIn>AGRestConstants.h</DeclaredIn>
+            
+			
+			<NodeRef refid="29"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AGRestLoggingLevelNone</TokenIdentifier>
+            <Abstract type="html">Don&apos;t log anything
+     </Abstract>
+            <Declaration>AGRestLoggingLevelNone</Declaration>
+            
+            <DeclaredIn>AGRestConstants.h</DeclaredIn>
+            
+            <NodeRef refid="29"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AGRestLoggingLevelInfo</TokenIdentifier>
+            <Abstract type="html">Log info message
+     </Abstract>
+            <Declaration>AGRestLoggingLevelInfo</Declaration>
+            
+            <DeclaredIn>AGRestConstants.h</DeclaredIn>
+            
+            <NodeRef refid="29"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AGRestLoggingLevelDebug</TokenIdentifier>
+            <Abstract type="html">Log debug message.
+     </Abstract>
+            <Declaration>AGRestLoggingLevelDebug</Declaration>
+            
+            <DeclaredIn>AGRestConstants.h</DeclaredIn>
+            
+            <NodeRef refid="29"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AGRestLoggingLevelWarning</TokenIdentifier>
+            <Abstract type="html">Log Warning message.
+     </Abstract>
+            <Declaration>AGRestLoggingLevelWarning</Declaration>
+            
+            <DeclaredIn>AGRestConstants.h</DeclaredIn>
+            
+            <NodeRef refid="29"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AGRestLoggingLevelError</TokenIdentifier>
+            <Abstract type="html">Log Error message.
+     </Abstract>
+            <Declaration>AGRestLoggingLevelError</Declaration>
+            
+            <DeclaredIn>AGRestConstants.h</DeclaredIn>
+            
+            <NodeRef refid="29"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AGRestLoggingLevelCrash</TokenIdentifier>
+            <Abstract type="html">Log Crash dump info.
+     </Abstract>
+            <Declaration>AGRestLoggingLevelCrash</Declaration>
+            
+            <DeclaredIn>AGRestConstants.h</DeclaredIn>
+            
+            <NodeRef refid="29"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

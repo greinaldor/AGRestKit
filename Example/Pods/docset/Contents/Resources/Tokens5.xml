@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AGRestErrorUtilities.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AGRestErrorUtilities</TokenIdentifier>
+			<Abstract type="html">@class AGRestErrorUtilities</Abstract>
+			<DeclaredIn>AGRestErrorUtilities.h</DeclaredIn>
+            
+			
+			<NodeRef refid="5"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AGRestErrorUtilities/errorWithCode:message:</TokenIdentifier>
+			<Abstract type="html">Construct an error object from a code and a message.</Abstract>
+			<DeclaredIn>AGRestErrorUtilities.h</DeclaredIn>
+			
+			<Declaration>+ (nullable NSError *)errorWithCode:(NSInteger)code message:(nullable NSString *)message</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>code</Name>
+					<Abstract type="html">AGRest Error Code</Abstract>
+				</Parameter><Parameter>
+					<Name>message</Name>
+					<Abstract type="html">Error description
+    </Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Instance of NSError or nil.</Abstract></ReturnValue>
+			<Anchor>//api/name/errorWithCode:message:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AGRestErrorUtilities/errorWithCode:message:underlyingError:</TokenIdentifier>
+			<Abstract type="html">Construct an error object from a code, a message and an underlying error.</Abstract>
+			<DeclaredIn>AGRestErrorUtilities.h</DeclaredIn>
+			
+			<Declaration>+ (nullable NSError *)errorWithCode:(NSInteger)code message:(NSString *)message underlyingError:(NSError *)underlyingError</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>code</Name>
+					<Abstract type="html">AGRest Error Code</Abstract>
+				</Parameter><Parameter>
+					<Name>message</Name>
+					<Abstract type="html">Error description</Abstract>
+				</Parameter><Parameter>
+					<Name>underlyingError</Name>
+					<Abstract type="html">Underlying error of the new error.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Instance of NSError or nil.</Abstract></ReturnValue>
+			<Anchor>//api/name/errorWithCode:message:underlyingError:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AGRestErrorUtilities/errorFromResult:</TokenIdentifier>
+			<Abstract type="html">Construct an error object from a result dictionary the API returned.</Abstract>
+			<DeclaredIn>AGRestErrorUtilities.h</DeclaredIn>
+			
+			<Declaration>+ (nullable NSError *)errorFromResult:(nonnull NSDictionary *)result</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>result</Name>
+					<Abstract type="html">Network error request result.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Instance of NSError or nil.</Abstract></ReturnValue>
+			<Anchor>//api/name/errorFromResult:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

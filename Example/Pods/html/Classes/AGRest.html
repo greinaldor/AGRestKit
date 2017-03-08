@@ -1,0 +1,1124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>AGRest Class Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../index.html">AGRestKit </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">AGTek</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+
+	
+	
+
+	
+	<optgroup label="Class Methods">
+		
+		<option value="//api/name/getRestBaseUrl">+ getRestBaseUrl</option>
+		
+		<option value="//api/name/initializeRestWithBaseUrl:">+ initializeRestWithBaseUrl:</option>
+		
+		<option value="//api/name/isCachingEnabled">+ isCachingEnabled</option>
+		
+		<option value="//api/name/isLoggingEnabled">+ isLoggingEnabled</option>
+		
+		<option value="//api/name/isObjectMappingEnabled">+ isObjectMappingEnabled</option>
+		
+		<option value="//api/name/logger">+ logger</option>
+		
+		<option value="//api/name/registerSubclass:">+ registerSubclass:</option>
+		
+		<option value="//api/name/responseSerializer">+ responseSerializer</option>
+		
+		<option value="//api/name/serverInstance">+ serverInstance</option>
+		
+		<option value="//api/name/sessionController">+ sessionController</option>
+		
+		<option value="//api/name/setCachingEnabled:">+ setCachingEnabled:</option>
+		
+		<option value="//api/name/setLogger:">+ setLogger:</option>
+		
+		<option value="//api/name/setLoggingEnable:level:">+ setLoggingEnable:level:</option>
+		
+		<option value="//api/name/setObjectMapper:">+ setObjectMapper:</option>
+		
+		<option value="//api/name/setObjectMappingEnabled:">+ setObjectMappingEnabled:</option>
+		
+		<option value="//api/name/setResponseSerializer:">+ setResponseSerializer:</option>
+		
+		<option value="//api/name/setServerInstance:">+ setServerInstance:</option>
+		
+		<option value="//api/name/setSessionController:">+ setSessionController:</option>
+		
+	</optgroup>
+	
+
+	
+	
+</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">AGRest Class Reference</h1>
+
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Inherits from</th>
+	<td>NSObject</td>
+</tr><tr>
+	<th>Declared in</th>
+	<td>AGRest.h</td>
+</tr>
+						</tbody></table></div>
+					
+
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>@class AGRest</p><p>Use the <a href="../Classes/AGRestManager.html">AGRestManager</a> class to setup and configure AGRestKit in your project.
+You must initialize the AGRestKit before using any classes or provided features.</p>
+
+<pre><code>[AGRest initializeRestWithBaseUrl:&lt;&lt;API URL&gt;&gt;];
+</code></pre>
+					</div>
+					
+					
+
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						
+
+						<a title="Initialize" name="task_Initialize"></a>
+						<h2 class="task-title">Initialize</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/initializeRestWithBaseUrl:" title="initializeRestWithBaseUrl:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/initializeRestWithBaseUrl:">+&nbsp;initializeRestWithBaseUrl:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Initialize AGRest with a base url.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)initializeRestWithBaseUrl:(nonnull NSString *)<em>baseUrl</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>baseUrl</code></th>
+						<td><p>The base url used to fetch request and monitor reachability.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<div class="warning"><p><strong>Warning:</strong> This method should be called prior using AGRest.</p></div>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AGRest.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="Setter" name="task_Setter"></a>
+						<h2 class="task-title">Setter</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/setSessionController:" title="setSessionController:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setSessionController:">+&nbsp;setSessionController:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Set a custom session controller which conforns to <a href="../Protocols/AGRestSessionProtocol.html"><code>AGRestSessionProtocol</code></a> protocol.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)setSessionController:(nonnull id&lt;AGRestSessionProtocol&gt;)<em>sessionController</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>sessionController</code></th>
+						<td><p>The new session controller.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AGRest.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setObjectMapper:" title="setObjectMapper:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setObjectMapper:">+&nbsp;setObjectMapper:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Set a custom object mapper which conforms to <a href="../Protocols/AGRestObjectMapperProtocol.html"><code>AGRestObjectMapperProtocol</code></a> protocol;</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)setObjectMapper:(nonnull id&lt;AGRestObjectMapperProtocol&gt;)<em>objectMapper</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>objectMapper</code></th>
+						<td><p>The new objectMapper.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AGRest.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setServerInstance:" title="setServerInstance:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setServerInstance:">+&nbsp;setServerInstance:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Set a custom server instance which conforms to <a href="../Protocols/AGRestServerProtocol.html"><code>AGRestServerProtocol</code></a> protocol.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)setServerInstance:(nonnull id&lt;AGRestServerProtocol&gt;)<em>server</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>server</code></th>
+						<td><p>The new server instance.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AGRest.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setResponseSerializer:" title="setResponseSerializer:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setResponseSerializer:">+&nbsp;setResponseSerializer:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Set a custom response serializer which conforms to <a href="../Protocols/AGRestResponseSerializerProtocol.html"><code>AGRestResponseSerializerProtocol</code></a> protocol.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)setResponseSerializer:(nonnull id&lt;AGRestResponseSerializerProtocol&gt;)<em>responseSerializer</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>responseSerializer</code></th>
+						<td><p>The new response serializer.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AGRest.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setLogger:" title="setLogger:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setLogger:">+&nbsp;setLogger:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Set a custom <a href="#//api/name/logger">logger</a> which conforms to <a href="../Protocols/AGRestLogging.html"><code>AGRestLogging</code></a> protocol.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)setLogger:(id&lt;AGRestLogging&gt;)<em>logger</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>logger</code></th>
+						<td><p>The new <a href="#//api/name/logger">logger</a> instance.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AGRest.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setCachingEnabled:" title="setCachingEnabled:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setCachingEnabled:">+&nbsp;setCachingEnabled:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Enable caching let AGRest&rsquo;s controllers cache requests, responses, files locally.
+Caching is enabled by default.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)setCachingEnabled:(BOOL)<em>enabled</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>enabled</code></th>
+						<td><p>Bool flag.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AGRest.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setLoggingEnable:level:" title="setLoggingEnable:level:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setLoggingEnable:level:">+&nbsp;setLoggingEnable:level:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Enable logging will let AGRest&rsquo;s controllers log events, error, crash in the debugger.
+Logging is enabled by default.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)setLoggingEnable:(BOOL)<em>enabled</em> level:(AGRestLoggingLevel)<em>level</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>enabled</code></th>
+						<td><p>Bool flag.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>level</code></th>
+						<td><p>Restrict logging to fixed levels.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<div class="note"><p><strong>Note:</strong> Logging is \b disabled in \b production environement.</p></div>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AGRest.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setObjectMappingEnabled:" title="setObjectMappingEnabled:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setObjectMappingEnabled:">+&nbsp;setObjectMappingEnabled:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Enable mapping of response into registered classes using the object mapper.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)setObjectMappingEnabled:(BOOL)<em>enabled</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>enabled</code></th>
+						<td><p>Bool flag.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AGRest.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="Getter" name="task_Getter"></a>
+						<h2 class="task-title">Getter</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/getRestBaseUrl" title="getRestBaseUrl"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getRestBaseUrl">+&nbsp;getRestBaseUrl</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The base url.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (NSString *)getRestBaseUrl</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>The base url.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AGRest.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/sessionController" title="sessionController"></a>
+	<h3 class="method-title"><code><a href="#//api/name/sessionController">+&nbsp;sessionController</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The session controller in use.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (id&lt;AGRestSessionProtocol&gt;)sessionController</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>The session controller in use.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AGRest.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/serverInstance" title="serverInstance"></a>
+	<h3 class="method-title"><code><a href="#//api/name/serverInstance">+&nbsp;serverInstance</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The serverInstance in user.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (id&lt;AGRestServerProtocol&gt;)serverInstance</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>The serverInstance in user.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AGRest.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/responseSerializer" title="responseSerializer"></a>
+	<h3 class="method-title"><code><a href="#//api/name/responseSerializer">+&nbsp;responseSerializer</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The response serializer in use.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (id&lt;AGRestResponseSerializerProtocol&gt;)responseSerializer</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>The response serializer in use.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AGRest.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/logger" title="logger"></a>
+	<h3 class="method-title"><code><a href="#//api/name/logger">+&nbsp;logger</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The logger in use.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (id&lt;AGRestLogging&gt;)logger</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>The logger in use.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AGRest.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/isCachingEnabled" title="isCachingEnabled"></a>
+	<h3 class="method-title"><code><a href="#//api/name/isCachingEnabled">+&nbsp;isCachingEnabled</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Whether caching is enabled.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (BOOL)isCachingEnabled</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>Whether caching is enabled.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AGRest.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/isLoggingEnabled" title="isLoggingEnabled"></a>
+	<h3 class="method-title"><code><a href="#//api/name/isLoggingEnabled">+&nbsp;isLoggingEnabled</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Whether logging is enabled.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (BOOL)isLoggingEnabled</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>Whether logging is enabled.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AGRest.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/isObjectMappingEnabled" title="isObjectMappingEnabled"></a>
+	<h3 class="method-title"><code><a href="#//api/name/isObjectMappingEnabled">+&nbsp;isObjectMappingEnabled</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Whether object mapping is enabled.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (BOOL)isObjectMappingEnabled</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>Whether object mapping is enabled.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AGRest.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="Register Subclass" name="task_Register Subclass"></a>
+						<h2 class="task-title">Register Subclass</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/registerSubclass:" title="registerSubclass:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/registerSubclass:">+&nbsp;registerSubclass:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Register subclass for mapping using the current objectMapper instance.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (BOOL)registerSubclass:(nonnull Class)<em>newModelClass</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>newModelClass</code></th>
+						<td><p>Class to register.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>The registered class should conforms to <a href="../Protocols/AGRestObjectMapping.html">AGRestObjectMapping</a> protocol.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AGRest.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+					</div>
+					
+					
+
+                    
+                    
+          
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2017 AGTek. All rights reserved. Updated: 2017-03-08</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>

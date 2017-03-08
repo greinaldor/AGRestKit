@@ -1,0 +1,1034 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AGRestRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AGRestRequest</TokenIdentifier>
+			<Abstract type="html">@class AGRestRequest</Abstract>
+			<DeclaredIn>AGRestRequest.h</DeclaredIn>
+            
+			
+			<NodeRef refid="13"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestRequest/setBaseUrl:</TokenIdentifier>
+			<Abstract type="html">The base url for the request.</Abstract>
+			<DeclaredIn>AGRestRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, nullable) NSString *baseUrl</Declaration>
+			
+			
+			<Anchor>//api/name/baseUrl</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestRequest/baseUrl</TokenIdentifier>
+			<Abstract type="html">The base url for the request.</Abstract>
+			<DeclaredIn>AGRestRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, nullable) NSString *baseUrl</Declaration>
+			
+			
+			<Anchor>//api/name/baseUrl</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AGRestRequest/baseUrl</TokenIdentifier>
+			<Abstract type="html">The base url for the request.</Abstract>
+			<DeclaredIn>AGRestRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, nullable) NSString *baseUrl</Declaration>
+			
+			
+			<Anchor>//api/name/baseUrl</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestRequest/setEndPoint:</TokenIdentifier>
+			<Abstract type="html">The web service endpoint that the request aim to call.</Abstract>
+			<DeclaredIn>AGRestRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, nullable) NSString *endPoint</Declaration>
+			
+			
+			<Anchor>//api/name/endPoint</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestRequest/endPoint</TokenIdentifier>
+			<Abstract type="html">The web service endpoint that the request aim to call.</Abstract>
+			<DeclaredIn>AGRestRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, nullable) NSString *endPoint</Declaration>
+			
+			
+			<Anchor>//api/name/endPoint</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AGRestRequest/endPoint</TokenIdentifier>
+			<Abstract type="html">The web service endpoint that the request aim to call.</Abstract>
+			<DeclaredIn>AGRestRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, nullable) NSString *endPoint</Declaration>
+			
+			
+			<Anchor>//api/name/endPoint</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestRequest/setCachePolicy:</TokenIdentifier>
+			<Abstract type="html">The cache policy that the request should adopt.</Abstract>
+			<DeclaredIn>AGRestRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AGRestRequestCachePolicy cachePolicy</Declaration>
+			
+			
+			<Anchor>//api/name/cachePolicy</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestRequest/cachePolicy</TokenIdentifier>
+			<Abstract type="html">The cache policy that the request should adopt.</Abstract>
+			<DeclaredIn>AGRestRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AGRestRequestCachePolicy cachePolicy</Declaration>
+			
+			
+			<Anchor>//api/name/cachePolicy</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AGRestRequest/cachePolicy</TokenIdentifier>
+			<Abstract type="html">The cache policy that the request should adopt.</Abstract>
+			<DeclaredIn>AGRestRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AGRestRequestCachePolicy cachePolicy</Declaration>
+			
+			
+			<Anchor>//api/name/cachePolicy</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestRequest/setTimeoutPolicy:</TokenIdentifier>
+			<Abstract type="html">The AGRestRequestTimeoutPolicy timeout policy fot the request.</Abstract>
+			<DeclaredIn>AGRestRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AGRestRequestTimeoutPolicy timeoutPolicy</Declaration>
+			
+			
+			<Anchor>//api/name/timeoutPolicy</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestRequest/timeoutPolicy</TokenIdentifier>
+			<Abstract type="html">The AGRestRequestTimeoutPolicy timeout policy fot the request.</Abstract>
+			<DeclaredIn>AGRestRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AGRestRequestTimeoutPolicy timeoutPolicy</Declaration>
+			
+			
+			<Anchor>//api/name/timeoutPolicy</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AGRestRequest/timeoutPolicy</TokenIdentifier>
+			<Abstract type="html">The AGRestRequestTimeoutPolicy timeout policy fot the request.</Abstract>
+			<DeclaredIn>AGRestRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AGRestRequestTimeoutPolicy timeoutPolicy</Declaration>
+			
+			
+			<Anchor>//api/name/timeoutPolicy</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestRequest/setRetryCount:</TokenIdentifier>
+			<Abstract type="html">The number of times the request should retry if fails with timed out error.</Abstract>
+			<DeclaredIn>AGRestRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSUInteger retryCount</Declaration>
+			
+			
+			<Anchor>//api/name/retryCount</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestRequest/retryCount</TokenIdentifier>
+			<Abstract type="html">The number of times the request should retry if fails with timed out error.</Abstract>
+			<DeclaredIn>AGRestRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSUInteger retryCount</Declaration>
+			
+			
+			<Anchor>//api/name/retryCount</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AGRestRequest/retryCount</TokenIdentifier>
+			<Abstract type="html">The number of times the request should retry if fails with timed out error.</Abstract>
+			<DeclaredIn>AGRestRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSUInteger retryCount</Declaration>
+			
+			
+			<Anchor>//api/name/retryCount</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestRequest/setHttpMethod:</TokenIdentifier>
+			<Abstract type="html">The HTTP method used to send the request.</Abstract>
+			<DeclaredIn>AGRestRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AGRestRequestHTTPMethod httpMethod</Declaration>
+			
+			
+			<Anchor>//api/name/httpMethod</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestRequest/httpMethod</TokenIdentifier>
+			<Abstract type="html">The HTTP method used to send the request.</Abstract>
+			<DeclaredIn>AGRestRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AGRestRequestHTTPMethod httpMethod</Declaration>
+			
+			
+			<Anchor>//api/name/httpMethod</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AGRestRequest/httpMethod</TokenIdentifier>
+			<Abstract type="html">The HTTP method used to send the request.</Abstract>
+			<DeclaredIn>AGRestRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) AGRestRequestHTTPMethod httpMethod</Declaration>
+			
+			
+			<Anchor>//api/name/httpMethod</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestRequest/setTimeoutBlock:</TokenIdentifier>
+			<Abstract type="html">A block to execute if the request failed with timed out error.
+If block return YES then the server will call the response block with the timeout error set.
+If block return NO then the server won&apos;t call the response block, this is discouraged.</Abstract>
+			<DeclaredIn>AGRestRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy, nullable) AGRestRequestTimeoutCompletionBlock timeoutBlock</Declaration>
+			
+			
+			<Anchor>//api/name/timeoutBlock</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestRequest/timeoutBlock</TokenIdentifier>
+			<Abstract type="html">A block to execute if the request failed with timed out error.
+If block return YES then the server will call the response block with the timeout error set.
+If block return NO then the server won&apos;t call the response block, this is discouraged.</Abstract>
+			<DeclaredIn>AGRestRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy, nullable) AGRestRequestTimeoutCompletionBlock timeoutBlock</Declaration>
+			
+			
+			<Anchor>//api/name/timeoutBlock</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AGRestRequest/timeoutBlock</TokenIdentifier>
+			<Abstract type="html">A block to execute if the request failed with timed out error.
+If block return YES then the server will call the response block with the timeout error set.
+If block return NO then the server won&apos;t call the response block, this is discouraged.</Abstract>
+			<DeclaredIn>AGRestRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy, nullable) AGRestRequestTimeoutCompletionBlock timeoutBlock</Declaration>
+			
+			
+			<Anchor>//api/name/timeoutBlock</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestRequest/setRequestIdentifier:</TokenIdentifier>
+			<Abstract type="html">A randomly generated UUID for identifying the request.</Abstract>
+			<DeclaredIn>AGRestRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, nonnull, readonly) NSString *requestIdentifier</Declaration>
+			
+			
+			<Anchor>//api/name/requestIdentifier</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestRequest/requestIdentifier</TokenIdentifier>
+			<Abstract type="html">A randomly generated UUID for identifying the request.</Abstract>
+			<DeclaredIn>AGRestRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, nonnull, readonly) NSString *requestIdentifier</Declaration>
+			
+			
+			<Anchor>//api/name/requestIdentifier</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AGRestRequest/requestIdentifier</TokenIdentifier>
+			<Abstract type="html">A randomly generated UUID for identifying the request.</Abstract>
+			<DeclaredIn>AGRestRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, nonnull, readonly) NSString *requestIdentifier</Declaration>
+			
+			
+			<Anchor>//api/name/requestIdentifier</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestRequest/setShouldRunEventually:</TokenIdentifier>
+			<Abstract type="html">Wether the request should try to execute later if eventually failed with connection lost error.</Abstract>
+			<DeclaredIn>AGRestRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, readonly) BOOL shouldRunEventually</Declaration>
+			
+			
+			<Anchor>//api/name/shouldRunEventually</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestRequest/shouldRunEventually</TokenIdentifier>
+			<Abstract type="html">Wether the request should try to execute later if eventually failed with connection lost error.</Abstract>
+			<DeclaredIn>AGRestRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, readonly) BOOL shouldRunEventually</Declaration>
+			
+			
+			<Anchor>//api/name/shouldRunEventually</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AGRestRequest/shouldRunEventually</TokenIdentifier>
+			<Abstract type="html">Wether the request should try to execute later if eventually failed with connection lost error.</Abstract>
+			<DeclaredIn>AGRestRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, readonly) BOOL shouldRunEventually</Declaration>
+			
+			
+			<Anchor>//api/name/shouldRunEventually</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestRequest/setTargetClass:</TokenIdentifier>
+			<Abstract type="html">Target class to map from the response.</Abstract>
+			<DeclaredIn>AGRestRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) Class targetClass</Declaration>
+			
+			
+			<Anchor>//api/name/targetClass</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestRequest/targetClass</TokenIdentifier>
+			<Abstract type="html">Target class to map from the response.</Abstract>
+			<DeclaredIn>AGRestRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) Class targetClass</Declaration>
+			
+			
+			<Anchor>//api/name/targetClass</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AGRestRequest/targetClass</TokenIdentifier>
+			<Abstract type="html">Target class to map from the response.</Abstract>
+			<DeclaredIn>AGRestRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) Class targetClass</Declaration>
+			
+			
+			<Anchor>//api/name/targetClass</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestRequest/setObjectMappingEnabled:</TokenIdentifier>
+			<Abstract type="html">Enable or disable object mapping for request&apos;s response.
+If enable, will try to map the response into an instance of targetClass.</Abstract>
+			<DeclaredIn>AGRestRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, getter=isObjectMappingEnabled) BOOL objectMappingEnabled</Declaration>
+			
+			
+			<Anchor>//api/name/objectMappingEnabled</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestRequest/isObjectMappingEnabled</TokenIdentifier>
+			<Abstract type="html">Enable or disable object mapping for request&apos;s response.
+If enable, will try to map the response into an instance of targetClass.</Abstract>
+			<DeclaredIn>AGRestRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, getter=isObjectMappingEnabled) BOOL objectMappingEnabled</Declaration>
+			
+			
+			<Anchor>//api/name/objectMappingEnabled</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AGRestRequest/objectMappingEnabled</TokenIdentifier>
+			<Abstract type="html">Enable or disable object mapping for request&apos;s response.
+If enable, will try to map the response into an instance of targetClass.</Abstract>
+			<DeclaredIn>AGRestRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, getter=isObjectMappingEnabled) BOOL objectMappingEnabled</Declaration>
+			
+			
+			<Anchor>//api/name/objectMappingEnabled</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AGRestRequest/requestWithDictionary:</TokenIdentifier>
+			<Abstract type="html">Returns a new AGRestRequest instance initialized based on the given dictionary representation.</Abstract>
+			<DeclaredIn>AGRestRequest.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)requestWithDictionary:(NSDictionary *)dictionary</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>dictionary</Name>
+					<Abstract type="html">The dictionary representing the request.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A new AGRestRequest instance.</Abstract></ReturnValue>
+			<Anchor>//api/name/requestWithDictionary:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AGRestRequest/requestWithMethod:url:endPoint:headers:body:data:</TokenIdentifier>
+			<Abstract type="html">Returns a new instance initialized with given parameters.</Abstract>
+			<DeclaredIn>AGRestRequest.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)requestWithMethod:(AGRestRequestHTTPMethod)method url:(nonnull NSString *)baseUrl endPoint:(nonnull NSString *)endPoint headers:(nullable NSDictionary *)headers body:(nullable NSDictionary *)body data:(nullable NSArray *)arrayData</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>method</Name>
+					<Abstract type="html">The HTTP method.</Abstract>
+				</Parameter><Parameter>
+					<Name>baseUrl</Name>
+					<Abstract type="html">The base url (optional).</Abstract>
+				</Parameter><Parameter>
+					<Name>endPoint</Name>
+					<Abstract type="html">The endpoint.</Abstract>
+				</Parameter><Parameter>
+					<Name>headers</Name>
+					<Abstract type="html">The headers dictionary specific to the request.</Abstract>
+				</Parameter><Parameter>
+					<Name>body</Name>
+					<Abstract type="html">The body as dictionary to attached with the request.</Abstract>
+				</Parameter><Parameter>
+					<Name>arrayData</Name>
+					<Abstract type="html">The data to send with the request.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An initialized instance of AGRestRequest.</Abstract></ReturnValue>
+			<Anchor>//api/name/requestWithMethod:url:endPoint:headers:body:data:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AGRestRequest/requestWithMethod:url:endPoint:headers:body:</TokenIdentifier>
+			<Abstract type="html">Returns a new instance initialized with given parameters.</Abstract>
+			<DeclaredIn>AGRestRequest.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)requestWithMethod:(AGRestRequestHTTPMethod)method url:(nonnull NSString *)baseUrl endPoint:(nonnull NSString *)endPoint headers:(nullable NSDictionary *)headers body:(nullable NSDictionary *)body</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>method</Name>
+					<Abstract type="html">The HTTP method.</Abstract>
+				</Parameter><Parameter>
+					<Name>baseUrl</Name>
+					<Abstract type="html">The base url (optional).</Abstract>
+				</Parameter><Parameter>
+					<Name>endPoint</Name>
+					<Abstract type="html">The endpoint.</Abstract>
+				</Parameter><Parameter>
+					<Name>headers</Name>
+					<Abstract type="html">The headers dictionary specific to the request.</Abstract>
+				</Parameter><Parameter>
+					<Name>body</Name>
+					<Abstract type="html">The body as dictionary to attached with the request.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An initialized instance of AGRestRequest.</Abstract></ReturnValue>
+			<Anchor>//api/name/requestWithMethod:url:endPoint:headers:body:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AGRestRequest/POSTRequestWithUrl:endPoint:body:</TokenIdentifier>
+			<Abstract type="html">Returns a new HTTP POST request instance initialized with given parameters.</Abstract>
+			<DeclaredIn>AGRestRequest.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)POSTRequestWithUrl:(nonnull NSString *)url endPoint:(nonnull NSString *)endPoint body:(nullable NSDictionary *)body</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>url</Name>
+					<Abstract type="html">The base url (optional).</Abstract>
+				</Parameter><Parameter>
+					<Name>endPoint</Name>
+					<Abstract type="html">The endpoint.</Abstract>
+				</Parameter><Parameter>
+					<Name>body</Name>
+					<Abstract type="html">The body as dictionary to attached with the request.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An initialized instance of AGRestRequest.</Abstract></ReturnValue>
+			<Anchor>//api/name/POSTRequestWithUrl:endPoint:body:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AGRestRequest/GETRequestWithUrl:endPoint:body:</TokenIdentifier>
+			<Abstract type="html">Returns a new HTTP GET request instance initialized with given parameters.</Abstract>
+			<DeclaredIn>AGRestRequest.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)GETRequestWithUrl:(nonnull NSString *)url endPoint:(nonnull NSString *)endPoint body:(nullable NSDictionary *)body</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>url</Name>
+					<Abstract type="html">The base url (optional).</Abstract>
+				</Parameter><Parameter>
+					<Name>endPoint</Name>
+					<Abstract type="html">The endpoint.</Abstract>
+				</Parameter><Parameter>
+					<Name>body</Name>
+					<Abstract type="html">The body as dictionary to attached with the request.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An initialized instance of AGRestRequest.</Abstract></ReturnValue>
+			<Anchor>//api/name/GETRequestWithUrl:endPoint:body:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AGRestRequest/HEADRequestWithUrl:endPoint:headers:body:</TokenIdentifier>
+			<Abstract type="html">Returns a new HTTP HEAD request instance initialized with given parameters.</Abstract>
+			<DeclaredIn>AGRestRequest.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)HEADRequestWithUrl:(nonnull NSString *)url endPoint:(nonnull NSString *)endPoint headers:(nonnull NSDictionary *)headers body:(nullable NSDictionary *)body</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>url</Name>
+					<Abstract type="html">The base url (optional).</Abstract>
+				</Parameter><Parameter>
+					<Name>endPoint</Name>
+					<Abstract type="html">The endpoint.</Abstract>
+				</Parameter><Parameter>
+					<Name>headers</Name>
+					<Abstract type="html">The headers dictionary specific to the request.</Abstract>
+				</Parameter><Parameter>
+					<Name>body</Name>
+					<Abstract type="html">The body as dictionary to attached with the request.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An initialized instance of AGRestRequest.</Abstract></ReturnValue>
+			<Anchor>//api/name/HEADRequestWithUrl:endPoint:headers:body:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AGRestRequest/PUTRequestWithUrl:endPoint:body:</TokenIdentifier>
+			<Abstract type="html">Returns a new HTTP PUT request instance initialized with given parameters.</Abstract>
+			<DeclaredIn>AGRestRequest.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)PUTRequestWithUrl:(nonnull NSString *)url endPoint:(nonnull NSString *)endPoint body:(nullable NSDictionary *)body</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>url</Name>
+					<Abstract type="html">The base url (optional).</Abstract>
+				</Parameter><Parameter>
+					<Name>endPoint</Name>
+					<Abstract type="html">The endpoint.</Abstract>
+				</Parameter><Parameter>
+					<Name>body</Name>
+					<Abstract type="html">The body as dictionary to attached with the request.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An initialized instance of AGRestRequest.</Abstract></ReturnValue>
+			<Anchor>//api/name/PUTRequestWithUrl:endPoint:body:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AGRestRequest/DELETERequestWithUrl:endPoint:body:</TokenIdentifier>
+			<Abstract type="html">Returns a new HTTP DELETE request instance initialized with given parameters.</Abstract>
+			<DeclaredIn>AGRestRequest.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)DELETERequestWithUrl:(nonnull NSString *)url endPoint:(nonnull NSString *)endPoint body:(nullable NSDictionary *)body</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>url</Name>
+					<Abstract type="html">The base url (optional).</Abstract>
+				</Parameter><Parameter>
+					<Name>endPoint</Name>
+					<Abstract type="html">The endpoint.</Abstract>
+				</Parameter><Parameter>
+					<Name>body</Name>
+					<Abstract type="html">The body as dictionary to attached with the request.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An initialized instance of AGRestRequest.</Abstract></ReturnValue>
+			<Anchor>//api/name/DELETERequestWithUrl:endPoint:body:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestRequest/body</TokenIdentifier>
+			<Abstract type="html">The body of the request</Abstract>
+			<DeclaredIn>AGRestRequest.h</DeclaredIn>
+			
+			<Declaration>- (nullable NSDictionary *)body</Declaration>
+			
+			<ReturnValue><Abstract type="html">The body of the request</Abstract></ReturnValue>
+			<Anchor>//api/name/body</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestRequest/headers</TokenIdentifier>
+			<Abstract type="html">HTTP header fields attached to the request.</Abstract>
+			<DeclaredIn>AGRestRequest.h</DeclaredIn>
+			
+			<Declaration>- (nullable NSDictionary *)headers</Declaration>
+			
+			<ReturnValue><Abstract type="html">HTTP header fields attached to the request.</Abstract></ReturnValue>
+			<Anchor>//api/name/headers</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestRequest/data</TokenIdentifier>
+			<Abstract type="html">The array of data to send with the request.</Abstract>
+			<DeclaredIn>AGRestRequest.h</DeclaredIn>
+			
+			<Declaration>- (nullable NSArray *)data</Declaration>
+			
+			<ReturnValue><Abstract type="html">The array of data to send with the request.</Abstract></ReturnValue>
+			<Anchor>//api/name/data</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestRequest/requestURL</TokenIdentifier>
+			<Abstract type="html">The full request url, formed with \b baseUrl + \b endPoint.</Abstract>
+			<DeclaredIn>AGRestRequest.h</DeclaredIn>
+			
+			<Declaration>- (nullable NSString *)requestURL</Declaration>
+			
+			<ReturnValue><Abstract type="html">The full request url, formed with \b baseUrl + \b endPoint.</Abstract></ReturnValue>
+			<Anchor>//api/name/requestURL</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestRequest/setValue:forHTTPHeaderField:</TokenIdentifier>
+			<Abstract type="html">Set header value for http header key.</Abstract>
+			<DeclaredIn>AGRestRequest.h</DeclaredIn>
+			
+			<Declaration>- (void)setValue:(nonnull NSString *)value forHTTPHeaderField:(nonnull NSString *)key</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The string value for key.</Abstract>
+				</Parameter><Parameter>
+					<Name>key</Name>
+					<Abstract type="html">The string http key.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setValue:forHTTPHeaderField:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestRequest/sendRequest</TokenIdentifier>
+			<Abstract type="html">Send the request synchronously.</Abstract>
+			<DeclaredIn>AGRestRequest.h</DeclaredIn>
+			
+			<Declaration>- (nullable BFTask *)sendRequest</Declaration>
+			
+			<ReturnValue><Abstract type="html">On-going BFTask. BFTask result is set with AGRestResponse instance.</Abstract></ReturnValue>
+			<Anchor>//api/name/sendRequest</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestRequest/sendRequestWithBlock:</TokenIdentifier>
+			<Abstract type="html">Send the request synchronously.</Abstract>
+			<DeclaredIn>AGRestRequest.h</DeclaredIn>
+			
+			<Declaration>- (void)sendRequestWithBlock:(nullable AGRestRequestResultBlock)completionBlock</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>completionBlock</Name>
+					<Abstract type="html">The block to execute when the synchronous request is complete.
+                            It should have this signature : ^(AGRestResponse * _Nonnull response).</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/sendRequestWithBlock:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestRequest/sendRequestWithTarget:selector:</TokenIdentifier>
+			<Abstract type="html">Send the request synchronously.</Abstract>
+			<DeclaredIn>AGRestRequest.h</DeclaredIn>
+			
+			<Declaration>- (void)sendRequestWithTarget:(nonnull id)target selector:(nonnull SEL)aSelector</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>target</Name>
+					<Abstract type="html">The target object for the selector.</Abstract>
+				</Parameter><Parameter>
+					<Name>aSelector</Name>
+					<Abstract type="html">The selector to call on the target when the synchronous request is complete.
+@return</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/sendRequestWithTarget:selector:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestRequest/sendRequestInBackground</TokenIdentifier>
+			<Abstract type="html">Send the request asynchronously.</Abstract>
+			<DeclaredIn>AGRestRequest.h</DeclaredIn>
+			
+			<Declaration>- (nullable BFTask *)sendRequestInBackground</Declaration>
+			
+			<ReturnValue><Abstract type="html">On-going BFTask. BFTask result is set with AGRestResponse instance.</Abstract></ReturnValue>
+			<Anchor>//api/name/sendRequestInBackground</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestRequest/sendRequestInBackgroundWithBlock:</TokenIdentifier>
+			<Abstract type="html">Send the request asynchronously.</Abstract>
+			<DeclaredIn>AGRestRequest.h</DeclaredIn>
+			
+			<Declaration>- (void)sendRequestInBackgroundWithBlock:(nullable AGRestRequestResultBlock)completionBlock</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>completionBlock</Name>
+					<Abstract type="html">The block to execute when the synchronous request is complete.
+                            It should have this signature : ^(AGRestResponse * _Nonnull response).</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/sendRequestInBackgroundWithBlock:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestRequest/sendRequestInBackrgoundWithTarget:selector:</TokenIdentifier>
+			<Abstract type="html">Send the request asynchronously.</Abstract>
+			<DeclaredIn>AGRestRequest.h</DeclaredIn>
+			
+			<Declaration>- (void)sendRequestInBackrgoundWithTarget:(nonnull id)target selector:(nonnull SEL)aSelector</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>target</Name>
+					<Abstract type="html">The target object for the selector.</Abstract>
+				</Parameter><Parameter>
+					<Name>aSelector</Name>
+					<Abstract type="html">The selector to call on the target when the synchronous request is complete.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/sendRequestInBackrgoundWithTarget:selector:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AGRestRequest/sendBatchedRequests:</TokenIdentifier>
+			<Abstract type="html">Send a batch of AGRestRequest synchronously.</Abstract>
+			<DeclaredIn>AGRestRequest.h</DeclaredIn>
+			
+			<Declaration>+ (nullable BFTask *)sendBatchedRequests:(nonnull NSArray *)requests</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>requests</Name>
+					<Abstract type="html">NSArray of AGRestRequest.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">On-going BFTask. BFTask result is set with NSArray of AGRestResponse instances.</Abstract></ReturnValue>
+			<Anchor>//api/name/sendBatchedRequests:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AGRestRequest/sendBatchedRequests:withCompletionBlock:</TokenIdentifier>
+			<Abstract type="html">Send a batch of AGRestRequest synchronously.</Abstract>
+			<DeclaredIn>AGRestRequest.h</DeclaredIn>
+			
+			<Declaration>+ (void)sendBatchedRequests:(nonnull NSArray *)requests withCompletionBlock:(nullable AGRestBatchResponseCompletionBlock)completionBlock</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>requests</Name>
+					<Abstract type="html">NSArray of AGRestRequest.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionBlock</Name>
+					<Abstract type="html">The block to execute when all the synchronous requests are complete.
+                        It should have this signature : ^(AGRestResponse * _Nonnull response).</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/sendBatchedRequests:withCompletionBlock:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AGRestRequest/sendBatchedRequests:withTarget:selector:</TokenIdentifier>
+			<Abstract type="html">Send a batch of AGRestRequest synchronously.</Abstract>
+			<DeclaredIn>AGRestRequest.h</DeclaredIn>
+			
+			<Declaration>+ (void)sendBatchedRequests:(nonnull NSArray *)requests withTarget:(nonnull id)target selector:(nonnull SEL)aSelector</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>requests</Name>
+					<Abstract type="html">NSArray of AGRestRequest.</Abstract>
+				</Parameter><Parameter>
+					<Name>target</Name>
+					<Abstract type="html">The target object for the selector.</Abstract>
+				</Parameter><Parameter>
+					<Name>aSelector</Name>
+					<Abstract type="html">The selector to call on the target when the all the synchronous requests are complete.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/sendBatchedRequests:withTarget:selector:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AGRestRequest/sendBatchedRequestsInBackground:</TokenIdentifier>
+			<Abstract type="html">Send a batch of AGRestRequest asynchronously.</Abstract>
+			<DeclaredIn>AGRestRequest.h</DeclaredIn>
+			
+			<Declaration>+ (nullable BFTask *)sendBatchedRequestsInBackground:(nonnull NSArray *)requests</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>requests</Name>
+					<Abstract type="html">NSArray of AGRestRequest.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">On-going BFTask. BFTask result is set with NSArray of AGRestResponse instances.</Abstract></ReturnValue>
+			<Anchor>//api/name/sendBatchedRequestsInBackground:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AGRestRequest/sendBatchedRequestsInBackground:withCompletionBlock:</TokenIdentifier>
+			<Abstract type="html">Send a batch of AGRestRequest asynchronously.</Abstract>
+			<DeclaredIn>AGRestRequest.h</DeclaredIn>
+			
+			<Declaration>+ (void)sendBatchedRequestsInBackground:(nonnull NSArray *)requests withCompletionBlock:(nullable AGRestBatchResponseCompletionBlock)completionBlock</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>requests</Name>
+					<Abstract type="html">NSArray of AGRestRequest.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionBlock</Name>
+					<Abstract type="html">The block to execute when all the synchronous requests are complete.
+                        It should have this signature : ^(AGRestResponse * _Nonnull response).</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/sendBatchedRequestsInBackground:withCompletionBlock:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AGRestRequest/sendBatchedRequestsInBackground:withTarget:selector:</TokenIdentifier>
+			<Abstract type="html">Send a batch of AGRestRequest asynchronously.</Abstract>
+			<DeclaredIn>AGRestRequest.h</DeclaredIn>
+			
+			<Declaration>+ (void)sendBatchedRequestsInBackground:(NSArray *)requests withTarget:(nonnull id)target selector:(nonnull SEL)aSelector</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>requests</Name>
+					<Abstract type="html">NSArray of AGRestRequest.</Abstract>
+				</Parameter><Parameter>
+					<Name>target</Name>
+					<Abstract type="html">The target object for the selector.</Abstract>
+				</Parameter><Parameter>
+					<Name>aSelector</Name>
+					<Abstract type="html">The selector to call on the target when the all the synchronous requests are complete.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/sendBatchedRequestsInBackground:withTarget:selector:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestRequest/sendRequestEventuallyWithBlock:</TokenIdentifier>
+			<Abstract type="html">Send request synchronously.</Abstract>
+			<DeclaredIn>AGRestRequest.h</DeclaredIn>
+			
+			<Declaration>- (void)sendRequestEventuallyWithBlock:(nullable AGRestRequestResultBlock)completionBlock</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>completionBlock</Name>
+					<Abstract type="html">The block to execute when the request finish execution.&lt;br/&gt;
+                            It should have this signature : ^(AGRestResponse * _Nonnull response).</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/sendRequestEventuallyWithBlock:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestRequest/sendRequestEventuallyWithTarget:selector:</TokenIdentifier>
+			<Abstract type="html">Send request synchronously.</Abstract>
+			<DeclaredIn>AGRestRequest.h</DeclaredIn>
+			
+			<Declaration>- (void)sendRequestEventuallyWithTarget:(nonnull id)target selector:(nonnull SEL)aSelector</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>target</Name>
+					<Abstract type="html">The target object for the selector.</Abstract>
+				</Parameter><Parameter>
+					<Name>aSelector</Name>
+					<Abstract type="html">The selector to call on the target when the synchronous request is complete.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/sendRequestEventuallyWithTarget:selector:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestRequest/sendRequestEventuallyInBackgroundWithBlock:</TokenIdentifier>
+			<Abstract type="html">Send request asynchronously.</Abstract>
+			<DeclaredIn>AGRestRequest.h</DeclaredIn>
+			
+			<Declaration>- (void)sendRequestEventuallyInBackgroundWithBlock:(nullable AGRestRequestResultBlock)completionBlock</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>completionBlock</Name>
+					<Abstract type="html">The block to execute when the request finish execution.&lt;br/&gt;
+It should have this signature : ^(AGRestResponse * _Nonnull response).</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/sendRequestEventuallyInBackgroundWithBlock:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestRequest/sendRequestEventuallyInBackgroundWithTarget:selector:</TokenIdentifier>
+			<Abstract type="html">Send request asynchronously.</Abstract>
+			<DeclaredIn>AGRestRequest.h</DeclaredIn>
+			
+			<Declaration>- (void)sendRequestEventuallyInBackgroundWithTarget:(nonnull id)target selector:(nonnull SEL)aSelector</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>target</Name>
+					<Abstract type="html">The target object for the selector.</Abstract>
+				</Parameter><Parameter>
+					<Name>aSelector</Name>
+					<Abstract type="html">The selector to call on the target when the synchronous request is complete.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/sendRequestEventuallyInBackgroundWithTarget:selector:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestRequest/cancel</TokenIdentifier>
+			<Abstract type="html">Cancel the request.</Abstract>
+			<DeclaredIn>AGRestRequest.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)cancel</Declaration>
+			
+			<ReturnValue><Abstract type="html">YES if the request has been cancelled successfuly. No otherwise.</Abstract></ReturnValue>
+			<Anchor>//api/name/cancel</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestRequest/httpMethodString</TokenIdentifier>
+			<Abstract type="html">Returns the HTTP method of the request as a string.</Abstract>
+			<DeclaredIn>AGRestRequest+Format.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)httpMethodString</Declaration>
+			
+			<ReturnValue><Abstract type="html">Returns the HTTP method of the request as a string.</Abstract></ReturnValue>
+			<Anchor>//api/name/httpMethodString</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestRequest/cURLRequestString</TokenIdentifier>
+			<Abstract type="html">Returns the request as cURL command string.</Abstract>
+			<DeclaredIn>AGRestRequest+Format.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)cURLRequestString</Declaration>
+			
+			<ReturnValue><Abstract type="html">Returns the request as cURL command string.</Abstract></ReturnValue>
+			<Anchor>//api/name/cURLRequestString</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestRequest/mutableUrlRequest</TokenIdentifier>
+			<Abstract type="html">Returns the request as a NSURlRequest.</Abstract>
+			<DeclaredIn>AGRestRequest+Format.h</DeclaredIn>
+			
+			<Declaration>- (NSMutableURLRequest *)mutableUrlRequest</Declaration>
+			
+			<ReturnValue><Abstract type="html">Returns the request as a NSURlRequest.</Abstract></ReturnValue>
+			<Anchor>//api/name/mutableUrlRequest</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

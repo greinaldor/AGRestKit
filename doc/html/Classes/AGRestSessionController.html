@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>AGRestSessionController Class Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../index.html">AGRestKit </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">AGTek</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+
+	
+	
+
+	
+
+	
+	<optgroup label="Instance Methods">
+		
+		<option value="//api/name/getCurrentUser">- getCurrentUser</option>
+		
+		<option value="//api/name/logInCurrentUserWithEmail:password:revocableSession:completion:">- logInCurrentUserWithEmail:password:revocableSession:completion:</option>
+		
+		<option value="//api/name/logInCurrentUserWithSessionToken:email:user:completion:">- logInCurrentUserWithSessionToken:email:user:completion:</option>
+		
+		<option value="//api/name/logOutCurrentUserWithCompletion:">- logOutCurrentUserWithCompletion:</option>
+		
+		<option value="//api/name/requestResetPasswordForEmail:completion:">- requestResetPasswordForEmail:completion:</option>
+		
+	</optgroup>
+	
+	
+</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">AGRestSessionController Class Reference</h1>
+
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Inherits from</th>
+	<td>NSObject</td>
+</tr><tr>
+	<th>Conforms to</th>
+	<td><a href="../Protocols/AGRestSessionProtocol.html">AGRestSessionProtocol</a></td>
+</tr><tr>
+	<th>Declared in</th>
+	<td>AGRestSessionController.h</td>
+</tr>
+						</tbody></table></div>
+					
+
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>@class AGRestSessionController</p>
+					</div>
+					
+					
+
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						
+
+						
+						
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/getCurrentUser" title="getCurrentUser"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getCurrentUser">&ndash;&nbsp;getCurrentUser</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Return the current logged in user.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (nullable id&lt;AGRestObjectMapping&gt;)getCurrentUser</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>An instance of the user object.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AGRestSessionProtocol.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/logInCurrentUserWithSessionToken:email:user:completion:" title="logInCurrentUserWithSessionToken:email:user:completion:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/logInCurrentUserWithSessionToken:email:user:completion:">&ndash;&nbsp;logInCurrentUserWithSessionToken:email:user:completion:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Authenticate a user with an existing session token and make the logged-in user the current User.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)logInCurrentUserWithSessionToken:(nonnull NSString *)<em>sessionToken</em> email:(nonnull NSString *)<em>email</em> user:(nonnull id&lt;AGRestObjectMapping&gt;)<em>user</em> completion:(void ( ^ _Nullable ) ( BOOL succeeded , NSError *_Nullable error ))<em>block</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>sessionToken</code></th>
+						<td><p>The session token used to authenticate the user</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>email</code></th>
+						<td><p>User&rsquo;s email address.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>user</code></th>
+						<td><p>An instance of a user.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>block</code></th>
+						<td><p>A result block.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AGRestSessionProtocol.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/logInCurrentUserWithEmail:password:revocableSession:completion:" title="logInCurrentUserWithEmail:password:revocableSession:completion:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/logInCurrentUserWithEmail:password:revocableSession:completion:">&ndash;&nbsp;logInCurrentUserWithEmail:password:revocableSession:completion:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Authenticate a user with an email and a password by sending the login request to the server and make the logged-in user the current user.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)logInCurrentUserWithEmail:(nonnull NSString *)<em>email</em> password:(nonnull NSString *)<em>password</em> revocableSession:(BOOL)<em>revocableSession</em> completion:(void ( ^ _Nullable ) ( BOOL succeeded , AGRestResponse *_Nullable response ))<em>block</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>email</code></th>
+						<td><p>A valid email.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>password</code></th>
+						<td><p>A password</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>revocableSession</code></th>
+						<td><p>YES if the session is revocable. NO otherwise.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>block</code></th>
+						<td><p>A result block.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AGRestSessionProtocol.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/logOutCurrentUserWithCompletion:" title="logOutCurrentUserWithCompletion:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/logOutCurrentUserWithCompletion:">&ndash;&nbsp;logOutCurrentUserWithCompletion:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Log out the user with a valid session token.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)logOutCurrentUserWithCompletion:(void ( ^ _Nullable ) ( BOOL succeeded , AGRestResponse *_Nullable response ))<em>block</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>block</code></th>
+						<td><p>Log out completion block.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AGRestSessionProtocol.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/requestResetPasswordForEmail:completion:" title="requestResetPasswordForEmail:completion:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/requestResetPasswordForEmail:completion:">&ndash;&nbsp;requestResetPasswordForEmail:completion:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Request a password reset for user with email.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)requestResetPasswordForEmail:(nonnull NSString *)<em>email</em> completion:(void ( ^ _Nullable ) ( BOOL succeeded , AGRestResponse *_Nullable object ))<em>block</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>email</code></th>
+						<td><p>The user&rsquo;s email that needs a reset password.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>block</code></th>
+						<td><p>A result block.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Request a password reset for user with email.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AGRestSessionProtocol.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+					</div>
+					
+					
+
+                    
+                    
+          
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2017 AGTek. All rights reserved. Updated: 2017-03-08</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>

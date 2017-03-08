@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AGRestServer.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AGRestServer</TokenIdentifier>
+			<Abstract type="html">@class AGRestServer</Abstract>
+			<DeclaredIn>AGRestServer.h</DeclaredIn>
+            
+			
+			<NodeRef refid="17"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AGRestServer/initializeWithBaseUrl:</TokenIdentifier>
+			<Abstract type="html">Initialized the shared instance with given base server url.</Abstract>
+			<DeclaredIn>AGRestServer.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)initializeWithBaseUrl:(nonnull NSString *)url</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>url</Name>
+					<Abstract type="html">The base server url.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES if server successfully initialized. NO otherwise.</Abstract></ReturnValue>
+			<Anchor>//api/name/initializeWithBaseUrl:</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AGRestServer/sharedServer</TokenIdentifier>
+			<Abstract type="html">Return shared instance of AGRestServer</Abstract>
+			<DeclaredIn>AGRestServer.h</DeclaredIn>
+			
+			<Declaration>+ (nullable instancetype)sharedServer</Declaration>
+			
+			
+			<Anchor>//api/name/sharedServer</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestServer/reset</TokenIdentifier>
+			<Abstract type="html">Reset server</Abstract>
+			<DeclaredIn>AGRestServer.h</DeclaredIn>
+			
+			<Declaration>- (void)reset</Declaration>
+			
+			
+			<Anchor>//api/name/reset</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestServer/runRequestAsync:withOptions:</TokenIdentifier>
+			<Abstract type="html">Run a request asynchronously.</Abstract>
+			<DeclaredIn>AGRestServer.h</DeclaredIn>
+			
+			<Declaration>- (BFTask *)runRequestAsync:(nonnull AGRestRequest *)request withOptions:(AGRestRequestRunningOptions)options</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">AGRestRequest to execute.</Abstract>
+				</Parameter><Parameter>
+					<Name>options</Name>
+					<Abstract type="html">AGRestRequestRunningOptions for running the request.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Returns a BFTask as result.</Abstract></ReturnValue>
+			<Anchor>//api/name/runRequestAsync:withOptions:</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestServer/runRequestAsync:withOptions:cancellationToken:</TokenIdentifier>
+			<Abstract type="html">Run a request asynchronously.</Abstract>
+			<DeclaredIn>AGRestServer.h</DeclaredIn>
+			
+			<Declaration>- (BFTask *)runRequestAsync:(nonnull AGRestRequest *)request withOptions:(AGRestRequestRunningOptions)options cancellationToken:(nullable BFCancellationToken *)cancellationToken</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">AGRestRequest to execute.</Abstract>
+				</Parameter><Parameter>
+					<Name>options</Name>
+					<Abstract type="html">AGRestRequestRunningOptions for running the request.</Abstract>
+				</Parameter><Parameter>
+					<Name>cancellationToken</Name>
+					<Abstract type="html">The BFCancellationToken for cancelling the request.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Returns a BFTask as result.</Abstract></ReturnValue>
+			<Anchor>//api/name/runRequestAsync:withOptions:cancellationToken:</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestServer/setValue:forHTTPHeaderField:</TokenIdentifier>
+			<Abstract type="html">Set global HTTP Headers for all executing requests.</Abstract>
+			<DeclaredIn>AGRestServer.h</DeclaredIn>
+			
+			<Declaration>- (void)setValue:(nullable NSString *)value forHTTPHeaderField:(nonnull NSString *)key</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">Valid http header field value.</Abstract>
+				</Parameter><Parameter>
+					<Name>key</Name>
+					<Abstract type="html">Value http header field key.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setValue:forHTTPHeaderField:</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestServer/setAcceptableContentTypes:</TokenIdentifier>
+			<Abstract type="html">Set the acceptable content types from HTTP response.</Abstract>
+			<DeclaredIn>AGRestServer.h</DeclaredIn>
+			
+			<Declaration>- (void)setAcceptableContentTypes:(nonnull NSSet *)contentTypes</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>contentTypes</Name>
+					<Abstract type="html">NSSet of string that contains all acceptable types.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setAcceptableContentTypes:</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestServer/setAcceptableStatusCodes:</TokenIdentifier>
+			<Abstract type="html">Set the acceptable status codes from HTTP response.</Abstract>
+			<DeclaredIn>AGRestServer.h</DeclaredIn>
+			
+			<Declaration>- (void)setAcceptableStatusCodes:(nonnull NSIndexSet *)httpStatusCodes</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>httpStatusCodes</Name>
+					<Abstract type="html">NSIndexSet of valid http status code.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setAcceptableStatusCodes:</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

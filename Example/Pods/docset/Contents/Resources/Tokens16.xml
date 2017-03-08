@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AGRestResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AGRestResponse</TokenIdentifier>
+			<Abstract type="html">@class AGRestResponse</Abstract>
+			<DeclaredIn>AGRestResponse.h</DeclaredIn>
+            
+			
+			<NodeRef refid="16"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestResponse/setRequest:</TokenIdentifier>
+			<Abstract type="html">The request executed that leads to the response.</Abstract>
+			<DeclaredIn>AGRestResponse.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, weak, nullable) AGRestRequest *request</Declaration>
+			
+			
+			<Anchor>//api/name/request</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestResponse/request</TokenIdentifier>
+			<Abstract type="html">The request executed that leads to the response.</Abstract>
+			<DeclaredIn>AGRestResponse.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, weak, nullable) AGRestRequest *request</Declaration>
+			
+			
+			<Anchor>//api/name/request</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AGRestResponse/request</TokenIdentifier>
+			<Abstract type="html">The request executed that leads to the response.</Abstract>
+			<DeclaredIn>AGRestResponse.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, weak, nullable) AGRestRequest *request</Declaration>
+			
+			
+			<Anchor>//api/name/request</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestResponse/setResponseError:</TokenIdentifier>
+			<Abstract type="html">If occured, the NSError representing the request failure.</Abstract>
+			<DeclaredIn>AGRestResponse.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, nullable) NSError *responseError</Declaration>
+			
+			
+			<Anchor>//api/name/responseError</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestResponse/responseError</TokenIdentifier>
+			<Abstract type="html">If occured, the NSError representing the request failure.</Abstract>
+			<DeclaredIn>AGRestResponse.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, nullable) NSError *responseError</Declaration>
+			
+			
+			<Anchor>//api/name/responseError</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AGRestResponse/responseError</TokenIdentifier>
+			<Abstract type="html">If occured, the NSError representing the request failure.</Abstract>
+			<DeclaredIn>AGRestResponse.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, nullable) NSError *responseError</Declaration>
+			
+			
+			<Anchor>//api/name/responseError</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestResponse/setResponseData:</TokenIdentifier>
+			<Abstract type="html">The parsed and serialized response data from the HTTP response.</Abstract>
+			<DeclaredIn>AGRestResponse.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, nullable) id responseData</Declaration>
+			
+			
+			<Anchor>//api/name/responseData</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestResponse/responseData</TokenIdentifier>
+			<Abstract type="html">The parsed and serialized response data from the HTTP response.</Abstract>
+			<DeclaredIn>AGRestResponse.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, nullable) id responseData</Declaration>
+			
+			
+			<Anchor>//api/name/responseData</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AGRestResponse/responseData</TokenIdentifier>
+			<Abstract type="html">The parsed and serialized response data from the HTTP response.</Abstract>
+			<DeclaredIn>AGRestResponse.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, nullable) id responseData</Declaration>
+			
+			
+			<Anchor>//api/name/responseData</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestResponse/setTargetClass:</TokenIdentifier>
+			<Abstract type="html">The target class to map with the response data.</Abstract>
+			<DeclaredIn>AGRestResponse.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy, nullable) Class targetClass</Declaration>
+			
+			
+			<Anchor>//api/name/targetClass</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestResponse/targetClass</TokenIdentifier>
+			<Abstract type="html">The target class to map with the response data.</Abstract>
+			<DeclaredIn>AGRestResponse.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy, nullable) Class targetClass</Declaration>
+			
+			
+			<Anchor>//api/name/targetClass</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AGRestResponse/targetClass</TokenIdentifier>
+			<Abstract type="html">The target class to map with the response data.</Abstract>
+			<DeclaredIn>AGRestResponse.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy, nullable) Class targetClass</Declaration>
+			
+			
+			<Anchor>//api/name/targetClass</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestResponse/responseHeader</TokenIdentifier>
+			<Abstract type="html">The HTTP header attached to the response.</Abstract>
+			<DeclaredIn>AGRestResponse.h</DeclaredIn>
+			
+			<Declaration>- (nullable NSDictionary *)responseHeader</Declaration>
+			
+			<ReturnValue><Abstract type="html">The HTTP header attached to the response.</Abstract></ReturnValue>
+			<Anchor>//api/name/responseHeader</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestResponse/httpStatusCode</TokenIdentifier>
+			<Abstract type="html">The HTTP status code attached to the response.</Abstract>
+			<DeclaredIn>AGRestResponse.h</DeclaredIn>
+			
+			<Declaration>- (NSInteger)httpStatusCode</Declaration>
+			
+			<ReturnValue><Abstract type="html">The HTTP status code attached to the response.</Abstract></ReturnValue>
+			<Anchor>//api/name/httpStatusCode</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestResponse/contentString</TokenIdentifier>
+			<Abstract type="html">This returns nil if response data has been mapped.</Abstract>
+			<DeclaredIn>AGRestResponse.h</DeclaredIn>
+			
+			<Declaration>- (nullable NSString *)contentString</Declaration>
+			
+			<ReturnValue><Abstract type="html">The response&apos;s data as a NSString.</Abstract></ReturnValue>
+			<Anchor>//api/name/contentString</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestResponse/contentType</TokenIdentifier>
+			<Abstract type="html">The HTTP content type in the response&apos;s header.</Abstract>
+			<DeclaredIn>AGRestResponse.h</DeclaredIn>
+			
+			<Declaration>- (nullable NSString *)contentType</Declaration>
+			
+			<ReturnValue><Abstract type="html">The HTTP content type in the response&apos;s header.</Abstract></ReturnValue>
+			<Anchor>//api/name/contentType</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestResponse/contentEncoding</TokenIdentifier>
+			<Abstract type="html">The HTTP content encoding in the response&apos;s header.</Abstract>
+			<DeclaredIn>AGRestResponse.h</DeclaredIn>
+			
+			<Declaration>- (nullable NSString *)contentEncoding</Declaration>
+			
+			<ReturnValue><Abstract type="html">The HTTP content encoding in the response&apos;s header.</Abstract></ReturnValue>
+			<Anchor>//api/name/contentEncoding</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestResponse/lastModified</TokenIdentifier>
+			<Abstract type="html">The HTTP Last Modified date in the response&apos;s header.</Abstract>
+			<DeclaredIn>AGRestResponse.h</DeclaredIn>
+			
+			<Declaration>- (nullable NSDate *)lastModified</Declaration>
+			
+			<ReturnValue><Abstract type="html">The HTTP Last Modified date in the response&apos;s header.</Abstract></ReturnValue>
+			<Anchor>//api/name/lastModified</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestResponse/succeeded</TokenIdentifier>
+			<Abstract type="html">Whether the initial request failed or succeeded</Abstract>
+			<DeclaredIn>AGRestResponse.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)succeeded</Declaration>
+			
+			<ReturnValue><Abstract type="html">YES if succeeded, NO otherwise.</Abstract></ReturnValue>
+			<Anchor>//api/name/succeeded</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestResponse/cancelled</TokenIdentifier>
+			<Abstract type="html">Whether the initial request has been cancelled.</Abstract>
+			<DeclaredIn>AGRestResponse.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)cancelled</Declaration>
+			
+			<ReturnValue><Abstract type="html">YES if cancelled, NO otherwise.</Abstract></ReturnValue>
+			<Anchor>//api/name/cancelled</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AGRestResponse/responseWithError:</TokenIdentifier>
+			<Abstract type="html">NSError attached to the response.</Abstract>
+			<DeclaredIn>AGRestResponse.h</DeclaredIn>
+			
+			<Declaration>+ (nullable instancetype)responseWithError:(nonnull NSError *)error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>error</Name>
+					<Abstract type="html">NSError attached to the response.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Returns an initialized AGRestResponse with response NSError.</Abstract></ReturnValue>
+			<Anchor>//api/name/responseWithError:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AGRestResponse/responseWithError:statusCode:</TokenIdentifier>
+			<Abstract type="html">NSError attached to the response.</Abstract>
+			<DeclaredIn>AGRestResponse.h</DeclaredIn>
+			
+			<Declaration>+ (nullable instancetype)responseWithError:(nonnull NSError *)error statusCode:(NSInteger)statusCode</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>error</Name>
+					<Abstract type="html">NSError attached to the response.</Abstract>
+				</Parameter><Parameter>
+					<Name>statusCode</Name>
+					<Abstract type="html">The HTTP status code attached to the response.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Returns an initialized AGRestResponse with response NSError.</Abstract></ReturnValue>
+			<Anchor>//api/name/responseWithError:statusCode:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AGRestResponse/responseWithData:header:</TokenIdentifier>
+			<Abstract type="html">Return an initialized AGRestResponse with response data.</Abstract>
+			<DeclaredIn>AGRestResponse.h</DeclaredIn>
+			
+			<Declaration>+ (nullable instancetype)responseWithData:(nullable id)data header:(nullable NSDictionary *)header</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>data</Name>
+					<Abstract type="html">The response data.</Abstract>
+				</Parameter><Parameter>
+					<Name>header</Name>
+					<Abstract type="html">The HTTP response&apos;s header.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Return an initialized AGRestResponse with response data.</Abstract></ReturnValue>
+			<Anchor>//api/name/responseWithData:header:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AGRestResponse/responseWithData:header:statusCode:</TokenIdentifier>
+			<Abstract type="html">Return an initialized AGRestResponse with response data.</Abstract>
+			<DeclaredIn>AGRestResponse.h</DeclaredIn>
+			
+			<Declaration>+ (nullable instancetype)responseWithData:(nullable id)data header:(nullable NSDictionary *)header statusCode:(NSInteger)statusCode</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>data</Name>
+					<Abstract type="html">The response data.</Abstract>
+				</Parameter><Parameter>
+					<Name>header</Name>
+					<Abstract type="html">The HTTP response&apos;s header.</Abstract>
+				</Parameter><Parameter>
+					<Name>statusCode</Name>
+					<Abstract type="html">The HTTP status code attached to the response.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Return an initialized AGRestResponse with response data.</Abstract></ReturnValue>
+			<Anchor>//api/name/responseWithData:header:statusCode:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

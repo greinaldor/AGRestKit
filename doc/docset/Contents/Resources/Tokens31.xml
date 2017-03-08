@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/AGRestRequestCachePolicy.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/AGRestRequestCachePolicy</TokenIdentifier>
+			<Abstract type="html">@typedef AGRestRequestCachePolicy
+AGRestRequestCachePolicy enums contains all possible cache policy for AGRestRequest</Abstract>
+			<DeclaredIn>AGRestRequest.h</DeclaredIn>
+            
+			
+			<NodeRef refid="31"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/kAGRestRequestIgnoreCache</TokenIdentifier>
+            <Abstract type="html">     The request does not load from the cache or save results to the cache
+     </Abstract>
+            <Declaration>kAGRestRequestIgnoreCache</Declaration>
+            
+            <DeclaredIn>AGRestRequest.h</DeclaredIn>
+            
+            <NodeRef refid="31"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/kAGRestRequestCacheOnly</TokenIdentifier>
+            <Abstract type="html">     The request loads from the cache only.
+     </Abstract>
+            <Declaration>kAGRestRequestCacheOnly</Declaration>
+            
+            <DeclaredIn>AGRestRequest.h</DeclaredIn>
+            
+            <NodeRef refid="31"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/kAGRestRequestCacheThenNetwork</TokenIdentifier>
+            <Abstract type="html">     The request first loads from the cache, then loads from network
+     </Abstract>
+            <Declaration>kAGRestRequestCacheThenNetwork</Declaration>
+            
+            <DeclaredIn>AGRestRequest.h</DeclaredIn>
+            
+            <NodeRef refid="31"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/kAGRestRequestCacheElseNetwork</TokenIdentifier>
+            <Abstract type="html">     The request first loads from the cache, if that fails, it loads results from network
+     </Abstract>
+            <Declaration>kAGRestRequestCacheElseNetwork</Declaration>
+            
+            <DeclaredIn>AGRestRequest.h</DeclaredIn>
+            
+            <NodeRef refid="31"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/kAGRestRequestNetworkElseCache</TokenIdentifier>
+            <Abstract type="html">     The request first loads from network, if that fails, it loads results from cache
+     </Abstract>
+            <Declaration>kAGRestRequestNetworkElseCache</Declaration>
+            
+            <DeclaredIn>AGRestRequest.h</DeclaredIn>
+            
+            <NodeRef refid="31"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/kAGRestRequestNetworkOnly</TokenIdentifier>
+            <Abstract type="html">     The request does not load from the cache, but it will save results in the cache
+     </Abstract>
+            <Declaration>kAGRestRequestNetworkOnly</Declaration>
+            
+            <DeclaredIn>AGRestRequest.h</DeclaredIn>
+            
+            <NodeRef refid="31"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

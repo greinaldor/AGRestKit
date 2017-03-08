@@ -1,0 +1,841 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DocSetNodes version="1.0">
+    <TOC>
+        <Node type="folder">
+            <Name>AGRestKit</Name>
+            <Path>index.html</Path>
+			<Subnodes>
+                
+				
+				<Node type="folder">
+					<Name>Classes</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="1"/>
+						<NodeRef refid="2"/>
+						<NodeRef refid="3"/>
+						<NodeRef refid="4"/>
+						<NodeRef refid="5"/>
+						<NodeRef refid="6"/>
+						<NodeRef refid="7"/>
+						<NodeRef refid="8"/>
+						<NodeRef refid="9"/>
+						<NodeRef refid="10"/>
+						<NodeRef refid="11"/>
+						<NodeRef refid="12"/>
+						<NodeRef refid="13"/>
+						<NodeRef refid="14"/>
+						<NodeRef refid="15"/>
+						<NodeRef refid="16"/>
+						<NodeRef refid="17"/>
+						<NodeRef refid="18"/>
+						<NodeRef refid="19"/>
+						
+					</Subnodes>
+				</Node>
+				
+				
+                
+				<Node>
+					<Name>Protocols</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="20"/>
+						<NodeRef refid="21"/>
+						<NodeRef refid="22"/>
+						<NodeRef refid="23"/>
+						<NodeRef refid="24"/>
+						<NodeRef refid="25"/>
+						<NodeRef refid="26"/>
+						<NodeRef refid="27"/>
+						
+					</Subnodes>
+				</Node>
+				
+                
+				<Node>
+					<Name>Constants</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="28"/>
+						<NodeRef refid="29"/>
+						<NodeRef refid="30"/>
+						<NodeRef refid="31"/>
+						<NodeRef refid="32"/>
+						<NodeRef refid="33"/>
+						<NodeRef refid="34"/>
+						
+					</Subnodes>
+				</Node>
+				
+                
+                <Node>
+                    <Name>Blocks</Name>
+                    <Path>index.html</Path>
+                    <Subnodes>
+                        <NodeRef refid="35"/>
+                        <NodeRef refid="36"/>
+                        <NodeRef refid="37"/>
+                        <NodeRef refid="38"/>
+                        <NodeRef refid="39"/>
+                        
+                    </Subnodes>
+                </Node>
+                
+			</Subnodes>
+        </Node>
+    </TOC>
+	<Library>
+		
+		<Node id="1" type="file" documentType="reference">
+            <Name>AGRest</Name>
+            <Path>Classes/AGRest.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/AGRest.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/AGRest.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/AGRest.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="2" type="file" documentType="reference">
+            <Name>AGRestCachedRequestController</Name>
+            <Path>Classes/AGRestCachedRequestController.html</Path>
+            
+        </Node>
+		<Node id="3" type="file" documentType="reference">
+            <Name>AGRestCore</Name>
+            <Path>Classes/AGRestCore.html</Path>
+            
+        </Node>
+		<Node id="4" type="file" documentType="reference">
+            <Name>AGRestCoreDataCacheController</Name>
+            <Path>Classes/AGRestCoreDataCacheController.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/AGRestCoreDataCacheController.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/AGRestCoreDataCacheController.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/AGRestCoreDataCacheController.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="5" type="file" documentType="reference">
+            <Name>AGRestErrorUtilities</Name>
+            <Path>Classes/AGRestErrorUtilities.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/AGRestErrorUtilities.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/AGRestErrorUtilities.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/AGRestErrorUtilities.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="6" type="file" documentType="reference">
+            <Name>AGRestEventuallyQueue</Name>
+            <Path>Classes/AGRestEventuallyQueue.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/AGRestEventuallyQueue.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/AGRestEventuallyQueue.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/AGRestEventuallyQueue.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="7" type="file" documentType="reference">
+            <Name>AGRestFileManager</Name>
+            <Path>Classes/AGRestFileManager.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/AGRestFileManager.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/AGRestFileManager.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/AGRestFileManager.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/AGRestFileManager.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="8" type="file" documentType="reference">
+            <Name>AGRestKeyValueCache</Name>
+            <Path>Classes/AGRestKeyValueCache.html</Path>
+            
+        </Node>
+		<Node id="9" type="file" documentType="reference">
+            <Name>AGRestLogger</Name>
+            <Path>Classes/AGRestLogger.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/AGRestLogger.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/AGRestLogger.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/AGRestLogger.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/AGRestLogger.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="10" type="file" documentType="reference">
+            <Name>AGRestManager</Name>
+            <Path>Classes/AGRestManager.html</Path>
+            
+        </Node>
+		<Node id="11" type="file" documentType="reference">
+            <Name>AGRestObjectMapper</Name>
+            <Path>Classes/AGRestObjectMapper.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/AGRestObjectMapper.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/AGRestObjectMapper.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/AGRestObjectMapper.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/AGRestObjectMapper.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="12" type="file" documentType="reference">
+            <Name>AGRestReachabilityManager</Name>
+            <Path>Classes/AGRestReachabilityManager.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/AGRestReachabilityManager.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/AGRestReachabilityManager.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/AGRestReachabilityManager.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/AGRestReachabilityManager.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="13" type="file" documentType="reference">
+            <Name>AGRestRequest</Name>
+            <Path>Classes/AGRestRequest.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/AGRestRequest.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/AGRestRequest.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/AGRestRequest.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/AGRestRequest.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/AGRestRequest.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="14" type="file" documentType="reference">
+            <Name>AGRestRequestController</Name>
+            <Path>Classes/AGRestRequestController.html</Path>
+            
+        </Node>
+		<Node id="15" type="file" documentType="reference">
+            <Name>AGRestRequestRunner</Name>
+            <Path>Classes/AGRestRequestRunner.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/AGRestRequestRunner.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/AGRestRequestRunner.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/AGRestRequestRunner.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="16" type="file" documentType="reference">
+            <Name>AGRestResponse</Name>
+            <Path>Classes/AGRestResponse.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/AGRestResponse.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/AGRestResponse.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/AGRestResponse.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/AGRestResponse.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/AGRestResponse.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="17" type="file" documentType="reference">
+            <Name>AGRestServer</Name>
+            <Path>Classes/AGRestServer.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/AGRestServer.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/AGRestServer.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/AGRestServer.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/AGRestServer.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="18" type="file" documentType="reference">
+            <Name>AGRestSessionController</Name>
+            <Path>Classes/AGRestSessionController.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/AGRestSessionController.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/AGRestSessionController.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/AGRestSessionController.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="19" type="file" documentType="reference">
+            <Name>AGRestSessionStore</Name>
+            <Path>Classes/AGRestSessionStore.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/AGRestSessionStore.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/AGRestSessionStore.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/AGRestSessionStore.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		
+		
+        <Node id="20" type="file" documentType="reference">
+            <Name>AGRestLogging</Name>
+            <Path>Protocols/AGRestLogging.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Protocols/AGRestLogging.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Protocols/AGRestLogging.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Protocols/AGRestLogging.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="21" type="file" documentType="reference">
+            <Name>AGRestObjectMapperProtocol</Name>
+            <Path>Protocols/AGRestObjectMapperProtocol.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Protocols/AGRestObjectMapperProtocol.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Protocols/AGRestObjectMapperProtocol.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Protocols/AGRestObjectMapperProtocol.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Protocols/AGRestObjectMapperProtocol.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="22" type="file" documentType="reference">
+            <Name>AGRestObjectMapping</Name>
+            <Path>Protocols/AGRestObjectMapping.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Protocols/AGRestObjectMapping.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Protocols/AGRestObjectMapping.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Protocols/AGRestObjectMapping.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Protocols/AGRestObjectMapping.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="23" type="file" documentType="reference">
+            <Name>AGRestReachabilityListener</Name>
+            <Path>Protocols/AGRestReachabilityListener.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Protocols/AGRestReachabilityListener.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Protocols/AGRestReachabilityListener.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Protocols/AGRestReachabilityListener.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="24" type="file" documentType="reference">
+            <Name>AGRestRequestRunning</Name>
+            <Path>Protocols/AGRestRequestRunning.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Protocols/AGRestRequestRunning.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Protocols/AGRestRequestRunning.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Protocols/AGRestRequestRunning.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="25" type="file" documentType="reference">
+            <Name>AGRestServerProtocol</Name>
+            <Path>Protocols/AGRestServerProtocol.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Protocols/AGRestServerProtocol.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Protocols/AGRestServerProtocol.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Protocols/AGRestServerProtocol.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="26" type="file" documentType="reference">
+            <Name>AGRestSessionProtocol</Name>
+            <Path>Protocols/AGRestSessionProtocol.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Protocols/AGRestSessionProtocol.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Protocols/AGRestSessionProtocol.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Protocols/AGRestSessionProtocol.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="27" type="file" documentType="reference">
+            <Name>AGRestSessionStoreProtocol</Name>
+            <Path>Protocols/AGRestSessionStoreProtocol.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Protocols/AGRestSessionStoreProtocol.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Protocols/AGRestSessionStoreProtocol.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Protocols/AGRestSessionStoreProtocol.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		
+        <Node id="28" type="file" documentType="reference">
+            <Name>AGRestErrorCode</Name>
+            <Path>Constants/AGRestErrorCode.html</Path>
+            
+        </Node>
+		<Node id="29" type="file" documentType="reference">
+            <Name>AGRestLoggingLevel</Name>
+            <Path>Constants/AGRestLoggingLevel.html</Path>
+            
+        </Node>
+		<Node id="30" type="file" documentType="reference">
+            <Name>AGRestReachabilityStatus</Name>
+            <Path>Constants/AGRestReachabilityStatus.html</Path>
+            
+        </Node>
+		<Node id="31" type="file" documentType="reference">
+            <Name>AGRestRequestCachePolicy</Name>
+            <Path>Constants/AGRestRequestCachePolicy.html</Path>
+            
+        </Node>
+		<Node id="32" type="file" documentType="reference">
+            <Name>AGRestRequestHTTPMethod</Name>
+            <Path>Constants/AGRestRequestHTTPMethod.html</Path>
+            
+        </Node>
+		<Node id="33" type="file" documentType="reference">
+            <Name>AGRestRequestRunningOptions</Name>
+            <Path>Constants/AGRestRequestRunningOptions.html</Path>
+            
+        </Node>
+		<Node id="34" type="file" documentType="reference">
+            <Name>AGRestRequestTimeoutPolicy</Name>
+            <Path>Constants/AGRestRequestTimeoutPolicy.html</Path>
+            
+        </Node>
+		
+        <Node id="35" type="file" documentType="reference">
+            <Name>AGRestBatchResponseCompletionBlock</Name>
+            <Path>Blocks/AGRestBatchResponseCompletionBlock.html</Path>
+            
+        </Node>
+        <Node id="36" type="file" documentType="reference">
+            <Name>AGRestBooleanCompletionBlock</Name>
+            <Path>Blocks/AGRestBooleanCompletionBlock.html</Path>
+            
+        </Node>
+        <Node id="37" type="file" documentType="reference">
+            <Name>AGRestObjectCompletionBlock</Name>
+            <Path>Blocks/AGRestObjectCompletionBlock.html</Path>
+            
+        </Node>
+        <Node id="38" type="file" documentType="reference">
+            <Name>AGRestRequestResultBlock</Name>
+            <Path>Blocks/AGRestRequestResultBlock.html</Path>
+            
+        </Node>
+        <Node id="39" type="file" documentType="reference">
+            <Name>AGRestRequestTimeoutCompletionBlock</Name>
+            <Path>Blocks/AGRestRequestTimeoutCompletionBlock.html</Path>
+            
+        </Node>
+        
+	</Library>
+</DocSetNodes>

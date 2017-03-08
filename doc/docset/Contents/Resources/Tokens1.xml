@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AGRest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AGRest</TokenIdentifier>
+			<Abstract type="html">The primary interface for integrating AGRestKit.</Abstract>
+			<DeclaredIn>AGRest.h</DeclaredIn>
+            
+			
+			<NodeRef refid="1"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AGRest/initializeRestWithBaseUrl:</TokenIdentifier>
+			<Abstract type="html">Initialize AGRest with a base url.</Abstract>
+			<DeclaredIn>AGRest.h</DeclaredIn>
+			
+			<Declaration>+ (void)initializeRestWithBaseUrl:(nonnull NSString *)baseUrl</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>baseUrl</Name>
+					<Abstract type="html">The base url used to fetch request and monitor reachability.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initializeRestWithBaseUrl:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AGRest/setSessionController:</TokenIdentifier>
+			<Abstract type="html">Set a custom session controller which conforns to AGRestSessionProtocol protocol.</Abstract>
+			<DeclaredIn>AGRest.h</DeclaredIn>
+			
+			<Declaration>+ (void)setSessionController:(nonnull id&lt;AGRestSessionProtocol&gt;)sessionController</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sessionController</Name>
+					<Abstract type="html">The new session controller.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setSessionController:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AGRest/setObjectMapper:</TokenIdentifier>
+			<Abstract type="html">Set a custom object mapper which conforms to AGRestObjectMapperProtocol protocol;</Abstract>
+			<DeclaredIn>AGRest.h</DeclaredIn>
+			
+			<Declaration>+ (void)setObjectMapper:(nonnull id&lt;AGRestObjectMapperProtocol&gt;)objectMapper</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>objectMapper</Name>
+					<Abstract type="html">The new objectMapper.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setObjectMapper:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AGRest/setServerInstance:</TokenIdentifier>
+			<Abstract type="html">Set a custom server instance which conforms to AGRestServerProtocol protocol.</Abstract>
+			<DeclaredIn>AGRest.h</DeclaredIn>
+			
+			<Declaration>+ (void)setServerInstance:(nonnull id&lt;AGRestServerProtocol&gt;)server</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>server</Name>
+					<Abstract type="html">The new server instance.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setServerInstance:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AGRest/setResponseSerializer:</TokenIdentifier>
+			<Abstract type="html">Set a custom response serializer which conforms to AGRestResponseSerializerProtocol protocol.</Abstract>
+			<DeclaredIn>AGRest.h</DeclaredIn>
+			
+			<Declaration>+ (void)setResponseSerializer:(nonnull id&lt;AGRestResponseSerializerProtocol&gt;)responseSerializer</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>responseSerializer</Name>
+					<Abstract type="html">The new response serializer.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setResponseSerializer:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AGRest/setLogger:</TokenIdentifier>
+			<Abstract type="html">Set a custom logger which conforms to AGRestLogging protocol.</Abstract>
+			<DeclaredIn>AGRest.h</DeclaredIn>
+			
+			<Declaration>+ (void)setLogger:(id&lt;AGRestLogging&gt;)logger</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>logger</Name>
+					<Abstract type="html">The new logger instance.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setLogger:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AGRest/setCachingEnabled:</TokenIdentifier>
+			<Abstract type="html">Enable caching let AGRest&apos;s controllers cache requests, responses, files locally.
+Caching is enabled by default.</Abstract>
+			<DeclaredIn>AGRest.h</DeclaredIn>
+			
+			<Declaration>+ (void)setCachingEnabled:(BOOL)enabled</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>enabled</Name>
+					<Abstract type="html">Bool flag.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setCachingEnabled:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AGRest/setLoggingEnable:level:</TokenIdentifier>
+			<Abstract type="html">Enable logging will let AGRest&apos;s controllers log events, error, crash in the debugger.
+Logging is enabled by default.</Abstract>
+			<DeclaredIn>AGRest.h</DeclaredIn>
+			
+			<Declaration>+ (void)setLoggingEnable:(BOOL)enabled level:(AGRestLoggingLevel)level</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>enabled</Name>
+					<Abstract type="html">Bool flag.</Abstract>
+				</Parameter><Parameter>
+					<Name>level</Name>
+					<Abstract type="html">Restrict logging to fixed levels.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setLoggingEnable:level:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AGRest/setObjectMappingEnabled:</TokenIdentifier>
+			<Abstract type="html">Enable mapping of response into registered classes using the object mapper.</Abstract>
+			<DeclaredIn>AGRest.h</DeclaredIn>
+			
+			<Declaration>+ (void)setObjectMappingEnabled:(BOOL)enabled</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>enabled</Name>
+					<Abstract type="html">Bool flag.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setObjectMappingEnabled:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AGRest/getRestBaseUrl</TokenIdentifier>
+			<Abstract type="html">The base url.</Abstract>
+			<DeclaredIn>AGRest.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)getRestBaseUrl</Declaration>
+			
+			<ReturnValue><Abstract type="html">The base url.</Abstract></ReturnValue>
+			<Anchor>//api/name/getRestBaseUrl</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AGRest/sessionController</TokenIdentifier>
+			<Abstract type="html">The session controller in use.</Abstract>
+			<DeclaredIn>AGRest.h</DeclaredIn>
+			
+			<Declaration>+ (id&lt;AGRestSessionProtocol&gt;)sessionController</Declaration>
+			
+			<ReturnValue><Abstract type="html">The session controller in use.</Abstract></ReturnValue>
+			<Anchor>//api/name/sessionController</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AGRest/serverInstance</TokenIdentifier>
+			<Abstract type="html">The serverInstance in user.</Abstract>
+			<DeclaredIn>AGRest.h</DeclaredIn>
+			
+			<Declaration>+ (id&lt;AGRestServerProtocol&gt;)serverInstance</Declaration>
+			
+			<ReturnValue><Abstract type="html">The serverInstance in user.</Abstract></ReturnValue>
+			<Anchor>//api/name/serverInstance</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AGRest/responseSerializer</TokenIdentifier>
+			<Abstract type="html">The response serializer in use.</Abstract>
+			<DeclaredIn>AGRest.h</DeclaredIn>
+			
+			<Declaration>+ (id&lt;AGRestResponseSerializerProtocol&gt;)responseSerializer</Declaration>
+			
+			<ReturnValue><Abstract type="html">The response serializer in use.</Abstract></ReturnValue>
+			<Anchor>//api/name/responseSerializer</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AGRest/logger</TokenIdentifier>
+			<Abstract type="html">The logger in use.</Abstract>
+			<DeclaredIn>AGRest.h</DeclaredIn>
+			
+			<Declaration>+ (id&lt;AGRestLogging&gt;)logger</Declaration>
+			
+			<ReturnValue><Abstract type="html">The logger in use.</Abstract></ReturnValue>
+			<Anchor>//api/name/logger</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AGRest/isCachingEnabled</TokenIdentifier>
+			<Abstract type="html">Whether caching is enabled.</Abstract>
+			<DeclaredIn>AGRest.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)isCachingEnabled</Declaration>
+			
+			<ReturnValue><Abstract type="html">Whether caching is enabled.</Abstract></ReturnValue>
+			<Anchor>//api/name/isCachingEnabled</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AGRest/isLoggingEnabled</TokenIdentifier>
+			<Abstract type="html">Whether logging is enabled.</Abstract>
+			<DeclaredIn>AGRest.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)isLoggingEnabled</Declaration>
+			
+			<ReturnValue><Abstract type="html">Whether logging is enabled.</Abstract></ReturnValue>
+			<Anchor>//api/name/isLoggingEnabled</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AGRest/isObjectMappingEnabled</TokenIdentifier>
+			<Abstract type="html">Whether object mapping is enabled.</Abstract>
+			<DeclaredIn>AGRest.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)isObjectMappingEnabled</Declaration>
+			
+			<ReturnValue><Abstract type="html">Whether object mapping is enabled.</Abstract></ReturnValue>
+			<Anchor>//api/name/isObjectMappingEnabled</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AGRest/registerSubclass:</TokenIdentifier>
+			<Abstract type="html">Register subclass for mapping using the current objectMapper instance.</Abstract>
+			<DeclaredIn>AGRest.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)registerSubclass:(nonnull Class)newModelClass</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>newModelClass</Name>
+					<Abstract type="html">Class to register.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/registerSubclass:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

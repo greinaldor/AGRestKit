@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/AGRestRequestHTTPMethod.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/AGRestRequestHTTPMethod</TokenIdentifier>
+			<Abstract type="html">@enum AGRestRequestHTTPMethod</Abstract>
+			<DeclaredIn>AGRestConstants.h</DeclaredIn>
+            
+			
+			<NodeRef refid="32"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AGRestRequestMethodHttpPOST</TokenIdentifier>
+            <Abstract type="html">HTTP POST METHOD
+     </Abstract>
+            <Declaration>AGRestRequestMethodHttpPOST</Declaration>
+            
+            <DeclaredIn>AGRestConstants.h</DeclaredIn>
+            
+            <NodeRef refid="32"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AGRestRequestMethodHttpGET</TokenIdentifier>
+            <Abstract type="html">HTTP GET METHOD
+     </Abstract>
+            <Declaration>AGRestRequestMethodHttpGET</Declaration>
+            
+            <DeclaredIn>AGRestConstants.h</DeclaredIn>
+            
+            <NodeRef refid="32"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AGRestRequestMethodHttpPUT</TokenIdentifier>
+            <Abstract type="html">HTTP PUT METHOD
+     </Abstract>
+            <Declaration>AGRestRequestMethodHttpPUT</Declaration>
+            
+            <DeclaredIn>AGRestConstants.h</DeclaredIn>
+            
+            <NodeRef refid="32"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AGRestRequestMethodHttpDELETE</TokenIdentifier>
+            <Abstract type="html">HTTP DELETE METHOD
+     </Abstract>
+            <Declaration>AGRestRequestMethodHttpDELETE</Declaration>
+            
+            <DeclaredIn>AGRestConstants.h</DeclaredIn>
+            
+            <NodeRef refid="32"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AGRestRequestMethodHttpHEAD</TokenIdentifier>
+            <Abstract type="html">HTTP HEAD METHOD
+     </Abstract>
+            <Declaration>AGRestRequestMethodHttpHEAD</Declaration>
+            
+            <DeclaredIn>AGRestConstants.h</DeclaredIn>
+            
+            <NodeRef refid="32"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AGRestREquestMethodHttpPATCH</TokenIdentifier>
+            <Abstract type="html">HTTP PATCH METHOD
+     </Abstract>
+            <Declaration>AGRestREquestMethodHttpPATCH</Declaration>
+            
+            <DeclaredIn>AGRestConstants.h</DeclaredIn>
+            
+            <NodeRef refid="32"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

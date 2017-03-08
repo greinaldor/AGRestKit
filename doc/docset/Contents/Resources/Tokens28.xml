@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/AGRestErrorCode.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/AGRestErrorCode</TokenIdentifier>
+			<Abstract type="html">@enum AGRestReachabilityStatus</Abstract>
+			<DeclaredIn>AGRestConstants.h</DeclaredIn>
+            
+			
+			<NodeRef refid="28"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/kAGErrorInternalLocal</TokenIdentifier>
+            <Abstract type="html">Internal local error. No information available.
+     </Abstract>
+            <Declaration>kAGErrorInternalLocal</Declaration>
+            
+            <DeclaredIn>AGRestConstants.h</DeclaredIn>
+            
+            <NodeRef refid="28"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/kAGErrorInternalServer</TokenIdentifier>
+            <Abstract type="html">Internal server error. No information available.
+     </Abstract>
+            <Declaration>kAGErrorInternalServer</Declaration>
+            
+            <DeclaredIn>AGRestConstants.h</DeclaredIn>
+            
+            <NodeRef refid="28"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/kAGErrorServerRefused</TokenIdentifier>
+            <Abstract type="html">The server refused to respond the query.
+     </Abstract>
+            <Declaration>kAGErrorServerRefused</Declaration>
+            
+            <DeclaredIn>AGRestConstants.h</DeclaredIn>
+            
+            <NodeRef refid="28"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/kAGErrorNoInternetConnection</TokenIdentifier>
+            <Abstract type="html">Internet connection is missing
+     </Abstract>
+            <Declaration>kAGErrorNoInternetConnection</Declaration>
+            
+            <DeclaredIn>AGRestConstants.h</DeclaredIn>
+            
+            <NodeRef refid="28"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/kAGErrorInternetConnectionLost</TokenIdentifier>
+            <Abstract type="html">Internet connection lost during opearation
+     </Abstract>
+            <Declaration>kAGErrorInternetConnectionLost</Declaration>
+            
+            <DeclaredIn>AGRestConstants.h</DeclaredIn>
+            
+            <NodeRef refid="28"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/kAGErrorConnectionFailed</TokenIdentifier>
+            <Abstract type="html">The connection to the API server failed.
+     </Abstract>
+            <Declaration>kAGErrorConnectionFailed</Declaration>
+            
+            <DeclaredIn>AGRestConstants.h</DeclaredIn>
+            
+            <NodeRef refid="28"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/kAGErrorObjectNotFound</TokenIdentifier>
+            <Abstract type="html">Object doesn&apos;t exist.
+     </Abstract>
+            <Declaration>kAGErrorObjectNotFound</Declaration>
+            
+            <DeclaredIn>AGRestConstants.h</DeclaredIn>
+            
+            <NodeRef refid="28"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/kAGErrorInvalidQuery</TokenIdentifier>
+            <Abstract type="html">The query contains bad syntax or invalid
+     </Abstract>
+            <Declaration>kAGErrorInvalidQuery</Declaration>
+            
+            <DeclaredIn>AGRestConstants.h</DeclaredIn>
+            
+            <NodeRef refid="28"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/kAGErrorMissingObjectId</TokenIdentifier>
+            <Abstract type="html">Missing object id.
+     </Abstract>
+            <Declaration>kAGErrorMissingObjectId</Declaration>
+            
+            <DeclaredIn>AGRestConstants.h</DeclaredIn>
+            
+            <NodeRef refid="28"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/kAGErrorInvalidJSON</TokenIdentifier>
+            <Abstract type="html">Malformed json object. A json dictionary is expected.
+     </Abstract>
+            <Declaration>kAGErrorInvalidJSON</Declaration>
+            
+            <DeclaredIn>AGRestConstants.h</DeclaredIn>
+            
+            <NodeRef refid="28"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/kAGErrorOperationForbidden</TokenIdentifier>
+            <Abstract type="html">Tried to access a feature only available internally.
+     </Abstract>
+            <Declaration>kAGErrorOperationForbidden</Declaration>
+            
+            <DeclaredIn>AGRestConstants.h</DeclaredIn>
+            
+            <NodeRef refid="28"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/kAGErrorTimeout</TokenIdentifier>
+            <Abstract type="html">The request timed out on the server. Typically this indicates the request is too expensive.
+     </Abstract>
+            <Declaration>kAGErrorTimeout</Declaration>
+            
+            <DeclaredIn>AGRestConstants.h</DeclaredIn>
+            
+            <NodeRef refid="28"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/kAGErrorInvalidEmailAddress</TokenIdentifier>
+            <Abstract type="html">The email address was invalid.
+     </Abstract>
+            <Declaration>kAGErrorInvalidEmailAddress</Declaration>
+            
+            <DeclaredIn>AGRestConstants.h</DeclaredIn>
+            
+            <NodeRef refid="28"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/kAGErrorInvalidServerResponse</TokenIdentifier>
+            <Abstract type="html">The Apple server response is not valid.
+     </Abstract>
+            <Declaration>kAGErrorInvalidServerResponse</Declaration>
+            
+            <DeclaredIn>AGRestConstants.h</DeclaredIn>
+            
+            <NodeRef refid="28"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/kAGErrorUsernameMissing</TokenIdentifier>
+            <Abstract type="html">Username is missing or empty.
+     </Abstract>
+            <Declaration>kAGErrorUsernameMissing</Declaration>
+            
+            <DeclaredIn>AGRestConstants.h</DeclaredIn>
+            
+            <NodeRef refid="28"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/kAGErrorUserPasswordMissing</TokenIdentifier>
+            <Abstract type="html">Password is missing or empty.
+     </Abstract>
+            <Declaration>kAGErrorUserPasswordMissing</Declaration>
+            
+            <DeclaredIn>AGRestConstants.h</DeclaredIn>
+            
+            <NodeRef refid="28"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/kAGErrorUsernameTaken</TokenIdentifier>
+            <Abstract type="html">Username has already been taken.
+     </Abstract>
+            <Declaration>kAGErrorUsernameTaken</Declaration>
+            
+            <DeclaredIn>AGRestConstants.h</DeclaredIn>
+            
+            <NodeRef refid="28"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/kAGErrorUserEmailTaken</TokenIdentifier>
+            <Abstract type="html">Email has already been taken.
+     </Abstract>
+            <Declaration>kAGErrorUserEmailTaken</Declaration>
+            
+            <DeclaredIn>AGRestConstants.h</DeclaredIn>
+            
+            <NodeRef refid="28"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/kAGErrorFacebookAccountAlreadyLinked</TokenIdentifier>
+            <Abstract type="html">An existing Facebook account already linked to another user.
+     </Abstract>
+            <Declaration>kAGErrorFacebookAccountAlreadyLinked</Declaration>
+            
+            <DeclaredIn>AGRestConstants.h</DeclaredIn>
+            
+            <NodeRef refid="28"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/kAGErrorAccountAlreadyLinked</TokenIdentifier>
+            <Abstract type="html">An existing account already linked to another user.
+     </Abstract>
+            <Declaration>kAGErrorAccountAlreadyLinked</Declaration>
+            
+            <DeclaredIn>AGRestConstants.h</DeclaredIn>
+            
+            <NodeRef refid="28"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/kAGErrorInvalidSessionToken</TokenIdentifier>
+            <Abstract type="html">Error code indicating that the current session token is invalid.
+     </Abstract>
+            <Declaration>kAGErrorInvalidSessionToken</Declaration>
+            
+            <DeclaredIn>AGRestConstants.h</DeclaredIn>
+            
+            <NodeRef refid="28"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/kAGErrorFacebookInvalidSession</TokenIdentifier>
+            <Abstract type="html">Invalid Facebook session.
+     </Abstract>
+            <Declaration>kAGErrorFacebookInvalidSession</Declaration>
+            
+            <DeclaredIn>AGRestConstants.h</DeclaredIn>
+            
+            <NodeRef refid="28"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/kAGErrorInvalidLinkedSession</TokenIdentifier>
+            <Abstract type="html">Invalid linked session.
+     </Abstract>
+            <Declaration>kAGErrorInvalidLinkedSession</Declaration>
+            
+            <DeclaredIn>AGRestConstants.h</DeclaredIn>
+            
+            <NodeRef refid="28"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/kAGErrorAuthBadCredentials</TokenIdentifier>
+            <Abstract type="html">Authentication failed with email / password
+     </Abstract>
+            <Declaration>kAGErrorAuthBadCredentials</Declaration>
+            
+            <DeclaredIn>AGRestConstants.h</DeclaredIn>
+            
+            <NodeRef refid="28"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/kAGErrorUnknown</TokenIdentifier>
+            <Abstract type="html">Unknown error
+     </Abstract>
+            <Declaration>kAGErrorUnknown</Declaration>
+            
+            <DeclaredIn>AGRestConstants.h</DeclaredIn>
+            
+            <NodeRef refid="28"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AGRestFileManager.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AGRestFileManager</TokenIdentifier>
+			<Abstract type="html">@class AGRestFileManager</Abstract>
+			<DeclaredIn>AGRestFileManager.h</DeclaredIn>
+            
+			
+			<NodeRef refid="7"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AGRestFileManager/applicationSupport</TokenIdentifier>
+			<Abstract type="html">The system defined application&apos;s support directory.</Abstract>
+			<DeclaredIn>AGRestFileManager.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)applicationSupport</Declaration>
+			
+			<ReturnValue><Abstract type="html">The system defined application&apos;s support directory.</Abstract></ReturnValue>
+			<Anchor>//api/name/applicationSupport</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AGRestFileManager/documentsDirectory</TokenIdentifier>
+			<Abstract type="html">The system defined application&apos;s document directory.</Abstract>
+			<DeclaredIn>AGRestFileManager.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)documentsDirectory</Declaration>
+			
+			<ReturnValue><Abstract type="html">The system defined application&apos;s document directory.</Abstract></ReturnValue>
+			<Anchor>//api/name/documentsDirectory</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AGRestFileManager/libraryDirectory</TokenIdentifier>
+			<Abstract type="html">The system defined application&apos;s library directory.</Abstract>
+			<DeclaredIn>AGRestFileManager.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)libraryDirectory</Declaration>
+			
+			<ReturnValue><Abstract type="html">The system defined application&apos;s library directory.</Abstract></ReturnValue>
+			<Anchor>//api/name/libraryDirectory</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AGRestFileManager/cacheDirectory</TokenIdentifier>
+			<Abstract type="html">The application cache directory.</Abstract>
+			<DeclaredIn>AGRestFileManager.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)cacheDirectory</Declaration>
+			
+			<ReturnValue><Abstract type="html">The application cache directory.</Abstract></ReturnValue>
+			<Anchor>//api/name/cacheDirectory</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestFileManager/restRootDirectory</TokenIdentifier>
+			<Abstract type="html">The AGRestSDK default document directory.</Abstract>
+			<DeclaredIn>AGRestFileManager.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)restRootDirectory</Declaration>
+			
+			<ReturnValue><Abstract type="html">The AGRestSDK default document directory.</Abstract></ReturnValue>
+			<Anchor>//api/name/restRootDirectory</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestFileManager/restDataDirectory</TokenIdentifier>
+			<Abstract type="html">The AGRestSDK default document directory.</Abstract>
+			<DeclaredIn>AGRestFileManager.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)restDataDirectory</Declaration>
+			
+			<ReturnValue><Abstract type="html">The AGRestSDK default document directory.</Abstract></ReturnValue>
+			<Anchor>//api/name/restDataDirectory</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestFileManager/restCacheDirectory</TokenIdentifier>
+			<Abstract type="html">The AGRestSDK default document directory.</Abstract>
+			<DeclaredIn>AGRestFileManager.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)restCacheDirectory</Declaration>
+			
+			<ReturnValue><Abstract type="html">The AGRestSDK default document directory.</Abstract></ReturnValue>
+			<Anchor>//api/name/restCacheDirectory</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AGRestFileManager/createDirectoryIfNeededAsyncAtPath:</TokenIdentifier>
+			<Abstract type="html">Create a new directory at the given path asynchronously only if doesn&apos;t already exists.</Abstract>
+			<DeclaredIn>AGRestFileManager.h</DeclaredIn>
+			
+			<Declaration>+ (BFTask *)createDirectoryIfNeededAsyncAtPath:(nonnull NSString *)directoryPath</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>directoryPath</Name>
+					<Abstract type="html">Directory path where to create the new directory.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">On-going BFTask.</Abstract></ReturnValue>
+			<Anchor>//api/name/createDirectoryIfNeededAsyncAtPath:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AGRestFileManager/createDirectoryIfNeededAsyncAtPath:withExecutor:</TokenIdentifier>
+			<Abstract type="html">Create a new directory at the given path asynchronously only if don&apos;t already exists using a given BFExecutor.</Abstract>
+			<DeclaredIn>AGRestFileManager.h</DeclaredIn>
+			
+			<Declaration>+ (BFTask *)createDirectoryIfNeededAsyncAtPath:(nonnull NSString *)directoryPath withExecutor:(nonnull BFExecutor *)executor</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>directoryPath</Name>
+					<Abstract type="html">Directory path where to create the new directory.</Abstract>
+				</Parameter><Parameter>
+					<Name>executor</Name>
+					<Abstract type="html">BFExecutor to use for the operation.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">On-going BFTask.</Abstract></ReturnValue>
+			<Anchor>//api/name/createDirectoryIfNeededAsyncAtPath:withExecutor:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AGRestFileManager/removeDirectoryContentsAsyncAtPath:</TokenIdentifier>
+			<Abstract type="html">Remove directory&apos;s content asynchronously at the given path.</Abstract>
+			<DeclaredIn>AGRestFileManager.h</DeclaredIn>
+			
+			<Declaration>+ (BFTask *)removeDirectoryContentsAsyncAtPath:(nonnull NSString *)directoryPath</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>directoryPath</Name>
+					<Abstract type="html">Directory path where to remove contents.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">On-going BFTask.</Abstract></ReturnValue>
+			<Anchor>//api/name/removeDirectoryContentsAsyncAtPath:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AGRestFileManager/removeDirectoryContentsAsyncAtPath:withExecutor:</TokenIdentifier>
+			<Abstract type="html">Remove directory&apos;s content asynchronously at the given path using a given BFExecutor.</Abstract>
+			<DeclaredIn>AGRestFileManager.h</DeclaredIn>
+			
+			<Declaration>+ (BFTask *)removeDirectoryContentsAsyncAtPath:(NSString *)directoryPath withExecutor:(BFExecutor *)executor</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>directoryPath</Name>
+					<Abstract type="html">Directory path where to remove contents.</Abstract>
+				</Parameter><Parameter>
+					<Name>executor</Name>
+					<Abstract type="html">BFExecutor to use for the operation.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">On-going BFTask.</Abstract></ReturnValue>
+			<Anchor>//api/name/removeDirectoryContentsAsyncAtPath:withExecutor:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AGRestFileManager/moveDirectoryContentsAsyncFromPath:toPath:</TokenIdentifier>
+			<Abstract type="html">Move a directory&apos;s content asynchronously from path to path.</Abstract>
+			<DeclaredIn>AGRestFileManager.h</DeclaredIn>
+			
+			<Declaration>+ (BFTask *)moveDirectoryContentsAsyncFromPath:(nonnull NSString *)fromPath toPath:(nonnull NSString *)toPath</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>fromPath</Name>
+					<Abstract type="html">The actual directory path.</Abstract>
+				</Parameter><Parameter>
+					<Name>toPath</Name>
+					<Abstract type="html">The new directory path.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">On-going BFTask.</Abstract></ReturnValue>
+			<Anchor>//api/name/moveDirectoryContentsAsyncFromPath:toPath:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AGRestFileManager/moveDirectoryContentsAsyncFromPath:toPath:withExecutor:</TokenIdentifier>
+			<Abstract type="html">Move a directory&apos;s content asynchronously from path to path using a given BFExecutor.</Abstract>
+			<DeclaredIn>AGRestFileManager.h</DeclaredIn>
+			
+			<Declaration>+ (BFTask *)moveDirectoryContentsAsyncFromPath:(nonnull NSString *)fromPath toPath:(nonnull NSString *)toPath withExecutor:(nonnull BFExecutor *)executor</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>fromPath</Name>
+					<Abstract type="html">The actual directory path.</Abstract>
+				</Parameter><Parameter>
+					<Name>toPath</Name>
+					<Abstract type="html">The new directory path.</Abstract>
+				</Parameter><Parameter>
+					<Name>executor</Name>
+					<Abstract type="html">BFExecutor to use for the operation.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">On-going BFTask.</Abstract></ReturnValue>
+			<Anchor>//api/name/moveDirectoryContentsAsyncFromPath:toPath:withExecutor:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AGRestFileManager/moveItemAsyncFromPath:toPath:</TokenIdentifier>
+			<Abstract type="html">Move an item asynchronously from path to path.</Abstract>
+			<DeclaredIn>AGRestFileManager.h</DeclaredIn>
+			
+			<Declaration>+ (BFTask *)moveItemAsyncFromPath:(nonnull NSString *)fromPath toPath:(nonnull NSString *)toPath</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>fromPath</Name>
+					<Abstract type="html">The actual item path.</Abstract>
+				</Parameter><Parameter>
+					<Name>toPath</Name>
+					<Abstract type="html">The new item path.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">On-going BFTask.</Abstract></ReturnValue>
+			<Anchor>//api/name/moveItemAsyncFromPath:toPath:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AGRestFileManager/moveItemAsyncFromPath:toPath:withExecutor:</TokenIdentifier>
+			<Abstract type="html">Move an item asynchronously from path to path using a given BFExecutor.</Abstract>
+			<DeclaredIn>AGRestFileManager.h</DeclaredIn>
+			
+			<Declaration>+ (BFTask *)moveItemAsyncFromPath:(nonnull NSString *)fromPath toPath:(nonnull NSString *)toPath withExecutor:(nonnull BFExecutor *)executor</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>fromPath</Name>
+					<Abstract type="html">The actual item path.</Abstract>
+				</Parameter><Parameter>
+					<Name>toPath</Name>
+					<Abstract type="html">The new item path.</Abstract>
+				</Parameter><Parameter>
+					<Name>executor</Name>
+					<Abstract type="html">BFExecutor to use for the operation.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">On-going BFTask.</Abstract></ReturnValue>
+			<Anchor>//api/name/moveItemAsyncFromPath:toPath:withExecutor:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AGRestFileManager/removeItemAsynAtPath:shouldLock:</TokenIdentifier>
+			<Abstract type="html">Remove an item asynchronously at path.</Abstract>
+			<DeclaredIn>AGRestFileManager.h</DeclaredIn>
+			
+			<Declaration>+ (BFTask *)removeItemAsynAtPath:(nonnull NSString *)itemPath shouldLock:(BOOL)lock</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>itemPath</Name>
+					<Abstract type="html">The item filepath.</Abstract>
+				</Parameter><Parameter>
+					<Name>lock</Name>
+					<Abstract type="html">Whether the item should be locked during the operation or not.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">On-going BFTask.</Abstract></ReturnValue>
+			<Anchor>//api/name/removeItemAsynAtPath:shouldLock:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AGRestFileManager/removeItemAsynAtPath:shouldLock:withExecutor:</TokenIdentifier>
+			<Abstract type="html">Remove an item asynchronously at path using a given BFExecutor.</Abstract>
+			<DeclaredIn>AGRestFileManager.h</DeclaredIn>
+			
+			<Declaration>+ (BFTask *)removeItemAsynAtPath:(nonnull NSString *)itemPath shouldLock:(BOOL)lock withExecutor:(nonnull BFExecutor *)executor</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>itemPath</Name>
+					<Abstract type="html">The item filepath.</Abstract>
+				</Parameter><Parameter>
+					<Name>lock</Name>
+					<Abstract type="html">Whether the item should be locked during the operation or not.</Abstract>
+				</Parameter><Parameter>
+					<Name>executor</Name>
+					<Abstract type="html">BFExecutor to use for the operation.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">On-going BFTask.</Abstract></ReturnValue>
+			<Anchor>//api/name/removeItemAsynAtPath:shouldLock:withExecutor:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AGRestFileManager/copyItemAsyncAtPath:toPath:</TokenIdentifier>
+			<Abstract type="html">Copy an item asynchronously at path to path.</Abstract>
+			<DeclaredIn>AGRestFileManager.h</DeclaredIn>
+			
+			<Declaration>+ (BFTask *)copyItemAsyncAtPath:(nonnull NSString *)atPath toPath:(nonnull NSString *)toPath</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>atPath</Name>
+					<Abstract type="html">The item filepath.</Abstract>
+				</Parameter><Parameter>
+					<Name>toPath</Name>
+					<Abstract type="html">The new item filepath.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">On-going BFTask.</Abstract></ReturnValue>
+			<Anchor>//api/name/copyItemAsyncAtPath:toPath:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AGRestFileManager/copyItemAsyncAtPath:toPath:withExecutor:</TokenIdentifier>
+			<Abstract type="html">Copy an item asynchronously at path to path using a given BFExecutor.</Abstract>
+			<DeclaredIn>AGRestFileManager.h</DeclaredIn>
+			
+			<Declaration>+ (BFTask *)copyItemAsyncAtPath:(nonnull NSString *)atPath toPath:(nonnull NSString *)toPath withExecutor:(nonnull BFExecutor *)executor</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>atPath</Name>
+					<Abstract type="html">The item filepath.</Abstract>
+				</Parameter><Parameter>
+					<Name>toPath</Name>
+					<Abstract type="html">The new item filepath.</Abstract>
+				</Parameter><Parameter>
+					<Name>executor</Name>
+					<Abstract type="html">BFExecutor to use for the operation.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">On-going BFTask.</Abstract></ReturnValue>
+			<Anchor>//api/name/copyItemAsyncAtPath:toPath:withExecutor:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AGRestFileManager/writeStringAsync:toFileAtPath:</TokenIdentifier>
+			<Abstract type="html">Write a given string asynchronously to a given filepath.</Abstract>
+			<DeclaredIn>AGRestFileManager.h</DeclaredIn>
+			
+			<Declaration>+ (BFTask *)writeStringAsync:(nonnull NSString *)string toFileAtPath:(nonnull NSString *)filePath</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>string</Name>
+					<Abstract type="html">The NSString to write.</Abstract>
+				</Parameter><Parameter>
+					<Name>filePath</Name>
+					<Abstract type="html">The destination filepath.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">On-going BFTask.</Abstract></ReturnValue>
+			<Anchor>//api/name/writeStringAsync:toFileAtPath:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AGRestFileManager/writeStringAsync:toFileAtPath:withExecutor:</TokenIdentifier>
+			<Abstract type="html">Write a given string asynchronously to a given filepath using a given BFExecutor.</Abstract>
+			<DeclaredIn>AGRestFileManager.h</DeclaredIn>
+			
+			<Declaration>+ (BFTask *)writeStringAsync:(nonnull NSString *)string toFileAtPath:(nonnull NSString *)filePath withExecutor:(nonnull BFExecutor *)executor</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>string</Name>
+					<Abstract type="html">The NSString to write.</Abstract>
+				</Parameter><Parameter>
+					<Name>filePath</Name>
+					<Abstract type="html">The destination filepath.</Abstract>
+				</Parameter><Parameter>
+					<Name>executor</Name>
+					<Abstract type="html">BFExecutor to use for the operation.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">On-going BFTask.</Abstract></ReturnValue>
+			<Anchor>//api/name/writeStringAsync:toFileAtPath:withExecutor:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AGRestFileManager/writeDataAsync:toFileAtPath:</TokenIdentifier>
+			<Abstract type="html">Write given data asynchronously to a given filepath.</Abstract>
+			<DeclaredIn>AGRestFileManager.h</DeclaredIn>
+			
+			<Declaration>+ (BFTask *)writeDataAsync:(nonnull NSData *)data toFileAtPath:(nonnull NSString *)filePath</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>data</Name>
+					<Abstract type="html">The NSData to write.</Abstract>
+				</Parameter><Parameter>
+					<Name>filePath</Name>
+					<Abstract type="html">The destination filepath.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">On-going BFTask.</Abstract></ReturnValue>
+			<Anchor>//api/name/writeDataAsync:toFileAtPath:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AGRestFileManager/writeDataAsync:toFileAtPath:withExecutor:</TokenIdentifier>
+			<Abstract type="html">Write given data asynchronously to a given filepath using a given BFExecutor.</Abstract>
+			<DeclaredIn>AGRestFileManager.h</DeclaredIn>
+			
+			<Declaration>+ (BFTask *)writeDataAsync:(NSData *)data toFileAtPath:(NSString *)filePath withExecutor:(BFExecutor *)executor</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>data</Name>
+					<Abstract type="html">The NSData to write.</Abstract>
+				</Parameter><Parameter>
+					<Name>filePath</Name>
+					<Abstract type="html">The destination filepath.</Abstract>
+				</Parameter><Parameter>
+					<Name>executor</Name>
+					<Abstract type="html">BFExecutor to use for the operation.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">On-going BFTask.</Abstract></ReturnValue>
+			<Anchor>//api/name/writeDataAsync:toFileAtPath:withExecutor:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AGRestFileManager/contentStringAsyncFromFile:</TokenIdentifier>
+			<Abstract type="html">Get an item&apos;s content as NSString asynchronously to a given filepath.</Abstract>
+			<DeclaredIn>AGRestFileManager.h</DeclaredIn>
+			
+			<Declaration>+ (BFTask *)contentStringAsyncFromFile:(nonnull NSString *)filePath</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>filePath</Name>
+					<Abstract type="html">The item&apos;s filepath.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">On-going BFTask.</Abstract></ReturnValue>
+			<Anchor>//api/name/contentStringAsyncFromFile:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AGRestFileManager/contentStringAsyncFromFile:withExecutor:</TokenIdentifier>
+			<Abstract type="html">Get content as NSString asynchronously to a given filepath using a given BFExecutor.</Abstract>
+			<DeclaredIn>AGRestFileManager.h</DeclaredIn>
+			
+			<Declaration>+ (BFTask *)contentStringAsyncFromFile:(nonnull NSString *)filePath withExecutor:(nonnull BFExecutor *)executor</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>filePath</Name>
+					<Abstract type="html">The item&apos;s filepath.</Abstract>
+				</Parameter><Parameter>
+					<Name>executor</Name>
+					<Abstract type="html">BFExecutor to use for the operation.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">On-going BFTask.</Abstract></ReturnValue>
+			<Anchor>//api/name/contentStringAsyncFromFile:withExecutor:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AGRestFileManager/contentDataAsyncFromFile:</TokenIdentifier>
+			<Abstract type="html">Get an item&apos;s content as NSData asynchronously to a given filepath.</Abstract>
+			<DeclaredIn>AGRestFileManager.h</DeclaredIn>
+			
+			<Declaration>+ (BFTask *)contentDataAsyncFromFile:(nonnull NSString *)filePath</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>filePath</Name>
+					<Abstract type="html">The item&apos;s filepath.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">On-going BFTask.</Abstract></ReturnValue>
+			<Anchor>//api/name/contentDataAsyncFromFile:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AGRestFileManager/contentDataAsyncFromFile:withExecutor:</TokenIdentifier>
+			<Abstract type="html">Get an item&apos;s content as NSData asynchronously to a given filepath using a given BFExecutor.</Abstract>
+			<DeclaredIn>AGRestFileManager.h</DeclaredIn>
+			
+			<Declaration>+ (BFTask *)contentDataAsyncFromFile:(nonnull NSString *)filePath withExecutor:(nonnull BFExecutor *)executor</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>filePath</Name>
+					<Abstract type="html">The item&apos;s filepath.</Abstract>
+				</Parameter><Parameter>
+					<Name>executor</Name>
+					<Abstract type="html">BFExecutor to use for the operation.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">On-going BFTask.</Abstract></ReturnValue>
+			<Anchor>//api/name/contentDataAsyncFromFile:withExecutor:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

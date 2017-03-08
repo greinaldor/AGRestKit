@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/AGRestRequestRunningOptions.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/AGRestRequestRunningOptions</TokenIdentifier>
+			<Abstract type="html">Request running options interpreted by the server instance.</Abstract>
+			<DeclaredIn>AGRestRequestRunning.h</DeclaredIn>
+            
+			
+			<NodeRef refid="33"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/AGRestRequestRunningOptionRetryIfFailed</TokenIdentifier>
+            <Abstract type="html">Option indicating wether a failed request should retry.
+     </Abstract>
+            <Declaration>AGRestRequestRunningOptionRetryIfFailed</Declaration>
+            
+            <DeclaredIn>AGRestRequestRunning.h</DeclaredIn>
+            
+            <NodeRef refid="33"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

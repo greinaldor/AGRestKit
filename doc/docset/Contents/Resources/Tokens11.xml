@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AGRestObjectMapper.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AGRestObjectMapper</TokenIdentifier>
+			<Abstract type="html">The object mapper is responsible for mapping objects from a NSDictionary sourcce to an instance of a registered class.
+Every registered class should conforms to the AGRestObjectMapping protocol.
+An object mapper should be registered to the AGRestCoordinator in order to be used, note that only one mapper can be registered at a time.
+&lt;br&gt;&lt;br&gt;The AGRestCoordinator will use his object mapper to automatically map server&apos;s responses to registered classes instances and attach those into request responses.</Abstract>
+			<DeclaredIn>AGRestObjectMapper.h</DeclaredIn>
+            
+			
+			<NodeRef refid="11"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AGRestObjectMapper/isSupportedClass:</TokenIdentifier>
+			<Abstract type="html">YES if the class can be registered to the object mapper. No otherwise.</Abstract>
+			<DeclaredIn>AGRestObjectMapper.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)isSupportedClass:(nonnull Class __unsafe_unretained)aClass</Declaration>
+			
+			<ReturnValue><Abstract type="html">YES if the class can be registered to the object mapper. No otherwise.</Abstract></ReturnValue>
+			<Anchor>//api/name/isSupportedClass:</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestObjectMapper/objectFromSource:toInstanceOfClass:error:</TokenIdentifier>
+			<Abstract type="html">Map a source dictionary to an instance of a registered class.</Abstract>
+			<DeclaredIn>AGRestObjectMapper.h</DeclaredIn>
+			
+			<Declaration>- (nullable id&lt;AGRestObjectMapping&gt;)objectFromSource:(nonnull id)source toInstanceOfClass:(nonnull Class __unsafe_unretained)targetClass error:(NSError *_Nullable __autoreleasing *_Nullable)error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>source</Name>
+					<Abstract type="html">The source object.</Abstract>
+				</Parameter><Parameter>
+					<Name>targetClass</Name>
+					<Abstract type="html">The target class to instantiate.</Abstract>
+				</Parameter><Parameter>
+					<Name>error</Name>
+					<Abstract type="html">The error, if any, which occured during the mapping.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The mapped object/array instance(s) of the targetClass.</Abstract></ReturnValue>
+			<Anchor>//api/name/objectFromSource:toInstanceOfClass:error:</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestObjectMapper/sourceFromObject:error:</TokenIdentifier>
+			<Abstract type="html">Unmap an instance of a registered class to a source dictionary.</Abstract>
+			<DeclaredIn>AGRestObjectMapper.h</DeclaredIn>
+			
+			<Declaration>- (nullable NSDictionary *)sourceFromObject:(nonnull id&lt;AGRestObjectMapping&gt;)object error:(NSError *_Nullable __autoreleasing *_Nullable)error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>object</Name>
+					<Abstract type="html">The object to unmap.</Abstract>
+				</Parameter><Parameter>
+					<Name>error</Name>
+					<Abstract type="html">The error, if any, which occured during the unmapping.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The source dictionary from the given object.</Abstract></ReturnValue>
+			<Anchor>//api/name/sourceFromObject:error:</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestObjectMapper/sourcesFromArray:error:</TokenIdentifier>
+			<Abstract type="html">Unmap an array of registered class to a source dictionary.</Abstract>
+			<DeclaredIn>AGRestObjectMapper.h</DeclaredIn>
+			
+			<Declaration>- (nullable NSArray *)sourcesFromArray:(nonnull NSArray&lt;id&lt;AGRestObjectMapping&gt; &gt; *)objects error:(NSError *_Nullable __autoreleasing *_Nullable)error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>objects</Name>
+					<Abstract type="html">The array of instances of registered class.</Abstract>
+				</Parameter><Parameter>
+					<Name>error</Name>
+					<Abstract type="html">The error, if any, which occured during the unmapping.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The source dictionary from the given array.</Abstract></ReturnValue>
+			<Anchor>//api/name/sourcesFromArray:error:</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestObjectMapper/registerSubclass:</TokenIdentifier>
+			<Abstract type="html">Register a class that conforms to AGObjectMappingProtocol as a valid mappable/unmapple class.
+    Registering a class will make this class ready for mapping/unmapping operations. Under the hood, registering a class will try
+    to instanciate an object of this class and call AGObjectMapping configuration methods.</Abstract>
+			<DeclaredIn>AGRestObjectMapper.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)registerSubclass:(nonnull Class __unsafe_unretained)newClass</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>newClass</Name>
+					<Abstract type="html">The class to register.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES if a class has been registered. NO otherwise.</Abstract></ReturnValue>
+			<Anchor>//api/name/registerSubclass:</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestObjectMapper/allRegisteredClasses</TokenIdentifier>
+			<Abstract type="html">All registered subclasses of AGObject or NSManagedObject</Abstract>
+			<DeclaredIn>AGRestObjectMapper.h</DeclaredIn>
+			
+			<Declaration>- (nullable NSArray *)allRegisteredClasses</Declaration>
+			
+			<ReturnValue><Abstract type="html">All registered subclasses of AGObject or NSManagedObject</Abstract></ReturnValue>
+			<Anchor>//api/name/allRegisteredClasses</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestObjectMapper/isRegisteredClass:</TokenIdentifier>
+			<Abstract type="html">YES if the class is already registred. No otherwise.</Abstract>
+			<DeclaredIn>AGRestObjectMapper.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)isRegisteredClass:(nonnull Class __unsafe_unretained)aClass</Declaration>
+			
+			<ReturnValue><Abstract type="html">YES if the class is already registred. No otherwise.</Abstract></ReturnValue>
+			<Anchor>//api/name/isRegisteredClass:</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

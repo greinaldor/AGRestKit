@@ -1,0 +1,4 @@
+Documentation set was installed to Xcode!
+
+Path: /Users/greinad/Library/Developer/Shared/Documentation/DocSets/com.agtek.AGRestKit.docset
+Time: 2017-03-08 16:07:33 +0000

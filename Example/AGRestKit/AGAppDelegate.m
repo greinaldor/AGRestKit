@@ -8,11 +8,43 @@
 
 #import "AGAppDelegate.h"
 
+@import AGRestKit;
+@import Bolts;
+
+#import "GoogleBookVolume.h"
+
+#define kGoogleBookAPI  @"https://www.googleapis.com/books/v1/"
+#define kGoogleClientId @"8251937846-j7apn80mg71lnjscairmo73n0ctnodmm.apps.googleusercontent.com"
+#define kGoogleAPIKey   @"AIzaSyA4L3mlUaaE_I39aDF2wR_l4LDIssGFVZs"
+
 @implementation AGAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    [AGRest initializeRestWithBaseUrl:kGoogleBookAPI];
+    [AGRest setLoggingEnable:YES level:AGRestLoggingLevelInfo];
+    [AGRest registerSubclass:[GoogleBookVolume class]];
+    [AGRest registerSubclass:[GoogleBookVolumesList class]];
+    
+    AGRestRequest *request = [AGRestRequest GETRequestWithUrl:kGoogleBookAPI
+                                                     endPoint:@"volumes"
+                                                         body:@{@"q":@"isbn:9781451648546"}];
+    [request setTargetClass:[GoogleBookVolumesList class]];
+    
+    [[request sendRequestInBackground] continueWithBlock:^id _Nullable(BFTask * _Nonnull t) {
+        if (t.error || t.cancelled) {
+            NSLog(@"failed: %@", t.error);
+        } else {
+            AGRestResponse *response = t.result;
+            NSLog(@"result: %@", response.responseData);
+        }
+        return t;
+    }];
+    
+    //[request cancel];
+    
     return YES;
 }
 

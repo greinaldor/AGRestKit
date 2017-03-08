@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/AGRestObjectMapping.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/AGRestObjectMapping</TokenIdentifier>
+			<Abstract type="html">@protocol AGRestObjectMapping</Abstract>
+			<DeclaredIn>AGRestObjectMapping.h</DeclaredIn>
+            
+			
+			<NodeRef refid="22"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/AGRestObjectMapping/classURI</TokenIdentifier>
+			<Abstract type="html">The dafault implementation of AGRestObjectMapper uses the class URI to match response header Conten-Type field
+describe in the JSON API standards </Abstract>
+			<DeclaredIn>AGRestObjectMapping.h</DeclaredIn>
+			
+			<Declaration>+ (nonnull NSString *)classURI</Declaration>
+			
+			<ReturnValue><Abstract type="html">The class uri string.</Abstract></ReturnValue>
+			<Anchor>//api/name/classURI</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/AGRestObjectMapping/newInstance</TokenIdentifier>
+			<Abstract type="html">Create a new instance.</Abstract>
+			<DeclaredIn>AGRestObjectMapping.h</DeclaredIn>
+			
+			<Declaration>+ (nullable instancetype)newInstance</Declaration>
+			
+			<ReturnValue><Abstract type="html">A new instance.</Abstract></ReturnValue>
+			<Anchor>//api/name/newInstance</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/AGRestObjectMapping/dictionaryKeyToPropertyKey:</TokenIdentifier>
+			<Abstract type="html">Tells the mapper to map a dictionary key to the object&apos;s property key.</Abstract>
+			<DeclaredIn>AGRestObjectMapping.h</DeclaredIn>
+			
+			<Declaration>- (nullable NSString *)dictionaryKeyToPropertyKey:(nonnull NSString *)propertyKey</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>propertyKey</Name>
+					<Abstract type="html">The property key that should return his mirrored dictionary key.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The dictionary key that should match the propertyKey.</Abstract></ReturnValue>
+			<Anchor>//api/name/dictionaryKeyToPropertyKey:</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

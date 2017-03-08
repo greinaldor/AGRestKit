@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>AGRestRequestCachePolicy Constants Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../index.html">AGRestKit </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">AGTek</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
+	<option value="top">Jump To&#133;</option>
+	
+
+	
+
+	
+</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">AGRestRequestCachePolicy Constants Reference</h1>
+
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Declared in</th>
+	<td>AGRestRequest.h</td>
+</tr>
+						</tbody></table></div>
+					
+
+                    
+
+					
+
+                    
+                    <h3 class="subsubtitle method-title">AGRestRequestCachePolicy</h3>
+                    
+					
+					<div class="section section-overview">
+                        <p>@typedef AGRestRequestCachePolicy
+<code>AGRestRequestCachePolicy</code> enums contains all possible cache policy for <a href="../Classes/AGRestRequest.html"><code>AGRestRequest</code></a></p>
+					</div>
+					
+					
+                    <div class="section">
+                        <!-- display enum values -->
+                        
+                        <h4 class="method-subtitle">Definition</h4>
+                        <code>typedef NS_ENUM(NSInteger, AGRestRequestCachePolicy ) {<br>
+                            
+                            &nbsp;&nbsp; <a href="">kAGRestRequestIgnoreCache</a> = 1,<br>
+                            
+                            &nbsp;&nbsp; <a href="">kAGRestRequestCacheOnly</a>,<br>
+                            
+                            &nbsp;&nbsp; <a href="">kAGRestRequestCacheThenNetwork</a>,<br>
+                            
+                            &nbsp;&nbsp; <a href="">kAGRestRequestCacheElseNetwork</a>,<br>
+                            
+                            &nbsp;&nbsp; <a href="">kAGRestRequestNetworkElseCache</a>,<br>
+                            
+                            &nbsp;&nbsp; <a href="">kAGRestRequestNetworkOnly</a>,<br>
+                            
+                            };</code>
+                    
+                    </div>
+                    
+                    <div class="section section-methods">
+                        <h4 class="method-subtitle">Constants</h4>
+                        <dl class="termdef">
+                            
+                            <dt><a name="" title="kAGRestRequestIgnoreCache"></a><code>kAGRestRequestIgnoreCache</code></dt>
+<dd>
+
+
+<pre><code> The request does not load from the cache or save results to the cache
+</code></pre>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AGRestRequest.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="kAGRestRequestCacheOnly"></a><code>kAGRestRequestCacheOnly</code></dt>
+<dd>
+
+
+<pre><code> The request loads from the cache only.
+</code></pre>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AGRestRequest.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="kAGRestRequestCacheThenNetwork"></a><code>kAGRestRequestCacheThenNetwork</code></dt>
+<dd>
+
+
+<pre><code> The request first loads from the cache, then loads from network
+</code></pre>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AGRestRequest.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="kAGRestRequestCacheElseNetwork"></a><code>kAGRestRequestCacheElseNetwork</code></dt>
+<dd>
+
+
+<pre><code> The request first loads from the cache, if that fails, it loads results from network
+</code></pre>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AGRestRequest.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="kAGRestRequestNetworkElseCache"></a><code>kAGRestRequestNetworkElseCache</code></dt>
+<dd>
+
+
+<pre><code> The request first loads from network, if that fails, it loads results from cache
+</code></pre>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AGRestRequest.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="kAGRestRequestNetworkOnly"></a><code>kAGRestRequestNetworkOnly</code></dt>
+<dd>
+
+
+<pre><code> The request does not load from the cache, but it will save results in the cache
+</code></pre>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AGRestRequest.h</code>.
+	</p>
+	
+</dd>
+                            
+                        </dl>
+                    </div>
+                    
+
+                    
+                    
+
+                    
+
+                    
+                    <div class="method-subsection declared-in-section">
+                        <h4 class="method-subtitle">Declared In</h4>
+                        <p><code class="declared-in-ref">AGRestRequest.h</code></p>
+                    </div>
+                    
+                    
+                    
+                    
+          
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2017 AGTek. All rights reserved. Updated: 2017-03-08</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>

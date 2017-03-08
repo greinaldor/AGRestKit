@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AGRestReachabilityManager.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AGRestReachabilityManager</TokenIdentifier>
+			<Abstract type="html">@class AGRestReachabilityManager</Abstract>
+			<DeclaredIn>AGRestReachabilityManager.h</DeclaredIn>
+            
+			
+			<NodeRef refid="12"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestReachabilityManager/initWithUrl:</TokenIdentifier>
+			<Abstract type="html">Returns an initialized instance configured to monitoring with the given url.</Abstract>
+			<DeclaredIn>AGRestReachabilityManager.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)initWithUrl:(NSURL *)url</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>url</Name>
+					<Abstract type="html">The url to monitor.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">New AGRestReachabilityManager instance.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithUrl:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AGRestReachabilityManager/sharedManager</TokenIdentifier>
+			<Abstract type="html">Return a shared instance of AGRestReachabilityManager.</Abstract>
+			<DeclaredIn>AGRestReachabilityManager.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)sharedManager</Declaration>
+			
+			
+			<Anchor>//api/name/sharedManager</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestReachabilityManager/addListener:</TokenIdentifier>
+			<Abstract type="html">Add a listener for reachability updates.</Abstract>
+			<DeclaredIn>AGRestReachabilityManager.h</DeclaredIn>
+			
+			<Declaration>- (void)addListener:(id&lt;AGRestReachabilityListener&gt;)listener</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>listener</Name>
+					<Abstract type="html">A listener implementing AGRestReachabilityListener protocol.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/addListener:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestReachabilityManager/removeListener:</TokenIdentifier>
+			<Abstract type="html">Remove a registered listener.</Abstract>
+			<DeclaredIn>AGRestReachabilityManager.h</DeclaredIn>
+			
+			<Declaration>- (void)removeListener:(id&lt;AGRestReachabilityListener&gt;)listener</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>listener</Name>
+					<Abstract type="html">A listener implementing AGRestReachabilityListener protocol.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/removeListener:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestReachabilityManager/removeAllListeners</TokenIdentifier>
+			<Abstract type="html">Remove all registered listeners.</Abstract>
+			<DeclaredIn>AGRestReachabilityManager.h</DeclaredIn>
+			
+			<Declaration>- (void)removeAllListeners</Declaration>
+			
+			
+			<Anchor>//api/name/removeAllListeners</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

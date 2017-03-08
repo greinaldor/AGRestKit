@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>AGRestErrorCode Constants Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../index.html">AGRestKit </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">AGTek</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
+	<option value="top">Jump To&#133;</option>
+	
+
+	
+
+	
+</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">AGRestErrorCode Constants Reference</h1>
+
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Declared in</th>
+	<td>AGRestConstants.h</td>
+</tr>
+						</tbody></table></div>
+					
+
+                    
+
+					
+
+                    
+                    <h3 class="subsubtitle method-title">AGRestErrorCode</h3>
+                    
+					
+					<div class="section section-overview">
+                        <p>@enum <a href="../Constants/AGRestReachabilityStatus.html">AGRestReachabilityStatus</a></p><p>AGRestErrorCode enum contains all custom error codes that are used as code for NSError for callbacks on all classes.
+These codes are used when domain of NSError that you receive is set to AGRestErrorDomain.</p>
+					</div>
+					
+					
+                    <div class="section">
+                        <!-- display enum values -->
+                        
+                        <h4 class="method-subtitle">Definition</h4>
+                        <code>typedef NS_ENUM(NSInteger, AGRestErrorCode ) {<br>
+                            
+                            &nbsp;&nbsp; <a href="">kAGErrorInternalLocal</a> = -1,<br>
+                            
+                            &nbsp;&nbsp; <a href="">kAGErrorInternalServer</a> = 1,<br>
+                            
+                            &nbsp;&nbsp; <a href="">kAGErrorServerRefused</a> = 3,<br>
+                            
+                            &nbsp;&nbsp; <a href="">kAGErrorNoInternetConnection</a> = 4,<br>
+                            
+                            &nbsp;&nbsp; <a href="">kAGErrorInternetConnectionLost</a> = 5,<br>
+                            
+                            &nbsp;&nbsp; <a href="">kAGErrorConnectionFailed</a> = 100,<br>
+                            
+                            &nbsp;&nbsp; <a href="">kAGErrorObjectNotFound</a> = 101,<br>
+                            
+                            &nbsp;&nbsp; <a href="">kAGErrorInvalidQuery</a> = 102,<br>
+                            
+                            &nbsp;&nbsp; <a href="">kAGErrorMissingObjectId</a> = 104,<br>
+                            
+                            &nbsp;&nbsp; <a href="">kAGErrorInvalidJSON</a> = 105,<br>
+                            
+                            &nbsp;&nbsp; <a href="">kAGErrorOperationForbidden</a> = 106,<br>
+                            
+                            &nbsp;&nbsp; <a href="">kAGErrorTimeout</a> = 107,<br>
+                            
+                            &nbsp;&nbsp; <a href="">kAGErrorInvalidEmailAddress</a> = 108,<br>
+                            
+                            &nbsp;&nbsp; <a href="">kAGErrorInvalidServerResponse</a> = 109,<br>
+                            
+                            &nbsp;&nbsp; <a href="">kAGErrorUsernameMissing</a> = 200,<br>
+                            
+                            &nbsp;&nbsp; <a href="">kAGErrorUserPasswordMissing</a> = 201,<br>
+                            
+                            &nbsp;&nbsp; <a href="">kAGErrorUsernameTaken</a> = 202,<br>
+                            
+                            &nbsp;&nbsp; <a href="">kAGErrorUserEmailTaken</a> = 203,<br>
+                            
+                            &nbsp;&nbsp; <a href="">kAGErrorFacebookAccountAlreadyLinked</a> = 204,<br>
+                            
+                            &nbsp;&nbsp; <a href="">kAGErrorAccountAlreadyLinked</a> = 205,<br>
+                            
+                            &nbsp;&nbsp; <a href="">kAGErrorInvalidSessionToken</a> = 206,<br>
+                            
+                            &nbsp;&nbsp; <a href="">kAGErrorFacebookInvalidSession</a> = 207,<br>
+                            
+                            &nbsp;&nbsp; <a href="">kAGErrorInvalidLinkedSession</a> = 208,<br>
+                            
+                            &nbsp;&nbsp; <a href="">kAGErrorAuthBadCredentials</a> = 209,<br>
+                            
+                            &nbsp;&nbsp; <a href="">kAGErrorUnknown</a> = 666,<br>
+                            
+                            };</code>
+                    
+                    </div>
+                    
+                    <div class="section section-methods">
+                        <h4 class="method-subtitle">Constants</h4>
+                        <dl class="termdef">
+                            
+                            <dt><a name="" title="kAGErrorInternalLocal"></a><code>kAGErrorInternalLocal</code></dt>
+<dd>
+
+
+<p>Internal local error. No information available.</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AGRestConstants.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="kAGErrorInternalServer"></a><code>kAGErrorInternalServer</code></dt>
+<dd>
+
+
+<p>Internal server error. No information available.</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AGRestConstants.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="kAGErrorServerRefused"></a><code>kAGErrorServerRefused</code></dt>
+<dd>
+
+
+<p>The server refused to respond the query.</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AGRestConstants.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="kAGErrorNoInternetConnection"></a><code>kAGErrorNoInternetConnection</code></dt>
+<dd>
+
+
+<p>Internet connection is missing</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AGRestConstants.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="kAGErrorInternetConnectionLost"></a><code>kAGErrorInternetConnectionLost</code></dt>
+<dd>
+
+
+<p>Internet connection lost during opearation</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AGRestConstants.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="kAGErrorConnectionFailed"></a><code>kAGErrorConnectionFailed</code></dt>
+<dd>
+
+
+<p>The connection to the API server failed.</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AGRestConstants.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="kAGErrorObjectNotFound"></a><code>kAGErrorObjectNotFound</code></dt>
+<dd>
+
+
+<p>Object doesn&rsquo;t exist.</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AGRestConstants.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="kAGErrorInvalidQuery"></a><code>kAGErrorInvalidQuery</code></dt>
+<dd>
+
+
+<p>The query contains bad syntax or invalid</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AGRestConstants.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="kAGErrorMissingObjectId"></a><code>kAGErrorMissingObjectId</code></dt>
+<dd>
+
+
+<p>Missing object id.</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AGRestConstants.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="kAGErrorInvalidJSON"></a><code>kAGErrorInvalidJSON</code></dt>
+<dd>
+
+
+<p>Malformed json object. A json dictionary is expected.</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AGRestConstants.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="kAGErrorOperationForbidden"></a><code>kAGErrorOperationForbidden</code></dt>
+<dd>
+
+
+<p>Tried to access a feature only available internally.</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AGRestConstants.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="kAGErrorTimeout"></a><code>kAGErrorTimeout</code></dt>
+<dd>
+
+
+<p>The request timed out on the server. Typically this indicates the request is too expensive.</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AGRestConstants.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="kAGErrorInvalidEmailAddress"></a><code>kAGErrorInvalidEmailAddress</code></dt>
+<dd>
+
+
+<p>The email address was invalid.</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AGRestConstants.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="kAGErrorInvalidServerResponse"></a><code>kAGErrorInvalidServerResponse</code></dt>
+<dd>
+
+
+<p>The Apple server response is not valid.</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AGRestConstants.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="kAGErrorUsernameMissing"></a><code>kAGErrorUsernameMissing</code></dt>
+<dd>
+
+
+<p>Username is missing or empty.</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AGRestConstants.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="kAGErrorUserPasswordMissing"></a><code>kAGErrorUserPasswordMissing</code></dt>
+<dd>
+
+
+<p>Password is missing or empty.</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AGRestConstants.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="kAGErrorUsernameTaken"></a><code>kAGErrorUsernameTaken</code></dt>
+<dd>
+
+
+<p>Username has already been taken.</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AGRestConstants.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="kAGErrorUserEmailTaken"></a><code>kAGErrorUserEmailTaken</code></dt>
+<dd>
+
+
+<p>Email has already been taken.</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AGRestConstants.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="kAGErrorFacebookAccountAlreadyLinked"></a><code>kAGErrorFacebookAccountAlreadyLinked</code></dt>
+<dd>
+
+
+<p>An existing Facebook account already linked to another user.</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AGRestConstants.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="kAGErrorAccountAlreadyLinked"></a><code>kAGErrorAccountAlreadyLinked</code></dt>
+<dd>
+
+
+<p>An existing account already linked to another user.</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AGRestConstants.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="kAGErrorInvalidSessionToken"></a><code>kAGErrorInvalidSessionToken</code></dt>
+<dd>
+
+
+<p>Error code indicating that the current session token is invalid.</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AGRestConstants.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="kAGErrorFacebookInvalidSession"></a><code>kAGErrorFacebookInvalidSession</code></dt>
+<dd>
+
+
+<p>Invalid Facebook session.</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AGRestConstants.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="kAGErrorInvalidLinkedSession"></a><code>kAGErrorInvalidLinkedSession</code></dt>
+<dd>
+
+
+<p>Invalid linked session.</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AGRestConstants.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="kAGErrorAuthBadCredentials"></a><code>kAGErrorAuthBadCredentials</code></dt>
+<dd>
+
+
+<p>Authentication failed with email / password</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AGRestConstants.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="kAGErrorUnknown"></a><code>kAGErrorUnknown</code></dt>
+<dd>
+
+
+<p>Unknown error</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AGRestConstants.h</code>.
+	</p>
+	
+</dd>
+                            
+                        </dl>
+                    </div>
+                    
+
+                    
+                    
+
+                    
+
+                    
+                    <div class="method-subsection declared-in-section">
+                        <h4 class="method-subtitle">Declared In</h4>
+                        <p><code class="declared-in-ref">AGRestConstants.h</code></p>
+                    </div>
+                    
+                    
+                    
+                    
+          
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2017 AGTek. All rights reserved. Updated: 2017-03-08</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>

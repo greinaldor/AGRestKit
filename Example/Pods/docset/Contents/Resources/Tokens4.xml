@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AGRestCoreDataCacheController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AGRestCoreDataCacheController</TokenIdentifier>
+			<Abstract type="html">@class AGRestCoreDataCacheController</Abstract>
+			<DeclaredIn>AGRestCoreDataCacheController.h</DeclaredIn>
+            
+			
+			<NodeRef refid="4"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AGRestCoreDataCacheController/sharedDataManager</TokenIdentifier>
+			<Abstract type="html">A shared instance of AGRestDataManager.</Abstract>
+			<DeclaredIn>AGRestCoreDataCacheController.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)sharedDataManager</Declaration>
+			
+			
+			<Anchor>//api/name/sharedDataManager</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

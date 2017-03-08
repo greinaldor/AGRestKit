@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/AGRestRequestTimeoutPolicy.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/AGRestRequestTimeoutPolicy</TokenIdentifier>
+			<Abstract type="html">@typedef AGRestRequestTimeoutPolicy
+AGRestRequestTimeoutPolicy enums contains all possible timeout policy for AGRestRequest</Abstract>
+			<DeclaredIn>AGRestRequest.h</DeclaredIn>
+            
+			
+			<NodeRef refid="34"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/kAGRestRequestTimeoutStopExecution</TokenIdentifier>
+            <Abstract type="html">     The request won&apos;t fire any response block if request timed out. Usually a bad idea.
+     </Abstract>
+            <Declaration>kAGRestRequestTimeoutStopExecution</Declaration>
+            
+            <DeclaredIn>AGRestRequest.h</DeclaredIn>
+            
+            <NodeRef refid="34"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/kAGRestRequestTimeoutRetry</TokenIdentifier>
+            <Abstract type="html">     The request will retry once if timed out. You can set the number of retry by setting
+     \b requestTimeoutRetryCount:
+     </Abstract>
+            <Declaration>kAGRestRequestTimeoutRetry</Declaration>
+            
+            <DeclaredIn>AGRestRequest.h</DeclaredIn>
+            
+            <NodeRef refid="34"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/kAGRestRequestTimeoutNone</TokenIdentifier>
+            <Abstract type="html">     The request will return fire a response block with timeout error set.</Abstract>
+            <Declaration>kAGRestRequestTimeoutNone</Declaration>
+            
+            <DeclaredIn>AGRestRequest.h</DeclaredIn>
+            
+            <NodeRef refid="34"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

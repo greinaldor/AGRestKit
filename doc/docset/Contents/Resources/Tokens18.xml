@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AGRestSessionController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AGRestSessionController</TokenIdentifier>
+			<Abstract type="html">@class AGRestSessionController</Abstract>
+			<DeclaredIn>AGRestSessionController.h</DeclaredIn>
+            
+			
+			<NodeRef refid="18"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestSessionController/getCurrentUser</TokenIdentifier>
+			<Abstract type="html">Return the current logged in user.</Abstract>
+			<DeclaredIn>AGRestSessionController.h</DeclaredIn>
+			
+			<Declaration>- (nullable id&lt;AGRestObjectMapping&gt;)getCurrentUser</Declaration>
+			
+			<ReturnValue><Abstract type="html">An instance of the user object.</Abstract></ReturnValue>
+			<Anchor>//api/name/getCurrentUser</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestSessionController/logInCurrentUserWithSessionToken:email:user:completion:</TokenIdentifier>
+			<Abstract type="html">Authenticate a user with an existing session token and make the logged-in user the current User.</Abstract>
+			<DeclaredIn>AGRestSessionController.h</DeclaredIn>
+			
+			<Declaration>- (void)logInCurrentUserWithSessionToken:(nonnull NSString *)sessionToken email:(nonnull NSString *)email user:(nonnull id&lt;AGRestObjectMapping&gt;)user completion:(void ( ^ _Nullable ) ( BOOL succeeded , NSError *_Nullable error ))block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sessionToken</Name>
+					<Abstract type="html">The session token used to authenticate the user</Abstract>
+				</Parameter><Parameter>
+					<Name>email</Name>
+					<Abstract type="html">User&apos;s email address.</Abstract>
+				</Parameter><Parameter>
+					<Name>user</Name>
+					<Abstract type="html">An instance of a user.</Abstract>
+				</Parameter><Parameter>
+					<Name>block</Name>
+					<Abstract type="html">A result block.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/logInCurrentUserWithSessionToken:email:user:completion:</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestSessionController/logInCurrentUserWithEmail:password:revocableSession:completion:</TokenIdentifier>
+			<Abstract type="html">Authenticate a user with an email and a password by sending the login request to the server and make the logged-in user the current user.</Abstract>
+			<DeclaredIn>AGRestSessionController.h</DeclaredIn>
+			
+			<Declaration>- (void)logInCurrentUserWithEmail:(nonnull NSString *)email password:(nonnull NSString *)password revocableSession:(BOOL)revocableSession completion:(void ( ^ _Nullable ) ( BOOL succeeded , AGRestResponse *_Nullable response ))block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>email</Name>
+					<Abstract type="html">A valid email.</Abstract>
+				</Parameter><Parameter>
+					<Name>password</Name>
+					<Abstract type="html">A password</Abstract>
+				</Parameter><Parameter>
+					<Name>revocableSession</Name>
+					<Abstract type="html">YES if the session is revocable. NO otherwise.  </Abstract>
+				</Parameter><Parameter>
+					<Name>block</Name>
+					<Abstract type="html">A result block.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/logInCurrentUserWithEmail:password:revocableSession:completion:</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestSessionController/logOutCurrentUserWithCompletion:</TokenIdentifier>
+			<Abstract type="html">Log out the user with a valid session token.</Abstract>
+			<DeclaredIn>AGRestSessionController.h</DeclaredIn>
+			
+			<Declaration>- (void)logOutCurrentUserWithCompletion:(void ( ^ _Nullable ) ( BOOL succeeded , AGRestResponse *_Nullable response ))block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>block</Name>
+					<Abstract type="html">Log out completion block.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/logOutCurrentUserWithCompletion:</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGRestSessionController/requestResetPasswordForEmail:completion:</TokenIdentifier>
+			<Abstract type="html">Request a password reset for user with email.</Abstract>
+			<DeclaredIn>AGRestSessionController.h</DeclaredIn>
+			
+			<Declaration>- (void)requestResetPasswordForEmail:(nonnull NSString *)email completion:(void ( ^ _Nullable ) ( BOOL succeeded , AGRestResponse *_Nullable object ))block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>email</Name>
+					<Abstract type="html">The user&apos;s email that needs a reset password.</Abstract>
+				</Parameter><Parameter>
+					<Name>block</Name>
+					<Abstract type="html">A result block.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/requestResetPasswordForEmail:completion:</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/AGRestLogging.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/AGRestLogging</TokenIdentifier>
+			<Abstract type="html">@protocol AGRestLogging</Abstract>
+			<DeclaredIn>AGRestLogging.h</DeclaredIn>
+            
+			
+			<NodeRef refid="20"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/AGRestLogging/setLogLevel:</TokenIdentifier>
+			<Abstract type="html">Set the global logLevel</Abstract>
+			<DeclaredIn>AGRestLogging.h</DeclaredIn>
+			
+			<Declaration>- (void)setLogLevel:(AGRestLoggingLevel)level</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>level</Name>
+					<Abstract type="html">Logging level</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setLogLevel:</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/AGRestLogging/log:message:</TokenIdentifier>
+			<Abstract type="html">Log message on TTY with given AGRestLoggingLevel.</Abstract>
+			<DeclaredIn>AGRestLogging.h</DeclaredIn>
+			
+			<Declaration>- (void)log:(AGRestLoggingLevel)logLevel message:(NSString *)message, ...</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>logLevel</Name>
+					<Abstract type="html">AGRestLoggingLevel describing the log level.</Abstract>
+				</Parameter><Parameter>
+					<Name>message</Name>
+					<Abstract type="html">Message format.</Abstract>
+				</Parameter><Parameter>
+					<Name>...</Name>
+					<Abstract type="html">Message parameters list.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/log:message:</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>
