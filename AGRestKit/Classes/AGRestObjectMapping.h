@@ -40,7 +40,7 @@
 + (nullable instancetype)newInstance;
 
 /**
- * @discussion Tells the mapper to map a source dictionary key to the object's property key.
+ * @discussion Tells the mapper to map a dictionary key to the object's property key.
  * @param propertyKey   The property key that should return his mirrored dictionary key.
  * @return              The dictionary key that should match the propertyKey.
  */

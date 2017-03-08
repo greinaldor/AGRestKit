@@ -20,7 +20,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @optional
 
-@property (nonatomic, copy) id<AGRestObjectMapping>(^objectFromResponseSerializeBlock)(AGRestResponse * _Nonnull response);
+@property (nonatomic, copy) id(^objectFromResponseSerializeBlock)(AGRestResponse * _Nonnull response);
 @property (nonatomic, copy) NSError*(^errorFromResponseSerializeBlock)(AGRestResponse * _Nonnull response);
 
 @end

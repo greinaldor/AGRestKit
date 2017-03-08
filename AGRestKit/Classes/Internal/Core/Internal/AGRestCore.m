@@ -36,7 +36,7 @@
     if (!self) return nil;
 
     _dataSource = dataSource;
-    _controllerAccessQueue = dispatch_queue_create("com.AGRest.core.controllerAccessQueue", DISPATCH_QUEUE_SERIAL);
+    _controllerAccessQueue = dispatch_queue_create("com.agrest.core.controllerAccessQueue", DISPATCH_QUEUE_SERIAL);
     
     // Create a reachability manager for current domain
     _reachabilityManager = [AGRestReachabilityManager sharedManager];

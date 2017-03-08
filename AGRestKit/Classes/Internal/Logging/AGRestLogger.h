@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import "DDLogMacros.h"
+#import <CocoaLumberjack/DDLogMacros.h>
 
 #import "AGRestLogging.h"
 #import "AGRest_Private.h"

@@ -70,6 +70,19 @@
                 if (!(result = [self _objectFromResponse:response error:&error])) {
                     response.responseError = error;
                 }
+            } else if ([response.responseData isKindOfClass:[NSData class]]) {
+                // By default try to serialize from JSON string
+                NSError *error = nil;
+                id object = [NSJSONSerialization JSONObjectWithData:response.responseData options:0 error:&error];
+                if (error) {
+                    AGRestLogWarn(@"<ResponseSerializer> Response data found but can't be serialize object from JSON.\nHEADER :\n%@\n error: %@", response.responseHeader, error);
+                } else {
+                    response.responseData = object;
+                    if (!(result = [self _objectFromResponse:response error:&error])) {
+                        result = object;
+                        response.responseError = error;
+                    }
+                }
             } else {
                 AGRestLogWarn(@"<ResponseSerializer> Response data is not processed : %@", response.responseData);
             }
@@ -98,7 +111,7 @@
         id object = nil;
         
         // Get the dictionary from the response data
-        NSDictionary    *data = [response responseData];
+        id data = [response responseData];
         
         Class targetClass = nil;
         if (response.targetClass)

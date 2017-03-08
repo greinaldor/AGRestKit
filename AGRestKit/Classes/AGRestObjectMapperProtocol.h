@@ -17,12 +17,12 @@
 
 /*!
     @abstract Map a source dictionary to an instance of a registered class.
-    @param source        The source dictionary.
+    @param source        The source object.
     @param targetClass   The target class to instantiate.
     @param error         The error, if any, which occured during the mapping.
     @return              The mapped object/array instance(s) of the targetClass.
  */
-- (nullable id<AGRestObjectMapping>)objectFromSource:(nonnull NSDictionary *)source
+- (nullable id<AGRestObjectMapping>)objectFromSource:(nonnull id)source
                                    toInstanceOfClass:(nonnull Class __unsafe_unretained)targetClass
                                                error:(NSError * _Nullable __autoreleasing * _Nullable)error;
 
@@ -41,7 +41,7 @@
     @param error     The error, if any, which occured during the unmapping.
     @return          The source dictionary from the given array.
  */
-- (nullable NSArray *)sourcesFromArray:(nonnull NSArray *)objects
+- (nullable NSArray *)sourcesFromArray:(nonnull NSArray< id<AGRestObjectMapping> > *)objects
                                  error:(NSError * _Nullable __autoreleasing * _Nullable)error;
 
 /*!

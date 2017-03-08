@@ -46,11 +46,11 @@
     [self.mapper_ setMappingProvider:inCodeProvider];
 }
 
-- (nullable id)objectFromSource:(nonnull NSDictionary *)source
+- (nullable id)objectFromSource:(nonnull id)source
               toInstanceOfClass:(nonnull Class __unsafe_unretained)targetClass
                           error:(NSError * _Nullable __autoreleasing * _Nullable)error {
     id object = nil;
-    if (source && source.count && targetClass) {
+    if (source && targetClass) {
         if ([self isRegisteredClass:targetClass]) {
             
             // Ask the mapper to instanciate an object from the source dictionary
@@ -118,7 +118,7 @@
     return source;
 }
 
-- (nullable NSArray *)sourcesFromArray:(nonnull NSArray *)objects
+- (nullable NSArray *)sourcesFromArray:(nonnull NSArray< id<AGRestObjectMapping> > *)objects
                                  error:(NSError * _Nullable __autoreleasing * _Nullable)error
 {
     if (objects && objects.count) {

@@ -24,12 +24,15 @@
 
 + (BOOL)isSupportedClass:(nonnull Class __unsafe_unretained)aClass;
 
-- (nullable id<AGRestObjectMapping>)objectFromSource:(nonnull NSDictionary *)source
+- (nullable id<AGRestObjectMapping>)objectFromSource:(nonnull id)source
                                    toInstanceOfClass:(nonnull Class __unsafe_unretained)targetClass
                                                error:(NSError * _Nullable __autoreleasing * _Nullable)error;
 
 - (nullable NSDictionary *)sourceFromObject:(nonnull id<AGRestObjectMapping>)object
                                       error:(NSError * _Nullable __autoreleasing * _Nullable)error;
+
+- (nullable NSArray *)sourcesFromArray:(nonnull NSArray< id<AGRestObjectMapping> > *)objects
+                                 error:(NSError * _Nullable __autoreleasing * _Nullable)error;
 
 - (BOOL)registerSubclass:(nonnull Class __unsafe_unretained)newClass;
 

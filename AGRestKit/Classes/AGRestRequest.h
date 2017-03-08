@@ -1,6 +1,6 @@
 //
 //  AGRestRequest.h
-//  AGRestStack
+//  AGRestKit
 //
 //  Created by Adrien Greiner on 18/09/2015.
 //  Copyright © 2015 The Social Superstore Ltd. All rights reserved.
@@ -81,7 +81,7 @@ typedef NS_ENUM(NSInteger, AGRestRequestTimeoutPolicy) {
  The diagram below shows the basics of the request life cycle.
  
  <div style="display:block; vertical-align:middle; margin: 0 auto;">
-    <img style="display: block; margin: 0 auto;" src="../docs/docs/AGRestSDK_Request_Life_Cycle.jpg">
+    <img style="display: block; margin: 0 auto;" src="../docs/documentation/AGRestKit_Request_Life_Cycle.jpg">
  </div>
  */
 @interface AGRestRequest : NSObject <NSCopying, NSCoding>

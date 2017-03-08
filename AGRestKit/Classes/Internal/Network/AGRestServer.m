@@ -45,7 +45,7 @@ static NSString * const kAlamoSerializationReponseErrorData = @"com.alamofire.se
 
 @end
 
-static NSString * kRestServerOperationsQueueName         = @"com.restserver.operations";
+static NSString * kRestServerOperationsQueueName         = @"com.agrestkit.server.operationQueue";
 
 static NSString * kRestServerHTTPHeaderAuthorizationKey  = @"Authorization";
 static NSString * kRestServerHTTPHeaderContentTypeKey    = @"Content-Type";
@@ -97,8 +97,8 @@ static AGRestServer *_sharedServer = nil; // shared instance
 
 - (void)configureServer
 {
-    _executionAccessQueue = dispatch_queue_create("com.AGRest.server.executionAccessQueue", DISPATCH_QUEUE_SERIAL);
-    _operationQueueAccessQueue = dispatch_queue_create("com.AGRest.server.operationQueueAccessQueue", DISPATCH_QUEUE_SERIAL);
+    _executionAccessQueue = dispatch_queue_create("com.agrestkit.server.executionAccessQueue", DISPATCH_QUEUE_SERIAL);
+    _operationQueueAccessQueue = dispatch_queue_create("com.agrestkit.server.operationAccessQueue", DISPATCH_QUEUE_SERIAL);
     
     // Set the server security policy
     [self setSecurityPolicy:[AFSecurityPolicy policyWithPinningMode:AFSSLPinningModeNone]];
@@ -135,7 +135,9 @@ static AGRestServer *_sharedServer = nil; // shared instance
 
 + (nullable instancetype)sharedServer
 {
-    return _sharedServer;
+    @synchronized (_sharedServer) {
+        return _sharedServer;
+    }
 }
 
 - (NSOperationQueue *)operationsQueue {
@@ -146,7 +148,7 @@ static AGRestServer *_sharedServer = nil; // shared instance
             _operationsQueue = [[NSOperationQueue alloc] init];
             _operationsQueue.maxConcurrentOperationCount = kRestServerMaxConcurrentOperationsWAN;
             _operationsQueue.name = kRestServerOperationsQueueName;
-            _operationsQueue.qualityOfService = NSQualityOfServiceUserInitiated;
+            _operationsQueue.qualityOfService = NSQualityOfServiceBackground;
         }
         operationQueue = _operationsQueue;
     });
@@ -231,7 +233,7 @@ static AGRestServer *_sharedServer = nil; // shared instance
     }
     
     weakify(self)
-    BFTask *task = [BFTask taskFromExecutor:[BFExecutor executorWithDispatchQueue:_executionAccessQueue] withBlock:^id{
+    return [BFTask taskFromExecutor:[BFExecutor executorWithDispatchQueue:_executionAccessQueue] withBlock:^id{
         strongify(weakSelf)
         if (strongSelf)
         {
@@ -289,11 +291,9 @@ static AGRestServer *_sharedServer = nil; // shared instance
         }
         return [BFTask taskWithResult:nil];
     }];
-    return task;
 }
 
 - (void)didReachabilityChanged:(NSNotification *)aNotification {
-    
     // Update max concurrent operations depending of the connectivity
     NSInteger reachabilityStatus = [aNotification.object integerValue];
     switch (reachabilityStatus) {

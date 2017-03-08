@@ -16,7 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface AGRestResponseSerializer : NSObject <AGRestResponseSerializerProtocol>
 
-@property (nonatomic, copy) id<AGRestObjectMapping>(^objectFromResponseSerializeBlock)(AGRestResponse * _Nonnull response);
+@property (nonatomic, copy) id(^objectFromResponseSerializeBlock)(AGRestResponse * _Nonnull response);
 @property (nonatomic, copy) NSError*(^errorFromResponseSerializeBlock)(AGRestResponse * _Nonnull response);
 
 - (instancetype)init NS_UNAVAILABLE;
@@ -26,7 +26,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// @name AGRestResponseSerializerProtocol
 ///-----------------------
 
-- (id<AGRestObjectMapping>)objectResponseFromResponse:(nonnull AGRestResponse *)response;
+- (id)objectResponseFromResponse:(nonnull AGRestResponse *)response;
 - (NSError *)errorResponseFromResponse:(AGRestResponse *)response;
 
 @end

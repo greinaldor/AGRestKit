@@ -12,13 +12,15 @@
 #import "AGRestRequest.h"
 #import "AGRestResponse.h"
 
-NS_ASSUME_NONNULL_BEGIN
+#import "AGRestKeyValueCaching.h"
+#import "AGRestServerProtocol.h"
+#import "AGRestSessionProtocol.h"
+#import "AGRestUserSessionProtocol.h"
+#import "AGRestObjectMapperProtocol.h"
+#import "AGRestResponseSerializerProtocol.h"
+#import "AGRestLogging.h"
 
-@protocol AGRestSessionProtocol;
-@protocol AGRestObjectMapperProtocol;
-@protocol AGRestServerProtocol;
-@protocol AGRestResponseSerializerProtocol;
-@protocol AGRestLogging;
+NS_ASSUME_NONNULL_BEGIN
 
 /*!
  @class AGRest

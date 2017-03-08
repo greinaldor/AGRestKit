@@ -18,7 +18,7 @@
 #import "AGRestObjectMapper.h"
 #import "AGRestErrorUtilities.h"
 #import "AGRestObjectMapping.h"
-#import "AGUserSessionProtocol.h"
+#import "AGRestUserSessionProtocol.h"
 #import "AGRestLogger.h"
 #import "AGRestCore.h"
 
@@ -461,7 +461,7 @@
 
 - (void)_extendUserBaseClassWithSessionProtocolImpl:(nonnull Class __unsafe_unretained)userBaseClass {
     // Check if the User base class asks to support AGUserSessionProtocol
-    if ([(Class)_baseUserClass conformsToProtocol:@protocol(AGUserSessionProtocol)])
+    if ([(Class)_baseUserClass conformsToProtocol:@protocol(AGRestUserSessionProtocol)])
     {
         // Then add default implementation UserSessionProtocol methods
         Class metaClass = object_getClass(_baseUserClass);
